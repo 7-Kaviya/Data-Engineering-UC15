@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 
-df = pd.read_csv(r"C:/Users/USER/Downloads/erp_combined_data.csv")
+df = pd.read_csv(r"C:/Users/USER/Data-Enginering-UC15/silver/cleansing/erp_cleaned_data.csv")
 
 # Convert relevant fields
 date_columns = [
