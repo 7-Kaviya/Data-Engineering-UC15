@@ -1,0 +1,6 @@
+dataset,rows_before,rows_after,duplicates_removed,columns
+sales_data,1000,1000,0,10
+customer_master,1500,1500,0,8
+asset_data,1245,1245,0,11
+account_data,45839,45839,0,29
+procurement_all,1300,1300,0,11

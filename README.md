@@ -57,3 +57,15 @@ Activities:
 - PostgreSQL staging
 - Logging
 - Exception handling
+
+### Sprint 2 – Data Profiling & DB / Data Warehouse
+
+Activities:
+- Data profiling (individual datasets and combined dataset) using Python
+- Data cleaning and standardization of all 10 ERP datasets
+- Separate validation (Employee, Finance, Inventory, Manufacturing, Warehouse)
+- Combined/cross-module validation (duplicate master records, missing finance references, inventory balance, financial mismatches, master-data consistency)
+- Data Quality Report findings (ID fragmentation across modules, non-overlapping date ranges, missing manufacturing execution data)
+- Star Schema design — in progress
+- PostgreSQL Data Warehouse — in progress
+- SQL scripts (DDL/DML) — in progress

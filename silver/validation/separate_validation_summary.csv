@@ -1,0 +1,33 @@
+Dataset,Validation_Check,Error_Count,Status
+Employee,Missing values,0,PASS
+Employee,Duplicate rows,0,PASS
+Employee,Invalid age,0,PASS
+Employee,Negative salary,0,PASS
+Finance,Missing values,0,PASS
+Finance,Duplicate rows,0,PASS
+Finance,Invalid transaction ID,0,PASS
+Finance,Negative transaction amount,0,PASS
+Inventory,Missing values,0,PASS
+Inventory,Duplicate rows,0,PASS
+Inventory,Negative price,0,PASS
+Inventory,Negative jan_demand,0,PASS
+Inventory,Negative feb_demand,0,PASS
+Inventory,Negative mar_demand,0,PASS
+Inventory,Negative apr_demand,0,PASS
+Inventory,Negative may_demand,0,PASS
+Inventory,Negative jun_demand,0,PASS
+Inventory,Negative jul_demand,0,PASS
+Inventory,Negative aug_demand,0,PASS
+Inventory,Negative sep_demand,0,PASS
+Inventory,Negative oct_demand,0,PASS
+Inventory,Negative nov_demand,0,PASS
+Inventory,Negative dec_demand,0,PASS
+Manufacturing,Missing values,258,FAIL
+Manufacturing,Duplicate rows,0,PASS
+Manufacturing,Negative material used,0,PASS
+Manufacturing,Negative energy consumption,0,PASS
+Manufacturing,Invalid processing time,0,PASS
+Warehouse,Missing values,0,PASS
+Warehouse,Duplicate rows,0,PASS
+Warehouse,Negative stock,0,PASS
+Warehouse,Negative unit price,0,PASS

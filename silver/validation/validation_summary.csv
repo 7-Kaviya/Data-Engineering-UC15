@@ -5,4 +5,4 @@ Missing PO finance references,1051,FAIL
 Negative inventory records,0,PASS
 Sales financial errors,0,PASS
 PO financial errors,0,PASS
-Master-data errors,1356,FAIL
+Master-data errors,1352,FAIL

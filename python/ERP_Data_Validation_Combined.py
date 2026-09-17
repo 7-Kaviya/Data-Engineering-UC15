@@ -5,8 +5,7 @@ ERP DATA VALIDATION
 import pandas as pd
 import numpy as np
 
-
-df = pd.read_csv(r"C:/Users/USER/Data-Enginering-UC15/silver/cleansing/erp_cleaned_data.csv")
+df = pd.read_csv("../silver/cleansing/erp_cleaned_data.csv")
 
 # Convert relevant fields
 date_columns = [
@@ -58,7 +57,7 @@ if duplicate_results:
 else:
     duplicate_records = pd.DataFrame()
 
-duplicate_records.to_csv("duplicate_records.csv", index=False)
+duplicate_records.to_csv("../silver/validation/duplicate_records.csv", index=False)
 
 # MISSING TRANSACTION VALIDATION
 
@@ -91,7 +90,7 @@ missing_transactions = pd.concat(
     ignore_index=True
 )
 
-missing_transactions.to_csv("missing_transactions.csv", index=False)
+missing_transactions.to_csv("../silver/validation/missing_transactions.csv", index=False)
 
 # INVENTORY VALIDATION
 
@@ -125,7 +124,7 @@ inventory["Validation_Status"] = np.where(
 inventory = inventory.reset_index()
 inventory.rename(columns={"index": "Product_ID"}, inplace=True)
 
-inventory.to_csv("inventory_validation.csv", index=False)
+inventory.to_csv("../silver/validation/inventory_validation.csv", index=False)
 
 # FINANCIAL VALIDATION
 
@@ -184,7 +183,7 @@ if financial_errors:
 else:
     financial_validation = pd.DataFrame()
 
-financial_validation.to_csv("financial_validation.csv", index=False)
+financial_validation.to_csv("../silver/validation/financial_validation.csv", index=False)
 
 # MASTER DATA VALIDATION
 
@@ -232,7 +231,7 @@ else:
     master_data_validation = pd.DataFrame()
 
 master_data_validation.to_csv(
-    "master_data_validation.csv", index=False
+    "../silver/validation/master_data_validation.csv", index=False
 )
 
 # VALIDATION SUMMARY
@@ -264,7 +263,7 @@ summary["Status"] = np.where(
     "FAIL"
 )
 
-summary.to_csv("validation_summary.csv", index=False)
+summary.to_csv("../silver/validation/validation_summary.csv", index=False)
 
 print("=" * 60)
 print("ERP DATA VALIDATION COMPLETED")

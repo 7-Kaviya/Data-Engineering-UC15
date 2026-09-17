@@ -8,7 +8,7 @@ import json
 # ============================================================
 
 output_file = Path(
-    r"C:/Users/USER/Data-Enginering-UC15/silver/cleansing/cleaned_datasets"
+    "../silver/cleansing/cleaned_datasets"
 )
 
 output_file.mkdir(parents=True, exist_ok=True)
@@ -19,23 +19,23 @@ output_file.mkdir(parents=True, exist_ok=True)
 # ============================================================
 
 sales = pd.read_csv(
-    r"C:/Users/USER/Data-Enginering-UC15/datasets/Sales_data.csv"
+    "../datasets/Sales_data.csv"
 )
 
 customer = pd.read_json(
-    r"C:/Users/USER/Data-Enginering-UC15/datasets/Customer_Master.json"
+    "../datasets/Customer_Master.json"
 )
 
 asset = pd.read_xml(
-    r"C:/Users/USER/Data-Enginering-UC15/datasets/Asset_data.xml"
+    "../datasets/Asset_data.xml"
 )
 
 account = pd.read_excel(
-    r"C:/Users/USER/Data-Enginering-UC15/datasets/Account_data.xls"
+    "../datasets/Account_data.xls"
 )
 
 procurement = pd.read_csv(
-    r"C:/Users/USER/Data-Enginering-UC15/datasets/procurement_all.csv"
+    "../datasets/procurement_all.csv"
 )
 
 
@@ -301,7 +301,7 @@ log_df = pd.DataFrame(log)
 
 log_file = (
     output_file /
-    "five_datasets_cleaning_log.csv"
+    "five_datasets_cleaning_log_group2.csv"
 )
 
 log_df.to_csv(

@@ -1,13 +1,13 @@
 import pandas as pd
 from pathlib import Path
 
-finance = pd.read_csv(r"C:/Users/USER/Data-Enginering-UC15/datasets/Finance_data.csv")
-inventory = pd.read_json(r"C:/Users/USER/Data-Enginering-UC15/datasets/Inventory_data.json")
-manufacturing = pd.read_xml(r"C:/Users/USER/Data-Enginering-UC15/datasets/Manufacturing_data.xml")
-employee = pd.read_excel(r"C:/Users/USER/Data-Enginering-UC15/datasets/employee_data.xls")
-warehouse = pd.read_csv(r"C:/Users/USER/Data-Enginering-UC15/datasets/warehouse.csv")
+finance = pd.read_csv("../datasets/Finance_data.csv")
+inventory = pd.read_json("../datasets/Inventory_data.json")
+manufacturing = pd.read_xml("../datasets/Manufacturing_data.xml")
+employee = pd.read_excel("../datasets/employee_data.xls")
+warehouse = pd.read_csv("../datasets/warehouse.csv")
 
-output = Path(r"C:/Users/USER/Data-Enginering-UC15/silver/cleansing/cleaned_datasets")
+output = Path("../silver/cleansing/cleaned_datasets")
 output.mkdir(parents=True, exist_ok=True)
 
 def standardize_columns(df):
@@ -329,7 +329,7 @@ log = pd.DataFrame([
 ])
 
 log.to_csv(
-    output / "five_datasets_cleaning_log.csv",
+    output / "five_datasets_cleaning_log_group1.csv",
     index=False
 )
 

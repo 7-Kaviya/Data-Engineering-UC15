@@ -1326,17 +1326,14 @@ sale_id,sale_date,customer_id,product_id,product_name,quantity,unit_price,discou
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0472,Generator 472,Air Conditioner,Branch Delhi,2025-03-07,492968.27,6.0,2026-11-17,86.3,Under Maintenance,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0478,Printer 478,Printer,Warehouse B,2025-02-06,339185.6,5.0,2026-10-16,60.0,Idle,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0488,CNC Machine 488,Laptop,Factory 1,2025-05-07,240187.6,15.0,2027-03-17,80.2,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
-,,,,,0.0,0.0,0.0,0.0,,,,AST0520,Printer 520,Server,Head Office,2024-11-24,456909.16,10.0,2026-09-15,66.9,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0535,Server 535,CNC Machine,Branch Mumbai,2025-02-09,518516.48,9.0,2026-10-15,55.7,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0544,Printer 544,Network Equipment,Branch Mumbai,2025-06-10,229485.68,11.0,2027-03-29,70.8,Operational,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
-,,,,,0.0,0.0,0.0,0.0,,,,AST0557,Vehicle 557,Office Furniture,Warehouse B,2025-02-28,22886.28,8.0,2026-09-13,90.8,Idle,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0561,CNC Machine 561,CNC Machine,Warehouse B,2025-01-27,538139.37,15.0,2026-10-01,77.1,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0576,Server 576,Network Equipment,Factory 2,2025-02-04,550751.08,15.0,2026-11-18,60.1,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0578,Network Equipment 578,Air Conditioner,Branch Delhi,2025-05-03,82520.69,9.0,2026-11-18,58.4,Operational,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0642,Laptop 642,Printer,Branch Chennai,2025-05-20,583023.81,9.0,2027-02-22,62.3,Operational,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0665,Network Equipment 665,Server,Branch Delhi,2024-11-25,611575.36,6.0,2026-10-26,90.6,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0676,Office Furniture 676,Vehicle,Branch Mumbai,2025-01-16,526507.84,5.0,2026-11-28,60.3,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
-,,,,,0.0,0.0,0.0,0.0,,,,AST0680,Office Furniture 680,CNC Machine,Branch Mumbai,2025-06-09,193318.15,7.0,2026-09-16,75.6,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0689,CNC Machine 689,Laptop,Branch Delhi,2025-02-13,85824.83,14.0,2026-10-20,84.9,Operational,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0709,CNC Machine 709,Generator,Branch Chennai,2024-12-26,404683.86,10.0,2026-10-31,74.7,Under Maintenance,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0730,Vehicle 730,Air Conditioner,Head Office,2025-04-30,862815.16,9.0,2027-01-21,97.1,Under Maintenance,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
@@ -1353,5 +1350,4 @@ sale_id,sale_date,customer_id,product_id,product_name,quantity,unit_price,discou
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0932,Forklift 932,Office Furniture,Warehouse A,2025-06-15,309096.29,15.0,2027-01-03,68.9,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0938,Generator 938,CNC Machine,Branch Delhi,2025-04-01,538386.56,15.0,2026-12-27,70.5,Idle,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0940,Vehicle 940,Printer,Branch Chennai,2025-05-30,660713.68,12.0,2026-10-17,56.9,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
-,,,,,0.0,0.0,0.0,0.0,,,,AST0959,Vehicle 959,Generator,Branch Delhi,2025-03-20,70772.04,8.0,2026-09-18,65.9,Operational,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
 ,,,,,0.0,0.0,0.0,0.0,,,,AST0994,CNC Machine 994,Laptop,Warehouse A,2025-06-11,707701.33,14.0,2027-04-07,58.5,Retired,,,,,,,,,0.0,,,,,,,0.0,0.0,,,,,,,,,0.0,0.0,,,0.0,,,,Future Maintenance Date
