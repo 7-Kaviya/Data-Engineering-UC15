@@ -1,0 +1,50 @@
+Dataset,Validation_Check,Error_Count,Status
+Sales,Missing values,1,FAIL
+Sales,Duplicate rows,0,PASS
+Sales,Duplicate transaction_id,0,PASS
+Sales,Quantity <= 0,0,PASS
+Sales,Negative price_per_unit,0,PASS
+Sales,Negative total_amount,0,PASS
+Sales,total_amount != quantity x price,0,PASS
+Sales,Invalid age (<18 or >100),0,PASS
+Sales,Invalid gender value,0,PASS
+Sales,Unparseable date,0,PASS
+Sales,Future date,0,PASS
+Customer,Missing values,0,PASS
+Customer,Duplicate rows,0,PASS
+Customer,Duplicate customer_id,0,PASS
+Customer,Negative credit_limit,0,PASS
+Customer,Unparseable registration_date,0,PASS
+Customer,Future registration_date,47,FAIL
+Customer,Unparseable contact JSON,0,PASS
+Customer,Unparseable address JSON,0,PASS
+Asset,Missing values,0,PASS
+Asset,Duplicate rows,0,PASS
+Asset,Duplicate asset_id,0,PASS
+Asset,Negative usage_hours_per_month,0,PASS
+Asset,Negative failure_count,0,PASS
+Asset,Negative maintenance_cost_last_year,0,PASS
+Asset,condition_score outside 0-1,0,PASS
+Asset,Future install_year,0,PASS
+Asset,Future last_maintenance_year,0,PASS
+Asset,last_maintenance_year before install_year,0,PASS
+Account,Missing values,0,PASS
+Account,Duplicate rows,0,PASS
+Account,Duplicate document_no,0,PASS
+Account,Negative amount,0,PASS
+Account,Unparseable doc_date,0,PASS
+Account,Unparseable net_due_date,0,PASS
+Account,Unparseable clearing_date,0,PASS
+Account,net_due_date before doc_date,11269,FAIL
+Account,clearing_date before doc_date,12104,FAIL
+Account,Future clearing_date,0,PASS
+Account,delayflag not 0/1,0,PASS
+Procurement,Missing values,0,PASS
+Procurement,Duplicate rows,0,PASS
+Procurement,Duplicate purchase_order_id,0,PASS
+Procurement,Quantity <= 0,0,PASS
+Procurement,Negative unit_cost,0,PASS
+Procurement,Negative total_cost,0,PASS
+Procurement,total_cost != quantity x unit_cost,0,PASS
+Procurement,Unparseable order_date,0,PASS
+Procurement,expected_delivery before order_date,0,PASS
