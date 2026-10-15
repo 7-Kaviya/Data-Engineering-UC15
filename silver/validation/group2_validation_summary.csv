@@ -15,7 +15,7 @@ Customer,Duplicate rows,0,PASS
 Customer,Duplicate customer_id,0,PASS
 Customer,Negative credit_limit,0,PASS
 Customer,Unparseable registration_date,0,PASS
-Customer,Future registration_date,47,FAIL
+Customer,Future registration_date,44,FAIL
 Customer,Unparseable contact JSON,0,PASS
 Customer,Unparseable address JSON,0,PASS
 Asset,Missing values,0,PASS

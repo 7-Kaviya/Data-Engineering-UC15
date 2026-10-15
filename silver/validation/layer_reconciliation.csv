@@ -1,0 +1,11 @@
+dataset,measure,raw_rows,cleaned_rows,loaded_rows,raw_total,cleaned_total,warehouse_total,status,note
+Sales,total_amount,1000,1000,1000,456000.0,456000.0,456000.0,PASS,Raw and cleaned agree.
+Customer Master,credit_limit,1500,1500,1500,777900627.4,777900627.4,777900627.4,PASS,Raw and cleaned agree.
+Asset,maintenance_cost_last_year,1245,1245,1245,1354770.44,1354770.44,1354770.44,PASS,Raw and cleaned agree.
+Account,amount,45839,45839,45839,816262430.0,816262430.0,816262430.0,PASS,Raw and cleaned agree.
+Procurement,total_cost,1300,1300,1300,982390348.71,982390348.71,982390348.71,PASS,Raw and cleaned agree.
+Employee,salary,35,35,35,1520600.0,1520600.0,1520600.0,PASS,Raw and cleaned agree.
+Finance,transaction_amount,1000,1000,1000,2535701.0,2535701.0,2535701.0,PASS,Raw and cleaned agree.
+Inventory,sum of the 12 monthly demand columns,1000,1000,1000,16961896.0,16961896.0,16961896.0,PASS,Raw and cleaned agree.
+Manufacturing,material_used,1000,1000,1000,3026.48,3026.48,3026.48,PASS,Raw and cleaned agree.
+Warehouse,stock_level,6408,3204,3204,1688454.0,844227.0,844227.0,EXPLAINED,"Explained: the raw file holds 3,204 exact duplicate rows, removed by cleaning."
