@@ -135,7 +135,7 @@ def clean_dataset(df):
 
     for col in df.columns:
 
-        if df[col].dtype == "object":
+        if (df[col].dtype == "object" or pd.api.types.is_string_dtype(df[col])):
 
             converted = pd.to_numeric(
                 df[col],
@@ -176,7 +176,7 @@ def clean_dataset(df):
             for keyword in date_keywords
         ):
 
-            if df[col].dtype == "object":
+            if (df[col].dtype == "object" or pd.api.types.is_string_dtype(df[col])):
 
                 converted_date = pd.to_datetime(
                     df[col],

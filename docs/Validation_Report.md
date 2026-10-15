@@ -119,7 +119,22 @@ The Sprint 1 staging copy in `bronze/staging/` is not an input to the cleaning, 
 
 ---
 
-## 7. How to run the checks again
+## 7. Can the cleaning be repeated? (reproducibility)
+
+The end-to-end job runs the cleaning scripts again, so we tested whether running them again gives the files that are in the repository. We ran both cleaning scripts on a clean copy of the repository and compared all 10 cleaned files with the committed ones.
+
+| Result | Files |
+|---|---|
+| Identical, byte for byte | 9 of 10 (Account, Asset, Customer Master, Employee, Inventory, Manufacturing, Procurement, Sales, Warehouse) |
+| Same rows, columns and values; 22 numbers differ only in the 16th or 17th digit | Finance (a floating-point formatting difference of the software, not a data change) |
+
+The test found one real problem, which is now fixed. The second cleaning script only converted a column to a date when its type was `object`. In the newest version of pandas (3.0), text columns have a new type called `str`, so the conversion was silently skipped and the 1,000 Sales dates stayed as `24-11-2023`, which the Pentaho load cannot read. The fix is two lines in `python/ERP_Data_Cleaning_separate2.py`: a column is now treated as text when it is `object` or `str`. After the fix, the Sales dates are identical to the committed file, and all 1,000 equal the raw dates read as day-month-year, including the 414 where the day is 12 or less and day and month could be confused.
+
+---
+
+## 8. How to run the checks again
+
+**All in one run:** open `pentaho/jobs/ETL_End_To_End.kjb` in Spoon and click Run. It cleans and validates the raw files, loads the warehouse, runs the layer reconciliation and the data quality gate, and stops with a FAILED entry in `etl_run_log` if any step fails. Or run the parts one by one:
 
 1. Load the warehouse with the Pentaho job `ETL_Load_Warehouse` (it reconciles by itself and writes `etl_run_log`).
 2. In pgAdmin on `uc15_dw`, run `sql/10_data_quality_checks.sql` once to create the view, then `SELECT * FROM vw_data_quality_checks;`. Every row must be PASS or KNOWN ISSUE.
@@ -129,7 +144,7 @@ If the source data changes on purpose, update the control totals in `sql/05_reco
 
 ---
 
-## 8. Conclusion and limits
+## 9. Conclusion and limits
 
 The warehouse holds exactly what the source files contain, apart from the duplicate rows removed on purpose, and the known problems of the source data are stable and documented. These checks show that the pipeline preserves the data. They do not show that the source data is correct: for example, they cannot tell which of the finance measures is right.
 

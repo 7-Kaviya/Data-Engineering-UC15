@@ -9,10 +9,12 @@ and says whether the layers agree. A difference is accepted only when it has a k
 
 Run from the python/ folder (the warehouse must be loaded):   python3 ERP_Layer_Reconciliation.py
 Writes ../silver/validation/layer_reconciliation.csv
+Exit code: 0 when every dataset is PASS or EXPLAINED, 1 when any is DIFFERENT (so a job can stop on it).
 Password: environment variable UC15_DB_PASSWORD (default uc15pass).
 """
 import os
 import re
+import sys
 import warnings
 
 import pandas as pd
@@ -101,6 +103,8 @@ def main():
             print(f"{r.dataset}: {r.note}")
     print(f"\n{(res.status == 'PASS').sum()} PASS, {(res.status == 'EXPLAINED').sum()} EXPLAINED, {(res.status == 'DIFFERENT').sum()} DIFFERENT")
     print("Written ../silver/validation/layer_reconciliation.csv")
+    if (res.status == "DIFFERENT").any():
+        sys.exit(1)          # a non-zero exit code makes a Pentaho job stop and log FAILED
 
 
 if __name__ == "__main__":

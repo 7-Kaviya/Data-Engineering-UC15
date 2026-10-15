@@ -66,6 +66,8 @@ The Pentaho job `ETL_Load_Warehouse` runs the whole load in a fixed order and re
 
 If any load step fails, the job logs FAILED and stops. The latest run can be read with `SELECT * FROM vw_etl_last_run;`.
 
+The job `ETL_End_To_End` (`pentaho/jobs/ETL_End_To_End.kjb`) starts earlier. It first runs the two cleaning scripts and the two validation scripts, then calls `ETL_Load_Warehouse` as a sub-job, then runs `ERP_Layer_Reconciliation.py` and the data quality gate (`vw_data_quality_checks`). If any step fails it logs FAILED and stops. This is the one-click path from the raw files to a reconciled warehouse.
+
 ---
 
 ## 5. Three columns traced from start to finish
