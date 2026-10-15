@@ -1,0 +1,33 @@
+check_id,area,check_name,finding,expected,violations,status
+I01,Integrity,Orphan foreign keys (all 14 relationships),-,0,0,PASS
+I02,Integrity,Duplicate transaction_id in FactSales,-,0,0,PASS
+I03,Integrity,Duplicate transaction_id in FactFinance,-,0,0,PASS
+I04,Integrity,Duplicate job_id in FactManufacturing,-,0,0,PASS
+I05,Integrity,Duplicate document_no in FactAccountsReceivable,-,0,0,PASS
+I06,Integrity,Duplicate purchase_order_id in FactProcurement,-,0,0,PASS
+I07,Integrity,Duplicate asset_id in DimAsset,-,0,0,PASS
+I08,Integrity,Duplicate customer_id in DimCustomerMaster,-,0,0,PASS
+I09,Integrity,Duplicate supplier_id in DimSupplier,-,0,0,PASS
+I10,Integrity,Duplicate item_id in DimItemInventory,-,0,0,PASS
+I11,Integrity,Duplicate item_id in DimWarehouseItem,-,0,0,PASS
+K01,Known issue,Receivables: due date before the document date,Finding 9,11269,11269,KNOWN ISSUE
+K02,Known issue,Receivables: clearing date before the document date,Finding 9,12104,12104,KNOWN ISSUE
+K03,Known issue,Receivables: days_overdue_delay differs from clearing date minus due date,Finding 9,16910,16910,KNOWN ISSUE
+K04,Known issue,Receivables: delayflag disagrees with days_overdue_delay above 0,Finding 9,5797,5797,KNOWN ISSUE
+K05,Known issue,Finance: net_income differs from revenue - expenditure,Finding 12,1000,1000,KNOWN ISSUE
+K06,Known issue,Finance: gross_profit differs from revenue - expenditure,Finding 12,1000,1000,KNOWN ISSUE
+K07,Known issue,Finance: profit_margin differs from net_income / revenue,Finding 12,998,998,KNOWN ISSUE
+K08,Known issue,Customers registered after today (changes with the date),Finding 10,,41,KNOWN ISSUE
+K09,Known issue,Sales: empty daily_percent_change,Finding 10,1,1,KNOWN ISSUE
+K10,Known issue,Procurement: orders with status Cancelled,Finding 11,330,330,KNOWN ISSUE
+K11,Known issue,Procurement: suppliers that appear under more than one name,Finding 4,10,10,KNOWN ISSUE
+R01,Business rule,Sales: total_amount differs from quantity x price,-,0,0,PASS
+R02,Business rule,Procurement: total_cost differs from quantity x unit_cost,-,0,0,PASS
+R03,Business rule,Employee: salary differs from expenditure + savings,-,0,0,PASS
+R04,Business rule,Manufacturing: empty actual start is not exactly the Failed jobs,Finding 6,0,0,PASS
+R05,Business rule,"Zero or negative quantity or amount (Sales, Procurement, Receivables)",-,0,0,PASS
+R06,Business rule,Procurement: expected delivery before the order date,-,0,0,PASS
+R07,Business rule,Asset condition_score outside 0 to 1,-,0,0,PASS
+R08,Business rule,Warehouse order_fulfillment_rate outside 0 to 1,-,0,0,PASS
+R09,Business rule,Sales age outside 18 to 100,-,0,0,PASS
+R10,Business rule,Purchase order status not one of the four allowed values,-,0,0,PASS

@@ -1,0 +1,1501 @@
+customer_id,city,state,country,customer_type,customer_status,registration_date,registration_year,registered_in_future,credit_limit
+5001,Coimbatore,Tamil Nadu,India,Retail,Active,2022-02-08,2022,0,506284.29
+5002,Kochi,Kerala,India,Wholesale,Active,2025-06-11,2025,0,585664.36
+5003,Mumbai,Maharashtra,India,Corporate,Active,2018-05-20,2018,0,406055.88
+5004,Jaipur,Rajasthan,India,Wholesale,Active,2024-03-15,2024,0,126774.39
+5005,Hyderabad,Telangana,India,Wholesale,Active,2020-01-10,2020,0,915471.92
+5006,Kochi,Kerala,India,Retail,Active,2022-07-05,2022,0,279270.57
+5007,Hyderabad,Telangana,India,Retail,Inactive,2021-10-10,2021,0,462904.17
+5008,Delhi,Delhi,India,Wholesale,Active,2026-11-18,2026,1,544575.97
+5009,Ahmedabad,Gujarat,India,Corporate,Active,2019-02-02,2019,0,978878.66
+5010,Vellore,Tamil Nadu,India,Wholesale,Active,2026-08-20,2026,0,236210.68
+5011,Vellore,Tamil Nadu,India,Wholesale,Active,2020-05-19,2020,0,372464.76
+5012,Kolkata,West Bengal,India,Wholesale,Active,2020-05-08,2020,0,454385.97
+5013,Delhi,Delhi,India,Retail,Active,2021-07-12,2021,0,388938.16
+5014,Coimbatore,Tamil Nadu,India,Corporate,Inactive,2024-12-19,2024,0,676524.56
+5015,Coimbatore,Tamil Nadu,India,Wholesale,Active,2025-04-11,2025,0,404657.37
+5016,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-03-28,2019,0,471388.94
+5017,Ahmedabad,Gujarat,India,Wholesale,Active,2023-10-04,2023,0,202087.97
+5018,Pune,Maharashtra,India,Wholesale,Active,2018-01-19,2018,0,918951.54
+5019,Bengaluru,Karnataka,India,Corporate,Active,2024-11-20,2024,0,904327.30
+5020,Bengaluru,Karnataka,India,Wholesale,Inactive,2024-06-21,2024,0,447840.90
+5021,Hyderabad,Telangana,India,Retail,Active,2025-12-26,2025,0,806236.43
+5022,Chennai,Tamil Nadu,India,Corporate,Active,2025-05-13,2025,0,266332.54
+5023,Chennai,Tamil Nadu,India,Wholesale,Active,2022-12-19,2022,0,217050.87
+5024,Vellore,Tamil Nadu,India,Individual,Active,2024-04-17,2024,0,908881.71
+5025,Kochi,Kerala,India,Wholesale,Active,2025-05-27,2025,0,837506.55
+5026,Vellore,Tamil Nadu,India,Individual,Active,2026-03-10,2026,0,292202.44
+5027,Mumbai,Maharashtra,India,Retail,Active,2021-11-03,2021,0,193792.93
+5028,Hyderabad,Telangana,India,Corporate,Active,2020-02-21,2020,0,586835.77
+5029,Kolkata,West Bengal,India,Retail,Active,2020-02-11,2020,0,706209.67
+5030,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-05-23,2018,0,434411.77
+5031,Delhi,Delhi,India,Retail,Active,2019-06-27,2019,0,658655.92
+5032,Chennai,Tamil Nadu,India,Corporate,Active,2022-06-14,2022,0,587312.00
+5033,Pune,Maharashtra,India,Retail,Active,2022-06-15,2022,0,758039.58
+5034,Mumbai,Maharashtra,India,Wholesale,Active,2025-12-14,2025,0,493641.49
+5035,Kolkata,West Bengal,India,Corporate,Active,2023-03-01,2023,0,596462.63
+5036,Mumbai,Maharashtra,India,Retail,Active,2020-02-16,2020,0,540989.25
+5037,Kolkata,West Bengal,India,Wholesale,Active,2025-03-15,2025,0,163199.61
+5038,Vellore,Tamil Nadu,India,Corporate,Active,2026-06-23,2026,0,605039.00
+5039,Jaipur,Rajasthan,India,Individual,Active,2021-11-17,2021,0,395405.96
+5040,Hyderabad,Telangana,India,Corporate,Active,2024-07-07,2024,0,805097.89
+5041,Bengaluru,Karnataka,India,Corporate,Active,2018-04-03,2018,0,260769.08
+5042,Vellore,Tamil Nadu,India,Individual,Active,2019-02-26,2019,0,415471.59
+5043,Kolkata,West Bengal,India,Corporate,Active,2023-06-17,2023,0,704116.32
+5044,Ahmedabad,Gujarat,India,Retail,Inactive,2024-02-11,2024,0,618397.47
+5045,Mumbai,Maharashtra,India,Retail,Active,2025-12-17,2025,0,958704.74
+5046,Bengaluru,Karnataka,India,Wholesale,Inactive,2026-08-23,2026,0,969657.36
+5047,Ahmedabad,Gujarat,India,Wholesale,Active,2024-04-22,2024,0,717826.07
+5048,Pune,Maharashtra,India,Retail,Active,2022-02-15,2022,0,906358.93
+5049,Ahmedabad,Gujarat,India,Retail,Active,2019-12-14,2019,0,935914.73
+5050,Delhi,Delhi,India,Wholesale,Active,2024-12-06,2024,0,158953.47
+5051,Mumbai,Maharashtra,India,Retail,Active,2019-08-19,2019,0,575474.67
+5052,Chennai,Tamil Nadu,India,Individual,Inactive,2019-01-05,2019,0,687683.43
+5053,Mumbai,Maharashtra,India,Individual,Active,2020-01-07,2020,0,917229.29
+5054,Mumbai,Maharashtra,India,Retail,Active,2019-10-02,2019,0,192233.82
+5055,Kochi,Kerala,India,Individual,Active,2022-07-23,2022,0,405918.92
+5056,Bengaluru,Karnataka,India,Corporate,Active,2021-10-07,2021,0,305750.13
+5057,Pune,Maharashtra,India,Individual,Active,2020-06-08,2020,0,254142.13
+5058,Mumbai,Maharashtra,India,Wholesale,Active,2023-10-25,2023,0,896619.22
+5059,Hyderabad,Telangana,India,Wholesale,Active,2026-05-07,2026,0,384845.76
+5060,Kochi,Kerala,India,Individual,Active,2021-12-28,2021,0,858594.45
+5061,Ahmedabad,Gujarat,India,Wholesale,Active,2025-01-05,2025,0,929675.91
+5062,Chennai,Tamil Nadu,India,Corporate,Active,2018-08-16,2018,0,685736.41
+5063,Bengaluru,Karnataka,India,Wholesale,Active,2020-08-16,2020,0,359568.85
+5064,Vellore,Tamil Nadu,India,Wholesale,Active,2025-03-15,2025,0,337478.38
+5065,Vellore,Tamil Nadu,India,Retail,Active,2022-08-04,2022,0,128108.96
+5066,Bengaluru,Karnataka,India,Corporate,Active,2021-10-24,2021,0,476104.55
+5067,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-06-02,2019,0,834743.85
+5068,Bengaluru,Karnataka,India,Wholesale,Active,2018-07-06,2018,0,516640.36
+5069,Delhi,Delhi,India,Corporate,Active,2025-04-07,2025,0,612945.63
+5070,Chennai,Tamil Nadu,India,Retail,Active,2021-08-04,2021,0,362971.47
+5071,Kochi,Kerala,India,Corporate,Active,2023-06-15,2023,0,107168.89
+5072,Pune,Maharashtra,India,Individual,Active,2020-03-02,2020,0,69711.70
+5073,Hyderabad,Telangana,India,Wholesale,Active,2021-07-09,2021,0,269705.57
+5074,Kochi,Kerala,India,Individual,Active,2024-10-03,2024,0,640752.08
+5075,Coimbatore,Tamil Nadu,India,Corporate,Active,2020-08-13,2020,0,475270.19
+5076,Jaipur,Rajasthan,India,Individual,Active,2026-08-18,2026,0,611545.19
+5077,Kolkata,West Bengal,India,Individual,Active,2023-04-02,2023,0,902024.58
+5078,Bengaluru,Karnataka,India,Wholesale,Active,2020-06-17,2020,0,301594.13
+5079,Pune,Maharashtra,India,Individual,Active,2019-08-06,2019,0,260295.99
+5080,Pune,Maharashtra,India,Retail,Active,2021-04-06,2021,0,859278.92
+5081,Vellore,Tamil Nadu,India,Individual,Active,2023-05-24,2023,0,478900.91
+5082,Mumbai,Maharashtra,India,Retail,Active,2019-09-12,2019,0,375001.02
+5083,Mumbai,Maharashtra,India,Corporate,Active,2024-06-26,2024,0,712705.63
+5084,Mumbai,Maharashtra,India,Wholesale,Active,2020-03-19,2020,0,646491.93
+5085,Ahmedabad,Gujarat,India,Wholesale,Active,2020-03-05,2020,0,355048.68
+5086,Ahmedabad,Gujarat,India,Retail,Active,2023-12-07,2023,0,411586.37
+5087,Vellore,Tamil Nadu,India,Corporate,Active,2022-03-14,2022,0,628356.90
+5088,Kolkata,West Bengal,India,Corporate,Active,2019-04-26,2019,0,143813.26
+5089,Bengaluru,Karnataka,India,Corporate,Active,2023-11-25,2023,0,615958.05
+5090,Jaipur,Rajasthan,India,Corporate,Active,2023-01-03,2023,0,568067.12
+5091,Pune,Maharashtra,India,Corporate,Active,2023-04-20,2023,0,667750.08
+5092,Delhi,Delhi,India,Retail,Active,2024-08-22,2024,0,518135.37
+5093,Pune,Maharashtra,India,Corporate,Active,2024-07-13,2024,0,445643.86
+5094,Chennai,Tamil Nadu,India,Wholesale,Active,2022-04-17,2022,0,907786.32
+5095,Mumbai,Maharashtra,India,Retail,Active,2023-10-06,2023,0,797937.99
+5096,Ahmedabad,Gujarat,India,Corporate,Active,2020-04-26,2020,0,500645.58
+5097,Hyderabad,Telangana,India,Individual,Active,2024-09-27,2024,0,734464.20
+5098,Coimbatore,Tamil Nadu,India,Wholesale,Inactive,2021-11-22,2021,0,878357.61
+5099,Pune,Maharashtra,India,Retail,Active,2024-02-02,2024,0,109760.78
+5100,Pune,Maharashtra,India,Retail,Active,2026-07-06,2026,0,944080.41
+5101,Coimbatore,Tamil Nadu,India,Corporate,Active,2022-05-20,2022,0,688176.33
+5102,Jaipur,Rajasthan,India,Wholesale,Active,2023-02-17,2023,0,431660.72
+5103,Jaipur,Rajasthan,India,Corporate,Active,2022-05-02,2022,0,872106.33
+5104,Kolkata,West Bengal,India,Retail,Active,2018-02-13,2018,0,435307.33
+5105,Coimbatore,Tamil Nadu,India,Individual,Active,2021-08-16,2021,0,113782.47
+5106,Coimbatore,Tamil Nadu,India,Wholesale,Active,2020-01-03,2020,0,200871.04
+5107,Coimbatore,Tamil Nadu,India,Individual,Active,2021-10-04,2021,0,929976.14
+5108,Pune,Maharashtra,India,Corporate,Active,2021-11-03,2021,0,102560.75
+5109,Coimbatore,Tamil Nadu,India,Corporate,Active,2021-02-18,2021,0,59090.21
+5110,Ahmedabad,Gujarat,India,Retail,Active,2023-10-01,2023,0,498808.90
+5111,Ahmedabad,Gujarat,India,Individual,Active,2018-01-23,2018,0,952437.05
+5112,Mumbai,Maharashtra,India,Wholesale,Active,2021-03-10,2021,0,991408.07
+5113,Kolkata,West Bengal,India,Retail,Active,2025-02-12,2025,0,321833.83
+5114,Vellore,Tamil Nadu,India,Corporate,Active,2025-11-02,2025,0,495566.88
+5115,Coimbatore,Tamil Nadu,India,Individual,Active,2018-05-02,2018,0,864521.38
+5116,Kochi,Kerala,India,Corporate,Active,2021-05-21,2021,0,188537.96
+5117,Jaipur,Rajasthan,India,Wholesale,Active,2018-01-12,2018,0,705446.65
+5118,Coimbatore,Tamil Nadu,India,Wholesale,Active,2023-03-23,2023,0,168866.55
+5119,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-04-04,2019,0,732407.98
+5120,Kochi,Kerala,India,Individual,Active,2021-03-13,2021,0,415869.06
+5121,Vellore,Tamil Nadu,India,Corporate,Active,2024-08-26,2024,0,954257.83
+5122,Mumbai,Maharashtra,India,Wholesale,Active,2019-06-07,2019,0,760162.10
+5123,Bengaluru,Karnataka,India,Wholesale,Active,2018-03-06,2018,0,106577.63
+5124,Mumbai,Maharashtra,India,Individual,Active,2021-11-28,2021,0,376988.66
+5125,Ahmedabad,Gujarat,India,Wholesale,Active,2026-05-25,2026,0,51781.94
+5126,Mumbai,Maharashtra,India,Wholesale,Active,2018-09-09,2018,0,427538.93
+5127,Chennai,Tamil Nadu,India,Retail,Active,2021-08-17,2021,0,73273.27
+5128,Jaipur,Rajasthan,India,Wholesale,Active,2021-01-21,2021,0,835008.41
+5129,Kolkata,West Bengal,India,Corporate,Active,2021-06-11,2021,0,455819.32
+5130,Ahmedabad,Gujarat,India,Individual,Active,2025-04-24,2025,0,139859.73
+5131,Bengaluru,Karnataka,India,Corporate,Active,2020-01-12,2020,0,86630.66
+5132,Chennai,Tamil Nadu,India,Individual,Active,2024-04-28,2024,0,888650.08
+5133,Mumbai,Maharashtra,India,Individual,Active,2018-03-10,2018,0,89489.68
+5134,Kochi,Kerala,India,Individual,Active,2022-08-26,2022,0,676586.03
+5135,Mumbai,Maharashtra,India,Corporate,Active,2025-10-14,2025,0,639986.40
+5136,Hyderabad,Telangana,India,Wholesale,Active,2018-08-24,2018,0,554449.13
+5137,Bengaluru,Karnataka,India,Individual,Active,2026-11-17,2026,1,122303.48
+5138,Hyderabad,Telangana,India,Retail,Active,2023-12-14,2023,0,430690.57
+5139,Mumbai,Maharashtra,India,Retail,Active,2020-05-19,2020,0,63035.27
+5140,Vellore,Tamil Nadu,India,Retail,Active,2025-07-10,2025,0,873251.64
+5141,Chennai,Tamil Nadu,India,Wholesale,Active,2020-03-22,2020,0,711369.38
+5142,Bengaluru,Karnataka,India,Corporate,Active,2022-08-17,2022,0,339530.43
+5143,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-10-12,2018,0,536031.04
+5144,Bengaluru,Karnataka,India,Corporate,Active,2023-12-17,2023,0,628914.18
+5145,Bengaluru,Karnataka,India,Individual,Active,2021-11-24,2021,0,184323.85
+5146,Chennai,Tamil Nadu,India,Wholesale,Active,2021-10-17,2021,0,771645.99
+5147,Hyderabad,Telangana,India,Corporate,Active,2022-03-22,2022,0,336117.75
+5148,Jaipur,Rajasthan,India,Retail,Active,2023-03-23,2023,0,669975.61
+5149,Coimbatore,Tamil Nadu,India,Wholesale,Inactive,2025-04-11,2025,0,897580.28
+5150,Jaipur,Rajasthan,India,Corporate,Active,2020-01-28,2020,0,264697.14
+5151,Vellore,Tamil Nadu,India,Corporate,Active,2022-12-05,2022,0,274040.32
+5152,Mumbai,Maharashtra,India,Retail,Active,2020-07-07,2020,0,202398.70
+5153,Mumbai,Maharashtra,India,Wholesale,Active,2025-01-10,2025,0,804232.30
+5154,Jaipur,Rajasthan,India,Individual,Active,2022-04-09,2022,0,127621.58
+5155,Ahmedabad,Gujarat,India,Wholesale,Active,2022-05-19,2022,0,187533.06
+5156,Jaipur,Rajasthan,India,Wholesale,Active,2026-09-23,2026,0,394101.27
+5157,Mumbai,Maharashtra,India,Retail,Active,2019-03-20,2019,0,291282.97
+5158,Ahmedabad,Gujarat,India,Retail,Active,2020-05-22,2020,0,194191.20
+5159,Bengaluru,Karnataka,India,Retail,Active,2023-04-21,2023,0,390290.76
+5160,Vellore,Tamil Nadu,India,Wholesale,Active,2023-04-28,2023,0,814283.02
+5161,Jaipur,Rajasthan,India,Corporate,Active,2019-09-08,2019,0,919466.31
+5162,Chennai,Tamil Nadu,India,Wholesale,Inactive,2023-08-27,2023,0,746646.48
+5163,Chennai,Tamil Nadu,India,Corporate,Active,2026-02-05,2026,0,749216.78
+5164,Jaipur,Rajasthan,India,Individual,Active,2024-03-10,2024,0,922893.27
+5165,Chennai,Tamil Nadu,India,Individual,Active,2024-07-24,2024,0,393179.39
+5166,Jaipur,Rajasthan,India,Individual,Active,2024-04-24,2024,0,883928.21
+5167,Vellore,Tamil Nadu,India,Individual,Active,2026-08-20,2026,0,439122.12
+5168,Hyderabad,Telangana,India,Individual,Active,2025-02-12,2025,0,902882.11
+5169,Coimbatore,Tamil Nadu,India,Wholesale,Active,2021-02-14,2021,0,767501.37
+5170,Delhi,Delhi,India,Corporate,Active,2020-09-26,2020,0,647899.91
+5171,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-09-13,2018,0,162484.67
+5172,Delhi,Delhi,India,Wholesale,Inactive,2024-07-20,2024,0,184828.50
+5173,Jaipur,Rajasthan,India,Wholesale,Active,2019-05-03,2019,0,407450.17
+5174,Bengaluru,Karnataka,India,Wholesale,Active,2025-03-08,2025,0,589344.86
+5175,Kochi,Kerala,India,Wholesale,Active,2023-12-20,2023,0,668205.65
+5176,Bengaluru,Karnataka,India,Corporate,Active,2025-12-25,2025,0,52996.89
+5177,Delhi,Delhi,India,Corporate,Active,2025-11-27,2025,0,405203.87
+5178,Delhi,Delhi,India,Corporate,Active,2022-12-21,2022,0,615113.09
+5179,Kolkata,West Bengal,India,Individual,Active,2019-06-01,2019,0,975859.73
+5180,Pune,Maharashtra,India,Retail,Inactive,2018-03-17,2018,0,628497.92
+5181,Pune,Maharashtra,India,Retail,Active,2018-10-14,2018,0,909521.69
+5182,Delhi,Delhi,India,Individual,Active,2023-02-26,2023,0,512898.49
+5183,Coimbatore,Tamil Nadu,India,Individual,Active,2020-07-10,2020,0,879537.90
+5184,Hyderabad,Telangana,India,Corporate,Active,2023-10-10,2023,0,338609.06
+5185,Mumbai,Maharashtra,India,Retail,Inactive,2020-05-21,2020,0,769690.30
+5186,Mumbai,Maharashtra,India,Wholesale,Active,2018-08-24,2018,0,472278.72
+5187,Hyderabad,Telangana,India,Individual,Inactive,2026-12-26,2026,1,191201.79
+5188,Kochi,Kerala,India,Individual,Active,2026-05-14,2026,0,105233.73
+5189,Mumbai,Maharashtra,India,Corporate,Active,2020-03-28,2020,0,630636.43
+5190,Pune,Maharashtra,India,Wholesale,Active,2023-03-07,2023,0,686677.49
+5191,Ahmedabad,Gujarat,India,Wholesale,Active,2018-03-02,2018,0,62096.25
+5192,Kolkata,West Bengal,India,Wholesale,Active,2022-02-11,2022,0,164914.61
+5193,Mumbai,Maharashtra,India,Corporate,Active,2025-06-08,2025,0,683822.06
+5194,Delhi,Delhi,India,Wholesale,Active,2024-12-08,2024,0,431799.83
+5195,Kochi,Kerala,India,Wholesale,Active,2024-12-06,2024,0,162218.88
+5196,Bengaluru,Karnataka,India,Retail,Active,2021-05-14,2021,0,537437.61
+5197,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-03-21,2026,0,667536.39
+5198,Chennai,Tamil Nadu,India,Individual,Active,2022-02-23,2022,0,809337.11
+5199,Chennai,Tamil Nadu,India,Wholesale,Active,2021-04-27,2021,0,309578.58
+5200,Jaipur,Rajasthan,India,Corporate,Active,2022-04-14,2022,0,685058.96
+5201,Bengaluru,Karnataka,India,Corporate,Active,2019-04-16,2019,0,692049.64
+5202,Ahmedabad,Gujarat,India,Retail,Active,2021-07-16,2021,0,468546.41
+5203,Mumbai,Maharashtra,India,Wholesale,Active,2025-07-10,2025,0,627043.00
+5204,Hyderabad,Telangana,India,Wholesale,Active,2026-02-20,2026,0,777229.99
+5205,Vellore,Tamil Nadu,India,Wholesale,Active,2018-03-13,2018,0,387177.22
+5206,Chennai,Tamil Nadu,India,Corporate,Inactive,2026-10-24,2026,1,208877.45
+5207,Vellore,Tamil Nadu,India,Wholesale,Active,2021-06-22,2021,0,352952.15
+5208,Delhi,Delhi,India,Corporate,Active,2018-03-13,2018,0,805273.68
+5209,Pune,Maharashtra,India,Individual,Active,2025-05-23,2025,0,752691.28
+5210,Kolkata,West Bengal,India,Corporate,Active,2025-07-06,2025,0,741391.54
+5211,Coimbatore,Tamil Nadu,India,Individual,Active,2025-12-27,2025,0,194908.27
+5212,Pune,Maharashtra,India,Individual,Active,2023-08-06,2023,0,178741.04
+5213,Mumbai,Maharashtra,India,Individual,Active,2026-10-07,2026,0,181787.83
+5214,Kolkata,West Bengal,India,Individual,Active,2022-09-25,2022,0,601947.27
+5215,Kochi,Kerala,India,Wholesale,Active,2022-10-12,2022,0,634317.21
+5216,Kochi,Kerala,India,Retail,Active,2022-06-27,2022,0,270135.71
+5217,Bengaluru,Karnataka,India,Wholesale,Inactive,2018-01-09,2018,0,876196.83
+5218,Kochi,Kerala,India,Wholesale,Active,2026-07-16,2026,0,506367.74
+5219,Vellore,Tamil Nadu,India,Wholesale,Active,2026-10-16,2026,0,770386.11
+5220,Jaipur,Rajasthan,India,Corporate,Active,2022-07-15,2022,0,437931.07
+5221,Jaipur,Rajasthan,India,Individual,Active,2023-01-24,2023,0,80863.35
+5222,Jaipur,Rajasthan,India,Wholesale,Active,2019-08-16,2019,0,708527.13
+5223,Jaipur,Rajasthan,India,Wholesale,Active,2021-02-14,2021,0,37262.43
+5224,Ahmedabad,Gujarat,India,Wholesale,Active,2020-11-24,2020,0,366298.97
+5225,Coimbatore,Tamil Nadu,India,Corporate,Active,2025-06-10,2025,0,872473.92
+5226,Pune,Maharashtra,India,Individual,Active,2025-11-17,2025,0,437332.34
+5227,Kolkata,West Bengal,India,Wholesale,Active,2026-02-12,2026,0,380685.53
+5228,Pune,Maharashtra,India,Wholesale,Active,2019-07-14,2019,0,980844.81
+5229,Pune,Maharashtra,India,Wholesale,Active,2021-07-09,2021,0,330743.98
+5230,Vellore,Tamil Nadu,India,Corporate,Active,2019-04-07,2019,0,207681.42
+5231,Mumbai,Maharashtra,India,Retail,Active,2019-09-05,2019,0,90691.59
+5232,Coimbatore,Tamil Nadu,India,Retail,Active,2024-10-15,2024,0,590240.53
+5233,Kolkata,West Bengal,India,Corporate,Active,2025-10-25,2025,0,108142.77
+5234,Bengaluru,Karnataka,India,Corporate,Active,2018-06-06,2018,0,403964.14
+5235,Coimbatore,Tamil Nadu,India,Wholesale,Active,2020-06-27,2020,0,154818.44
+5236,Vellore,Tamil Nadu,India,Individual,Active,2020-08-10,2020,0,132831.35
+5237,Vellore,Tamil Nadu,India,Retail,Active,2019-10-27,2019,0,996290.40
+5238,Kolkata,West Bengal,India,Retail,Active,2023-11-12,2023,0,793413.89
+5239,Chennai,Tamil Nadu,India,Wholesale,Active,2024-04-12,2024,0,503073.80
+5240,Ahmedabad,Gujarat,India,Individual,Active,2022-03-25,2022,0,26820.49
+5241,Chennai,Tamil Nadu,India,Individual,Active,2018-04-28,2018,0,237551.55
+5242,Kolkata,West Bengal,India,Wholesale,Active,2020-12-15,2020,0,149141.62
+5243,Mumbai,Maharashtra,India,Corporate,Active,2024-02-04,2024,0,37545.02
+5244,Kolkata,West Bengal,India,Retail,Active,2018-11-27,2018,0,967418.99
+5245,Kolkata,West Bengal,India,Corporate,Active,2023-04-21,2023,0,514953.68
+5246,Delhi,Delhi,India,Retail,Active,2018-04-21,2018,0,247821.80
+5247,Ahmedabad,Gujarat,India,Corporate,Inactive,2022-08-06,2022,0,179406.27
+5248,Mumbai,Maharashtra,India,Retail,Active,2026-05-11,2026,0,620832.76
+5249,Jaipur,Rajasthan,India,Corporate,Active,2022-01-27,2022,0,361410.25
+5250,Jaipur,Rajasthan,India,Wholesale,Active,2019-11-07,2019,0,147990.80
+5251,Kochi,Kerala,India,Wholesale,Active,2023-07-15,2023,0,71250.34
+5252,Kochi,Kerala,India,Individual,Active,2021-01-12,2021,0,469679.27
+5253,Kochi,Kerala,India,Individual,Active,2024-06-05,2024,0,512984.92
+5254,Kochi,Kerala,India,Individual,Active,2026-04-17,2026,0,909261.48
+5255,Vellore,Tamil Nadu,India,Wholesale,Active,2022-10-15,2022,0,584985.60
+5256,Kochi,Kerala,India,Wholesale,Active,2019-07-28,2019,0,159224.43
+5257,Coimbatore,Tamil Nadu,India,Wholesale,Active,2020-12-26,2020,0,665135.17
+5258,Ahmedabad,Gujarat,India,Wholesale,Active,2018-03-19,2018,0,590891.18
+5259,Jaipur,Rajasthan,India,Retail,Active,2022-12-28,2022,0,866855.19
+5260,Bengaluru,Karnataka,India,Wholesale,Active,2026-09-28,2026,0,41044.38
+5261,Chennai,Tamil Nadu,India,Retail,Active,2019-12-12,2019,0,751193.94
+5262,Coimbatore,Tamil Nadu,India,Corporate,Active,2021-10-23,2021,0,399032.66
+5263,Vellore,Tamil Nadu,India,Retail,Active,2022-02-05,2022,0,128423.87
+5264,Jaipur,Rajasthan,India,Individual,Active,2021-07-02,2021,0,995364.75
+5265,Chennai,Tamil Nadu,India,Individual,Active,2020-01-28,2020,0,944915.34
+5266,Ahmedabad,Gujarat,India,Retail,Active,2024-07-28,2024,0,184794.48
+5267,Jaipur,Rajasthan,India,Retail,Active,2025-04-10,2025,0,377557.30
+5268,Delhi,Delhi,India,Wholesale,Active,2019-10-21,2019,0,503124.03
+5269,Bengaluru,Karnataka,India,Retail,Active,2024-08-16,2024,0,823233.18
+5270,Bengaluru,Karnataka,India,Wholesale,Active,2019-07-09,2019,0,288782.40
+5271,Kolkata,West Bengal,India,Wholesale,Active,2026-08-24,2026,0,529547.06
+5272,Kolkata,West Bengal,India,Individual,Active,2019-01-28,2019,0,158183.47
+5273,Coimbatore,Tamil Nadu,India,Individual,Active,2024-07-05,2024,0,694260.17
+5274,Kolkata,West Bengal,India,Individual,Active,2018-05-01,2018,0,836183.25
+5275,Delhi,Delhi,India,Individual,Active,2018-01-01,2018,0,967021.66
+5276,Delhi,Delhi,India,Retail,Active,2021-09-17,2021,0,919732.94
+5277,Jaipur,Rajasthan,India,Retail,Active,2022-12-16,2022,0,759406.54
+5278,Ahmedabad,Gujarat,India,Individual,Active,2018-09-20,2018,0,585017.66
+5279,Ahmedabad,Gujarat,India,Individual,Active,2024-08-03,2024,0,221099.65
+5280,Hyderabad,Telangana,India,Individual,Inactive,2020-11-18,2020,0,125975.49
+5281,Ahmedabad,Gujarat,India,Individual,Active,2018-04-25,2018,0,588377.90
+5282,Ahmedabad,Gujarat,India,Retail,Active,2022-02-27,2022,0,630911.42
+5283,Ahmedabad,Gujarat,India,Retail,Inactive,2018-12-22,2018,0,687396.82
+5284,Pune,Maharashtra,India,Wholesale,Active,2024-01-21,2024,0,898865.93
+5285,Bengaluru,Karnataka,India,Retail,Active,2022-01-21,2022,0,561360.47
+5286,Hyderabad,Telangana,India,Individual,Active,2022-11-23,2022,0,522770.11
+5287,Coimbatore,Tamil Nadu,India,Retail,Active,2021-11-20,2021,0,758307.79
+5288,Coimbatore,Tamil Nadu,India,Individual,Active,2018-08-04,2018,0,562158.13
+5289,Bengaluru,Karnataka,India,Individual,Active,2019-02-27,2019,0,357592.20
+5290,Pune,Maharashtra,India,Corporate,Active,2025-08-03,2025,0,769158.34
+5291,Chennai,Tamil Nadu,India,Individual,Active,2020-09-15,2020,0,373583.66
+5292,Coimbatore,Tamil Nadu,India,Individual,Active,2021-11-27,2021,0,393619.62
+5293,Delhi,Delhi,India,Retail,Active,2019-10-28,2019,0,670830.48
+5294,Mumbai,Maharashtra,India,Retail,Active,2023-08-03,2023,0,489709.25
+5295,Mumbai,Maharashtra,India,Retail,Active,2019-12-24,2019,0,372489.20
+5296,Delhi,Delhi,India,Wholesale,Active,2022-05-22,2022,0,161008.53
+5297,Ahmedabad,Gujarat,India,Individual,Active,2018-12-04,2018,0,823461.23
+5298,Pune,Maharashtra,India,Wholesale,Active,2025-04-26,2025,0,97703.50
+5299,Hyderabad,Telangana,India,Retail,Active,2024-08-02,2024,0,757133.66
+5300,Kolkata,West Bengal,India,Corporate,Active,2018-10-18,2018,0,992677.20
+5301,Bengaluru,Karnataka,India,Retail,Inactive,2022-07-11,2022,0,337037.32
+5302,Chennai,Tamil Nadu,India,Corporate,Active,2021-11-10,2021,0,857757.51
+5303,Ahmedabad,Gujarat,India,Wholesale,Active,2020-04-10,2020,0,775074.10
+5304,Mumbai,Maharashtra,India,Corporate,Active,2019-06-28,2019,0,417367.79
+5305,Chennai,Tamil Nadu,India,Retail,Active,2021-03-09,2021,0,132349.15
+5306,Jaipur,Rajasthan,India,Retail,Active,2024-03-23,2024,0,959618.79
+5307,Pune,Maharashtra,India,Wholesale,Active,2020-04-21,2020,0,660166.19
+5308,Kolkata,West Bengal,India,Corporate,Active,2025-12-06,2025,0,920056.50
+5309,Coimbatore,Tamil Nadu,India,Corporate,Active,2020-12-19,2020,0,934830.21
+5310,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-12-01,2026,1,693073.03
+5311,Kochi,Kerala,India,Wholesale,Active,2019-09-12,2019,0,87813.59
+5312,Coimbatore,Tamil Nadu,India,Individual,Active,2023-09-17,2023,0,74886.81
+5313,Pune,Maharashtra,India,Retail,Active,2021-01-07,2021,0,487972.36
+5314,Hyderabad,Telangana,India,Wholesale,Active,2018-05-15,2018,0,456953.12
+5315,Kolkata,West Bengal,India,Wholesale,Active,2024-11-05,2024,0,83190.50
+5316,Kolkata,West Bengal,India,Corporate,Active,2024-09-11,2024,0,315604.88
+5317,Jaipur,Rajasthan,India,Corporate,Active,2026-09-06,2026,0,854762.34
+5318,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-10-26,2026,1,408108.34
+5319,Bengaluru,Karnataka,India,Individual,Active,2021-01-28,2021,0,125549.61
+5320,Pune,Maharashtra,India,Retail,Active,2020-09-25,2020,0,328806.52
+5321,Hyderabad,Telangana,India,Corporate,Active,2025-05-19,2025,0,272773.89
+5322,Bengaluru,Karnataka,India,Retail,Active,2018-04-04,2018,0,253996.78
+5323,Coimbatore,Tamil Nadu,India,Individual,Active,2020-09-09,2020,0,307851.68
+5324,Jaipur,Rajasthan,India,Wholesale,Active,2023-08-20,2023,0,99053.74
+5325,Jaipur,Rajasthan,India,Individual,Inactive,2018-09-10,2018,0,398083.50
+5326,Pune,Maharashtra,India,Retail,Active,2018-12-22,2018,0,893734.93
+5327,Ahmedabad,Gujarat,India,Wholesale,Active,2018-11-04,2018,0,219270.34
+5328,Ahmedabad,Gujarat,India,Individual,Active,2019-12-13,2019,0,965293.73
+5329,Jaipur,Rajasthan,India,Corporate,Active,2025-09-18,2025,0,852160.74
+5330,Vellore,Tamil Nadu,India,Corporate,Active,2024-06-02,2024,0,779832.20
+5331,Mumbai,Maharashtra,India,Individual,Active,2022-12-09,2022,0,651183.12
+5332,Delhi,Delhi,India,Corporate,Active,2020-10-17,2020,0,669692.66
+5333,Mumbai,Maharashtra,India,Wholesale,Active,2018-07-14,2018,0,253135.34
+5334,Bengaluru,Karnataka,India,Wholesale,Active,2019-08-25,2019,0,372910.95
+5335,Vellore,Tamil Nadu,India,Corporate,Active,2020-10-26,2020,0,177698.79
+5336,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-11-18,2026,1,71369.70
+5337,Jaipur,Rajasthan,India,Individual,Active,2023-03-04,2023,0,142193.25
+5338,Pune,Maharashtra,India,Individual,Active,2024-03-11,2024,0,490295.82
+5339,Kochi,Kerala,India,Wholesale,Active,2020-05-24,2020,0,257644.54
+5340,Kochi,Kerala,India,Retail,Active,2020-06-02,2020,0,818731.72
+5341,Bengaluru,Karnataka,India,Corporate,Active,2026-04-17,2026,0,494785.52
+5342,Hyderabad,Telangana,India,Wholesale,Active,2021-10-19,2021,0,743942.89
+5343,Bengaluru,Karnataka,India,Retail,Active,2018-09-14,2018,0,663976.65
+5344,Ahmedabad,Gujarat,India,Wholesale,Active,2018-09-11,2018,0,938919.99
+5345,Delhi,Delhi,India,Corporate,Active,2019-06-19,2019,0,913522.69
+5346,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-01-20,2019,0,275726.70
+5347,Bengaluru,Karnataka,India,Wholesale,Active,2019-12-03,2019,0,857757.29
+5348,Bengaluru,Karnataka,India,Wholesale,Active,2022-06-13,2022,0,917472.78
+5349,Mumbai,Maharashtra,India,Retail,Inactive,2025-04-16,2025,0,419739.78
+5350,Delhi,Delhi,India,Wholesale,Active,2020-04-13,2020,0,854921.30
+5351,Hyderabad,Telangana,India,Individual,Active,2019-03-01,2019,0,213136.59
+5352,Bengaluru,Karnataka,India,Wholesale,Active,2026-11-05,2026,1,29628.46
+5353,Bengaluru,Karnataka,India,Wholesale,Active,2023-02-13,2023,0,496072.41
+5354,Coimbatore,Tamil Nadu,India,Corporate,Active,2024-07-18,2024,0,674778.40
+5355,Bengaluru,Karnataka,India,Corporate,Active,2024-08-17,2024,0,280084.21
+5356,Vellore,Tamil Nadu,India,Wholesale,Active,2021-06-08,2021,0,177813.73
+5357,Kolkata,West Bengal,India,Wholesale,Active,2021-10-08,2021,0,259321.15
+5358,Kochi,Kerala,India,Corporate,Active,2024-01-17,2024,0,610085.89
+5359,Delhi,Delhi,India,Wholesale,Active,2021-05-23,2021,0,628916.25
+5360,Kochi,Kerala,India,Retail,Active,2022-08-11,2022,0,859808.47
+5361,Ahmedabad,Gujarat,India,Wholesale,Active,2018-10-14,2018,0,380479.13
+5362,Mumbai,Maharashtra,India,Individual,Active,2025-08-08,2025,0,671740.48
+5363,Hyderabad,Telangana,India,Individual,Active,2018-06-16,2018,0,924450.14
+5364,Kochi,Kerala,India,Wholesale,Active,2018-05-26,2018,0,443581.74
+5365,Bengaluru,Karnataka,India,Retail,Active,2018-08-28,2018,0,670211.65
+5366,Jaipur,Rajasthan,India,Retail,Active,2024-10-19,2024,0,201512.20
+5367,Hyderabad,Telangana,India,Wholesale,Active,2019-02-02,2019,0,453662.37
+5368,Kochi,Kerala,India,Retail,Active,2024-08-04,2024,0,701882.99
+5369,Vellore,Tamil Nadu,India,Retail,Active,2026-03-27,2026,0,764186.40
+5370,Kolkata,West Bengal,India,Individual,Active,2026-06-21,2026,0,633907.60
+5371,Jaipur,Rajasthan,India,Wholesale,Active,2026-05-04,2026,0,878776.12
+5372,Kochi,Kerala,India,Retail,Active,2021-01-23,2021,0,223121.77
+5373,Mumbai,Maharashtra,India,Wholesale,Active,2024-08-01,2024,0,273887.29
+5374,Vellore,Tamil Nadu,India,Wholesale,Active,2022-12-10,2022,0,60304.02
+5375,Pune,Maharashtra,India,Retail,Active,2018-03-08,2018,0,329539.87
+5376,Delhi,Delhi,India,Corporate,Active,2025-03-19,2025,0,197053.34
+5377,Jaipur,Rajasthan,India,Corporate,Active,2023-12-26,2023,0,749074.68
+5378,Ahmedabad,Gujarat,India,Wholesale,Active,2025-10-27,2025,0,137034.73
+5379,Ahmedabad,Gujarat,India,Wholesale,Active,2025-12-07,2025,0,991993.12
+5380,Mumbai,Maharashtra,India,Retail,Active,2026-08-27,2026,0,912041.57
+5381,Kochi,Kerala,India,Individual,Active,2023-04-19,2023,0,801192.49
+5382,Delhi,Delhi,India,Retail,Active,2025-02-18,2025,0,26971.92
+5383,Delhi,Delhi,India,Corporate,Inactive,2022-04-23,2022,0,366439.41
+5384,Chennai,Tamil Nadu,India,Retail,Active,2018-05-04,2018,0,850554.36
+5385,Coimbatore,Tamil Nadu,India,Retail,Active,2025-01-15,2025,0,586261.87
+5386,Kochi,Kerala,India,Wholesale,Active,2025-02-15,2025,0,34038.83
+5387,Hyderabad,Telangana,India,Individual,Active,2020-12-15,2020,0,695365.28
+5388,Kolkata,West Bengal,India,Corporate,Active,2019-08-24,2019,0,934599.50
+5389,Delhi,Delhi,India,Individual,Inactive,2018-03-24,2018,0,411360.06
+5390,Bengaluru,Karnataka,India,Retail,Active,2019-06-17,2019,0,147957.92
+5391,Hyderabad,Telangana,India,Corporate,Active,2024-08-17,2024,0,449940.99
+5392,Kochi,Kerala,India,Corporate,Active,2019-06-23,2019,0,408049.24
+5393,Hyderabad,Telangana,India,Corporate,Active,2018-12-20,2018,0,175860.70
+5394,Chennai,Tamil Nadu,India,Wholesale,Active,2024-07-15,2024,0,664584.56
+5395,Kochi,Kerala,India,Wholesale,Active,2020-05-06,2020,0,240723.28
+5396,Coimbatore,Tamil Nadu,India,Individual,Active,2026-12-14,2026,1,381550.70
+5397,Bengaluru,Karnataka,India,Individual,Active,2026-01-11,2026,0,242988.57
+5398,Delhi,Delhi,India,Wholesale,Active,2026-11-18,2026,1,836354.84
+5399,Vellore,Tamil Nadu,India,Wholesale,Inactive,2023-02-01,2023,0,673954.29
+5400,Chennai,Tamil Nadu,India,Retail,Active,2023-03-20,2023,0,543312.55
+5401,Hyderabad,Telangana,India,Retail,Inactive,2022-02-05,2022,0,664405.37
+5402,Mumbai,Maharashtra,India,Wholesale,Active,2026-07-20,2026,0,445113.44
+5403,Jaipur,Rajasthan,India,Individual,Active,2020-06-22,2020,0,495504.38
+5404,Ahmedabad,Gujarat,India,Retail,Active,2025-12-12,2025,0,880557.28
+5405,Mumbai,Maharashtra,India,Corporate,Active,2021-02-27,2021,0,285440.23
+5406,Mumbai,Maharashtra,India,Retail,Active,2026-11-01,2026,1,695524.81
+5407,Hyderabad,Telangana,India,Wholesale,Active,2024-02-13,2024,0,169979.57
+5408,Pune,Maharashtra,India,Wholesale,Active,2023-04-05,2023,0,905373.94
+5409,Chennai,Tamil Nadu,India,Individual,Active,2026-02-01,2026,0,188628.17
+5410,Vellore,Tamil Nadu,India,Wholesale,Active,2026-09-09,2026,0,265102.08
+5411,Hyderabad,Telangana,India,Retail,Active,2026-11-25,2026,1,527443.27
+5412,Ahmedabad,Gujarat,India,Individual,Active,2021-01-24,2021,0,340539.76
+5413,Ahmedabad,Gujarat,India,Individual,Active,2018-06-28,2018,0,286076.44
+5414,Hyderabad,Telangana,India,Individual,Inactive,2018-06-02,2018,0,355625.54
+5415,Kochi,Kerala,India,Individual,Inactive,2021-06-21,2021,0,643894.58
+5416,Bengaluru,Karnataka,India,Retail,Active,2019-02-14,2019,0,46489.37
+5417,Jaipur,Rajasthan,India,Retail,Active,2019-03-10,2019,0,781385.22
+5418,Vellore,Tamil Nadu,India,Corporate,Active,2020-12-22,2020,0,411625.50
+5419,Delhi,Delhi,India,Wholesale,Active,2022-10-17,2022,0,608847.83
+5420,Pune,Maharashtra,India,Individual,Active,2018-10-05,2018,0,730893.87
+5421,Pune,Maharashtra,India,Individual,Active,2023-07-22,2023,0,765037.19
+5422,Delhi,Delhi,India,Wholesale,Active,2026-11-04,2026,1,853130.54
+5423,Kolkata,West Bengal,India,Wholesale,Active,2024-05-21,2024,0,63478.08
+5424,Kochi,Kerala,India,Corporate,Inactive,2023-04-26,2023,0,47392.76
+5425,Hyderabad,Telangana,India,Corporate,Active,2026-08-13,2026,0,427890.35
+5426,Jaipur,Rajasthan,India,Retail,Active,2023-06-16,2023,0,140605.78
+5427,Kochi,Kerala,India,Individual,Active,2023-09-07,2023,0,530126.22
+5428,Jaipur,Rajasthan,India,Wholesale,Active,2022-03-22,2022,0,575483.53
+5429,Vellore,Tamil Nadu,India,Retail,Active,2020-01-14,2020,0,622894.10
+5430,Jaipur,Rajasthan,India,Corporate,Active,2024-03-15,2024,0,428960.13
+5431,Coimbatore,Tamil Nadu,India,Corporate,Active,2025-06-08,2025,0,622696.42
+5432,Mumbai,Maharashtra,India,Corporate,Active,2023-11-16,2023,0,896666.60
+5433,Delhi,Delhi,India,Wholesale,Active,2025-02-22,2025,0,378783.30
+5434,Coimbatore,Tamil Nadu,India,Retail,Active,2024-11-25,2024,0,242629.58
+5435,Bengaluru,Karnataka,India,Individual,Active,2022-02-27,2022,0,54884.49
+5436,Bengaluru,Karnataka,India,Individual,Active,2019-09-14,2019,0,891224.72
+5437,Delhi,Delhi,India,Individual,Active,2022-08-16,2022,0,102486.23
+5438,Hyderabad,Telangana,India,Retail,Active,2018-09-08,2018,0,850029.78
+5439,Chennai,Tamil Nadu,India,Retail,Active,2019-11-18,2019,0,791201.89
+5440,Jaipur,Rajasthan,India,Wholesale,Active,2021-04-28,2021,0,231449.69
+5441,Ahmedabad,Gujarat,India,Retail,Active,2020-03-09,2020,0,489970.83
+5442,Delhi,Delhi,India,Corporate,Active,2025-05-12,2025,0,995245.53
+5443,Kolkata,West Bengal,India,Wholesale,Active,2026-06-06,2026,0,538173.32
+5444,Chennai,Tamil Nadu,India,Retail,Active,2021-12-13,2021,0,718716.50
+5445,Kolkata,West Bengal,India,Wholesale,Active,2026-05-06,2026,0,902710.15
+5446,Ahmedabad,Gujarat,India,Retail,Active,2026-04-12,2026,0,758996.01
+5447,Pune,Maharashtra,India,Corporate,Active,2021-11-19,2021,0,152532.21
+5448,Coimbatore,Tamil Nadu,India,Retail,Active,2023-05-14,2023,0,602251.35
+5449,Kochi,Kerala,India,Retail,Active,2025-11-15,2025,0,234868.04
+5450,Vellore,Tamil Nadu,India,Wholesale,Active,2021-10-11,2021,0,978688.46
+5451,Kochi,Kerala,India,Retail,Inactive,2019-02-23,2019,0,193593.63
+5452,Mumbai,Maharashtra,India,Retail,Active,2018-02-20,2018,0,500230.32
+5453,Pune,Maharashtra,India,Wholesale,Inactive,2021-09-26,2021,0,309758.22
+5454,Ahmedabad,Gujarat,India,Retail,Active,2025-11-15,2025,0,565106.38
+5455,Coimbatore,Tamil Nadu,India,Individual,Active,2018-01-18,2018,0,119981.85
+5456,Kolkata,West Bengal,India,Corporate,Active,2024-11-14,2024,0,336743.39
+5457,Mumbai,Maharashtra,India,Retail,Active,2023-02-09,2023,0,459172.21
+5458,Jaipur,Rajasthan,India,Wholesale,Active,2018-11-17,2018,0,640383.46
+5459,Kochi,Kerala,India,Wholesale,Active,2025-03-09,2025,0,879655.79
+5460,Ahmedabad,Gujarat,India,Corporate,Inactive,2024-07-12,2024,0,857143.81
+5461,Mumbai,Maharashtra,India,Wholesale,Active,2019-08-04,2019,0,87347.29
+5462,Hyderabad,Telangana,India,Wholesale,Active,2021-04-11,2021,0,683625.39
+5463,Delhi,Delhi,India,Wholesale,Active,2025-04-09,2025,0,543731.65
+5464,Chennai,Tamil Nadu,India,Retail,Active,2021-11-03,2021,0,609283.87
+5465,Delhi,Delhi,India,Retail,Active,2025-02-21,2025,0,108205.58
+5466,Ahmedabad,Gujarat,India,Retail,Active,2018-08-27,2018,0,614141.52
+5467,Jaipur,Rajasthan,India,Corporate,Active,2022-08-05,2022,0,307585.18
+5468,Pune,Maharashtra,India,Corporate,Active,2024-09-22,2024,0,364558.22
+5469,Ahmedabad,Gujarat,India,Retail,Active,2023-12-05,2023,0,734455.70
+5470,Delhi,Delhi,India,Individual,Active,2021-06-24,2021,0,752464.73
+5471,Coimbatore,Tamil Nadu,India,Retail,Active,2026-12-08,2026,1,845108.98
+5472,Kochi,Kerala,India,Retail,Active,2024-12-22,2024,0,110963.31
+5473,Jaipur,Rajasthan,India,Retail,Inactive,2021-11-13,2021,0,196653.34
+5474,Delhi,Delhi,India,Individual,Active,2023-07-23,2023,0,593491.82
+5475,Ahmedabad,Gujarat,India,Retail,Active,2023-07-13,2023,0,220830.20
+5476,Vellore,Tamil Nadu,India,Individual,Active,2018-06-22,2018,0,459199.85
+5477,Kochi,Kerala,India,Corporate,Active,2018-05-27,2018,0,747373.24
+5478,Bengaluru,Karnataka,India,Wholesale,Active,2025-12-21,2025,0,932734.42
+5479,Jaipur,Rajasthan,India,Retail,Active,2020-10-11,2020,0,474290.62
+5480,Mumbai,Maharashtra,India,Individual,Inactive,2023-05-17,2023,0,487348.25
+5481,Kochi,Kerala,India,Wholesale,Active,2024-10-25,2024,0,711208.06
+5482,Delhi,Delhi,India,Corporate,Active,2018-01-22,2018,0,781532.07
+5483,Bengaluru,Karnataka,India,Wholesale,Active,2020-07-17,2020,0,435175.15
+5484,Bengaluru,Karnataka,India,Wholesale,Active,2024-09-28,2024,0,512229.12
+5485,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-09-09,2019,0,801584.62
+5486,Delhi,Delhi,India,Corporate,Active,2024-11-12,2024,0,176260.07
+5487,Mumbai,Maharashtra,India,Individual,Active,2020-12-18,2020,0,872885.74
+5488,Bengaluru,Karnataka,India,Corporate,Active,2018-11-05,2018,0,618144.05
+5489,Bengaluru,Karnataka,India,Retail,Active,2023-03-18,2023,0,126273.39
+5490,Bengaluru,Karnataka,India,Corporate,Active,2023-10-21,2023,0,425275.04
+5491,Kochi,Kerala,India,Individual,Active,2025-05-14,2025,0,468482.11
+5492,Kolkata,West Bengal,India,Wholesale,Active,2021-02-25,2021,0,732825.03
+5493,Kolkata,West Bengal,India,Wholesale,Inactive,2018-09-16,2018,0,823354.19
+5494,Chennai,Tamil Nadu,India,Individual,Active,2023-09-04,2023,0,131150.51
+5495,Jaipur,Rajasthan,India,Retail,Active,2026-11-27,2026,1,808622.75
+5496,Delhi,Delhi,India,Retail,Active,2024-02-19,2024,0,392504.60
+5497,Jaipur,Rajasthan,India,Corporate,Active,2022-07-25,2022,0,317839.91
+5498,Hyderabad,Telangana,India,Corporate,Active,2024-04-07,2024,0,177311.55
+5499,Kochi,Kerala,India,Individual,Active,2024-03-17,2024,0,361304.92
+5500,Delhi,Delhi,India,Wholesale,Inactive,2022-04-18,2022,0,74021.78
+5501,Vellore,Tamil Nadu,India,Corporate,Active,2022-01-11,2022,0,757760.11
+5502,Delhi,Delhi,India,Retail,Inactive,2024-03-20,2024,0,464624.42
+5503,Pune,Maharashtra,India,Individual,Active,2024-01-19,2024,0,616335.80
+5504,Hyderabad,Telangana,India,Corporate,Active,2025-12-08,2025,0,623647.68
+5505,Kolkata,West Bengal,India,Wholesale,Active,2023-09-15,2023,0,905579.11
+5506,Delhi,Delhi,India,Wholesale,Active,2019-04-04,2019,0,282347.40
+5507,Ahmedabad,Gujarat,India,Corporate,Active,2024-02-14,2024,0,355473.78
+5508,Delhi,Delhi,India,Corporate,Active,2025-05-08,2025,0,241703.60
+5509,Delhi,Delhi,India,Retail,Active,2025-06-13,2025,0,348807.37
+5510,Jaipur,Rajasthan,India,Individual,Active,2026-04-05,2026,0,920191.11
+5511,Chennai,Tamil Nadu,India,Retail,Active,2023-05-12,2023,0,339032.36
+5512,Chennai,Tamil Nadu,India,Wholesale,Active,2023-12-19,2023,0,320343.85
+5513,Pune,Maharashtra,India,Corporate,Active,2020-11-24,2020,0,619816.02
+5514,Chennai,Tamil Nadu,India,Corporate,Active,2024-06-08,2024,0,879862.82
+5515,Delhi,Delhi,India,Retail,Active,2023-10-22,2023,0,997593.94
+5516,Coimbatore,Tamil Nadu,India,Retail,Active,2019-10-13,2019,0,769809.45
+5517,Delhi,Delhi,India,Retail,Active,2026-11-28,2026,1,984625.96
+5518,Pune,Maharashtra,India,Corporate,Active,2021-01-19,2021,0,870948.38
+5519,Pune,Maharashtra,India,Wholesale,Inactive,2018-10-16,2018,0,931684.62
+5520,Chennai,Tamil Nadu,India,Corporate,Active,2022-05-12,2022,0,610586.37
+5521,Ahmedabad,Gujarat,India,Corporate,Active,2018-11-03,2018,0,717903.51
+5522,Coimbatore,Tamil Nadu,India,Wholesale,Active,2024-06-05,2024,0,307407.88
+5523,Mumbai,Maharashtra,India,Individual,Active,2022-11-03,2022,0,90995.56
+5524,Bengaluru,Karnataka,India,Wholesale,Active,2026-12-26,2026,1,564775.38
+5525,Ahmedabad,Gujarat,India,Wholesale,Active,2026-08-22,2026,0,31967.30
+5526,Mumbai,Maharashtra,India,Retail,Active,2021-12-18,2021,0,355263.37
+5527,Coimbatore,Tamil Nadu,India,Retail,Inactive,2024-09-07,2024,0,747240.93
+5528,Mumbai,Maharashtra,India,Retail,Active,2019-04-28,2019,0,462223.44
+5529,Coimbatore,Tamil Nadu,India,Retail,Active,2026-02-11,2026,0,786852.79
+5530,Coimbatore,Tamil Nadu,India,Corporate,Inactive,2025-09-11,2025,0,133848.11
+5531,Kochi,Kerala,India,Retail,Active,2020-05-03,2020,0,260300.49
+5532,Pune,Maharashtra,India,Corporate,Active,2021-10-02,2021,0,57505.65
+5533,Jaipur,Rajasthan,India,Individual,Active,2026-04-28,2026,0,437800.15
+5534,Kolkata,West Bengal,India,Retail,Inactive,2024-07-11,2024,0,493730.09
+5535,Mumbai,Maharashtra,India,Individual,Active,2023-08-26,2023,0,815611.77
+5536,Kochi,Kerala,India,Wholesale,Active,2025-08-22,2025,0,63121.74
+5537,Kochi,Kerala,India,Individual,Active,2026-11-20,2026,1,637478.09
+5538,Mumbai,Maharashtra,India,Wholesale,Active,2026-08-05,2026,0,762170.05
+5539,Jaipur,Rajasthan,India,Individual,Active,2020-01-17,2020,0,41005.76
+5540,Mumbai,Maharashtra,India,Individual,Active,2018-08-24,2018,0,420915.58
+5541,Jaipur,Rajasthan,India,Wholesale,Inactive,2019-07-25,2019,0,638944.25
+5542,Vellore,Tamil Nadu,India,Wholesale,Active,2021-11-10,2021,0,68912.83
+5543,Hyderabad,Telangana,India,Corporate,Active,2023-09-10,2023,0,151870.00
+5544,Pune,Maharashtra,India,Wholesale,Active,2018-11-13,2018,0,633219.60
+5545,Jaipur,Rajasthan,India,Corporate,Active,2023-12-23,2023,0,793797.77
+5546,Kolkata,West Bengal,India,Corporate,Active,2021-07-10,2021,0,321791.33
+5547,Kolkata,West Bengal,India,Wholesale,Active,2019-08-02,2019,0,88005.93
+5548,Hyderabad,Telangana,India,Corporate,Active,2020-05-09,2020,0,679413.67
+5549,Chennai,Tamil Nadu,India,Individual,Inactive,2018-05-12,2018,0,291394.59
+5550,Kochi,Kerala,India,Corporate,Active,2026-09-26,2026,0,846114.62
+5551,Chennai,Tamil Nadu,India,Retail,Active,2024-02-24,2024,0,230487.84
+5552,Chennai,Tamil Nadu,India,Individual,Active,2026-02-13,2026,0,242306.33
+5553,Jaipur,Rajasthan,India,Corporate,Active,2026-05-13,2026,0,560778.00
+5554,Vellore,Tamil Nadu,India,Corporate,Active,2024-05-11,2024,0,385450.12
+5555,Coimbatore,Tamil Nadu,India,Retail,Active,2023-04-14,2023,0,603666.34
+5556,Coimbatore,Tamil Nadu,India,Retail,Active,2020-10-12,2020,0,298095.46
+5557,Chennai,Tamil Nadu,India,Corporate,Active,2026-10-26,2026,1,660728.29
+5558,Mumbai,Maharashtra,India,Retail,Active,2025-02-14,2025,0,939377.21
+5559,Hyderabad,Telangana,India,Wholesale,Active,2022-08-03,2022,0,280930.00
+5560,Coimbatore,Tamil Nadu,India,Corporate,Active,2024-05-10,2024,0,609605.21
+5561,Kochi,Kerala,India,Individual,Inactive,2022-12-12,2022,0,839343.53
+5562,Delhi,Delhi,India,Retail,Active,2026-01-09,2026,0,156661.05
+5563,Kolkata,West Bengal,India,Wholesale,Active,2021-08-08,2021,0,742544.13
+5564,Coimbatore,Tamil Nadu,India,Individual,Active,2025-11-14,2025,0,328218.12
+5565,Hyderabad,Telangana,India,Corporate,Active,2018-03-14,2018,0,300354.51
+5566,Mumbai,Maharashtra,India,Retail,Active,2024-02-18,2024,0,726875.63
+5567,Bengaluru,Karnataka,India,Individual,Active,2026-05-04,2026,0,586248.51
+5568,Coimbatore,Tamil Nadu,India,Wholesale,Active,2023-03-28,2023,0,416914.05
+5569,Jaipur,Rajasthan,India,Individual,Active,2018-09-09,2018,0,452636.74
+5570,Coimbatore,Tamil Nadu,India,Corporate,Active,2024-04-07,2024,0,665160.78
+5571,Kolkata,West Bengal,India,Retail,Active,2019-12-26,2019,0,179398.41
+5572,Coimbatore,Tamil Nadu,India,Wholesale,Active,2024-03-15,2024,0,448556.89
+5573,Kolkata,West Bengal,India,Retail,Active,2026-02-19,2026,0,649161.11
+5574,Hyderabad,Telangana,India,Corporate,Active,2020-10-10,2020,0,792681.13
+5575,Delhi,Delhi,India,Wholesale,Active,2023-11-16,2023,0,716583.85
+5576,Chennai,Tamil Nadu,India,Corporate,Active,2023-04-13,2023,0,769175.07
+5577,Vellore,Tamil Nadu,India,Retail,Active,2024-02-23,2024,0,606951.15
+5578,Hyderabad,Telangana,India,Corporate,Active,2018-04-18,2018,0,124263.88
+5579,Jaipur,Rajasthan,India,Wholesale,Active,2019-09-01,2019,0,552037.11
+5580,Bengaluru,Karnataka,India,Corporate,Active,2024-03-18,2024,0,513214.79
+5581,Kochi,Kerala,India,Corporate,Active,2023-04-03,2023,0,574283.61
+5582,Vellore,Tamil Nadu,India,Wholesale,Active,2023-08-08,2023,0,590306.98
+5583,Jaipur,Rajasthan,India,Corporate,Active,2024-07-01,2024,0,254788.51
+5584,Chennai,Tamil Nadu,India,Corporate,Active,2022-07-02,2022,0,814495.64
+5585,Delhi,Delhi,India,Wholesale,Active,2026-11-20,2026,1,127146.30
+5586,Kochi,Kerala,India,Individual,Active,2020-07-21,2020,0,956581.42
+5587,Chennai,Tamil Nadu,India,Retail,Active,2026-05-02,2026,0,848243.15
+5588,Delhi,Delhi,India,Individual,Active,2018-07-05,2018,0,575222.90
+5589,Jaipur,Rajasthan,India,Retail,Active,2023-03-28,2023,0,934459.13
+5590,Kolkata,West Bengal,India,Corporate,Active,2021-07-18,2021,0,135867.88
+5591,Bengaluru,Karnataka,India,Wholesale,Active,2025-04-02,2025,0,760567.27
+5592,Bengaluru,Karnataka,India,Retail,Active,2018-10-05,2018,0,197655.32
+5593,Delhi,Delhi,India,Wholesale,Active,2018-11-06,2018,0,895492.26
+5594,Kolkata,West Bengal,India,Corporate,Active,2026-09-20,2026,0,475300.06
+5595,Mumbai,Maharashtra,India,Retail,Active,2020-03-20,2020,0,678855.49
+5596,Mumbai,Maharashtra,India,Corporate,Inactive,2022-01-04,2022,0,561900.83
+5597,Hyderabad,Telangana,India,Retail,Active,2025-06-10,2025,0,792726.37
+5598,Hyderabad,Telangana,India,Corporate,Active,2025-09-02,2025,0,743034.46
+5599,Pune,Maharashtra,India,Retail,Active,2021-07-14,2021,0,846213.94
+5600,Jaipur,Rajasthan,India,Corporate,Active,2023-11-01,2023,0,551170.94
+5601,Chennai,Tamil Nadu,India,Individual,Active,2025-12-15,2025,0,738452.10
+5602,Coimbatore,Tamil Nadu,India,Individual,Active,2019-11-03,2019,0,300684.16
+5603,Vellore,Tamil Nadu,India,Individual,Active,2023-11-14,2023,0,137643.51
+5604,Pune,Maharashtra,India,Corporate,Inactive,2018-02-20,2018,0,31956.20
+5605,Coimbatore,Tamil Nadu,India,Retail,Active,2020-07-02,2020,0,749660.12
+5606,Pune,Maharashtra,India,Wholesale,Active,2024-04-08,2024,0,76172.76
+5607,Coimbatore,Tamil Nadu,India,Retail,Active,2021-02-01,2021,0,143049.02
+5608,Hyderabad,Telangana,India,Individual,Active,2023-08-24,2023,0,613630.25
+5609,Mumbai,Maharashtra,India,Wholesale,Active,2018-09-03,2018,0,427742.65
+5610,Bengaluru,Karnataka,India,Wholesale,Active,2023-03-26,2023,0,109852.58
+5611,Bengaluru,Karnataka,India,Individual,Active,2023-03-09,2023,0,171320.56
+5612,Kolkata,West Bengal,India,Wholesale,Active,2024-08-04,2024,0,748928.68
+5613,Hyderabad,Telangana,India,Wholesale,Active,2020-04-12,2020,0,104124.50
+5614,Chennai,Tamil Nadu,India,Corporate,Active,2023-08-03,2023,0,150292.47
+5615,Jaipur,Rajasthan,India,Individual,Active,2025-12-26,2025,0,333010.75
+5616,Kolkata,West Bengal,India,Corporate,Inactive,2026-10-26,2026,1,121167.90
+5617,Mumbai,Maharashtra,India,Wholesale,Active,2019-02-03,2019,0,138109.30
+5618,Kolkata,West Bengal,India,Individual,Inactive,2022-06-10,2022,0,917424.17
+5619,Delhi,Delhi,India,Individual,Active,2019-12-16,2019,0,690333.36
+5620,Mumbai,Maharashtra,India,Retail,Active,2022-06-21,2022,0,746769.83
+5621,Hyderabad,Telangana,India,Individual,Active,2018-02-21,2018,0,474968.76
+5622,Bengaluru,Karnataka,India,Corporate,Active,2018-02-04,2018,0,860658.18
+5623,Kolkata,West Bengal,India,Retail,Active,2019-08-06,2019,0,597453.03
+5624,Pune,Maharashtra,India,Wholesale,Active,2022-01-01,2022,0,308500.25
+5625,Pune,Maharashtra,India,Corporate,Active,2018-12-28,2018,0,855505.40
+5626,Pune,Maharashtra,India,Individual,Active,2022-04-09,2022,0,840310.50
+5627,Delhi,Delhi,India,Wholesale,Active,2023-05-22,2023,0,911834.37
+5628,Coimbatore,Tamil Nadu,India,Individual,Active,2021-01-21,2021,0,801679.62
+5629,Kolkata,West Bengal,India,Wholesale,Active,2022-07-02,2022,0,120351.51
+5630,Ahmedabad,Gujarat,India,Corporate,Active,2020-04-09,2020,0,88013.87
+5631,Hyderabad,Telangana,India,Retail,Active,2024-05-11,2024,0,758261.43
+5632,Mumbai,Maharashtra,India,Individual,Active,2018-07-02,2018,0,698754.56
+5633,Jaipur,Rajasthan,India,Corporate,Active,2019-04-21,2019,0,641918.03
+5634,Chennai,Tamil Nadu,India,Retail,Active,2025-09-20,2025,0,587187.56
+5635,Mumbai,Maharashtra,India,Corporate,Active,2025-12-13,2025,0,984328.07
+5636,Kochi,Kerala,India,Wholesale,Active,2023-11-28,2023,0,841868.37
+5637,Hyderabad,Telangana,India,Retail,Active,2021-06-21,2021,0,765080.04
+5638,Vellore,Tamil Nadu,India,Wholesale,Active,2024-09-25,2024,0,840765.99
+5639,Kochi,Kerala,India,Corporate,Active,2025-06-02,2025,0,486924.08
+5640,Kochi,Kerala,India,Retail,Active,2019-09-11,2019,0,286948.99
+5641,Ahmedabad,Gujarat,India,Wholesale,Active,2023-03-19,2023,0,56696.57
+5642,Ahmedabad,Gujarat,India,Corporate,Active,2020-09-03,2020,0,405806.99
+5643,Pune,Maharashtra,India,Individual,Active,2021-12-20,2021,0,440370.25
+5644,Vellore,Tamil Nadu,India,Retail,Active,2023-05-02,2023,0,524979.58
+5645,Ahmedabad,Gujarat,India,Corporate,Active,2018-09-18,2018,0,111804.17
+5646,Jaipur,Rajasthan,India,Corporate,Active,2019-08-19,2019,0,784044.20
+5647,Bengaluru,Karnataka,India,Retail,Active,2021-02-06,2021,0,158578.25
+5648,Kochi,Kerala,India,Retail,Active,2021-09-28,2021,0,195491.57
+5649,Vellore,Tamil Nadu,India,Retail,Active,2022-02-07,2022,0,208913.23
+5650,Jaipur,Rajasthan,India,Individual,Active,2025-04-23,2025,0,684328.21
+5651,Coimbatore,Tamil Nadu,India,Corporate,Active,2018-10-09,2018,0,898973.47
+5652,Mumbai,Maharashtra,India,Corporate,Inactive,2026-08-03,2026,0,358819.99
+5653,Jaipur,Rajasthan,India,Individual,Active,2023-10-05,2023,0,866927.53
+5654,Mumbai,Maharashtra,India,Retail,Active,2026-08-16,2026,0,312998.81
+5655,Delhi,Delhi,India,Corporate,Active,2021-08-19,2021,0,532557.23
+5656,Pune,Maharashtra,India,Wholesale,Active,2019-03-19,2019,0,126077.03
+5657,Jaipur,Rajasthan,India,Individual,Active,2019-04-21,2019,0,488538.41
+5658,Jaipur,Rajasthan,India,Wholesale,Active,2018-03-28,2018,0,955811.71
+5659,Hyderabad,Telangana,India,Corporate,Active,2019-03-07,2019,0,859699.53
+5660,Kolkata,West Bengal,India,Wholesale,Active,2025-04-17,2025,0,227019.57
+5661,Vellore,Tamil Nadu,India,Retail,Active,2021-08-01,2021,0,959819.91
+5662,Ahmedabad,Gujarat,India,Corporate,Active,2020-02-08,2020,0,162044.87
+5663,Kolkata,West Bengal,India,Individual,Active,2018-10-26,2018,0,388067.02
+5664,Vellore,Tamil Nadu,India,Corporate,Active,2025-09-10,2025,0,551804.48
+5665,Jaipur,Rajasthan,India,Individual,Active,2022-11-15,2022,0,242748.76
+5666,Chennai,Tamil Nadu,India,Wholesale,Active,2022-10-09,2022,0,330330.71
+5667,Delhi,Delhi,India,Corporate,Active,2018-01-11,2018,0,857704.81
+5668,Kolkata,West Bengal,India,Corporate,Active,2019-11-04,2019,0,575534.48
+5669,Kolkata,West Bengal,India,Retail,Inactive,2023-01-26,2023,0,494213.66
+5670,Coimbatore,Tamil Nadu,India,Individual,Active,2023-09-16,2023,0,992301.32
+5671,Hyderabad,Telangana,India,Individual,Active,2019-06-28,2019,0,460091.99
+5672,Pune,Maharashtra,India,Corporate,Active,2024-11-16,2024,0,113345.44
+5673,Vellore,Tamil Nadu,India,Wholesale,Active,2024-12-03,2024,0,749974.18
+5674,Bengaluru,Karnataka,India,Individual,Active,2025-04-24,2025,0,249606.66
+5675,Vellore,Tamil Nadu,India,Corporate,Active,2025-01-25,2025,0,51794.52
+5676,Kolkata,West Bengal,India,Corporate,Active,2020-01-01,2020,0,68956.68
+5677,Vellore,Tamil Nadu,India,Wholesale,Active,2024-03-27,2024,0,148804.35
+5678,Hyderabad,Telangana,India,Retail,Active,2025-04-05,2025,0,946399.25
+5679,Ahmedabad,Gujarat,India,Retail,Active,2018-06-23,2018,0,633664.89
+5680,Chennai,Tamil Nadu,India,Retail,Active,2025-03-24,2025,0,560014.75
+5681,Ahmedabad,Gujarat,India,Individual,Active,2018-04-11,2018,0,579160.96
+5682,Pune,Maharashtra,India,Wholesale,Active,2026-12-09,2026,1,952675.40
+5683,Kochi,Kerala,India,Corporate,Active,2026-02-27,2026,0,57775.87
+5684,Chennai,Tamil Nadu,India,Wholesale,Active,2023-02-12,2023,0,34379.27
+5685,Chennai,Tamil Nadu,India,Corporate,Inactive,2019-12-13,2019,0,59549.15
+5686,Vellore,Tamil Nadu,India,Individual,Active,2021-05-28,2021,0,365386.73
+5687,Chennai,Tamil Nadu,India,Wholesale,Active,2024-11-16,2024,0,788842.28
+5688,Pune,Maharashtra,India,Individual,Active,2023-05-17,2023,0,64195.28
+5689,Chennai,Tamil Nadu,India,Retail,Active,2022-12-14,2022,0,400417.85
+5690,Hyderabad,Telangana,India,Individual,Active,2026-08-12,2026,0,300002.62
+5691,Ahmedabad,Gujarat,India,Retail,Active,2020-05-13,2020,0,436500.53
+5692,Bengaluru,Karnataka,India,Individual,Active,2026-01-23,2026,0,111947.48
+5693,Coimbatore,Tamil Nadu,India,Individual,Active,2019-07-12,2019,0,383932.18
+5694,Chennai,Tamil Nadu,India,Individual,Active,2022-04-04,2022,0,781485.53
+5695,Jaipur,Rajasthan,India,Retail,Active,2024-11-09,2024,0,881141.92
+5696,Vellore,Tamil Nadu,India,Retail,Active,2018-12-08,2018,0,416950.55
+5697,Mumbai,Maharashtra,India,Wholesale,Active,2022-07-04,2022,0,296112.09
+5698,Hyderabad,Telangana,India,Wholesale,Active,2023-11-17,2023,0,106897.66
+5699,Bengaluru,Karnataka,India,Corporate,Active,2020-09-25,2020,0,867347.93
+5700,Hyderabad,Telangana,India,Retail,Active,2022-08-23,2022,0,754462.02
+5701,Ahmedabad,Gujarat,India,Wholesale,Active,2019-12-28,2019,0,44514.78
+5702,Jaipur,Rajasthan,India,Retail,Inactive,2022-07-11,2022,0,253761.84
+5703,Ahmedabad,Gujarat,India,Retail,Active,2020-11-24,2020,0,571146.14
+5704,Delhi,Delhi,India,Wholesale,Active,2021-08-13,2021,0,857358.06
+5705,Bengaluru,Karnataka,India,Corporate,Active,2025-09-02,2025,0,366845.73
+5706,Kolkata,West Bengal,India,Retail,Active,2025-02-14,2025,0,323946.19
+5707,Delhi,Delhi,India,Individual,Active,2024-07-23,2024,0,598619.27
+5708,Mumbai,Maharashtra,India,Corporate,Active,2020-07-27,2020,0,135393.34
+5709,Ahmedabad,Gujarat,India,Retail,Active,2025-01-17,2025,0,335594.91
+5710,Jaipur,Rajasthan,India,Retail,Active,2023-11-14,2023,0,497813.30
+5711,Hyderabad,Telangana,India,Wholesale,Active,2025-08-16,2025,0,809834.86
+5712,Delhi,Delhi,India,Wholesale,Active,2018-03-12,2018,0,963643.33
+5713,Hyderabad,Telangana,India,Wholesale,Active,2018-11-27,2018,0,471833.67
+5714,Mumbai,Maharashtra,India,Wholesale,Active,2024-11-07,2024,0,935447.90
+5715,Mumbai,Maharashtra,India,Retail,Active,2023-12-11,2023,0,230258.65
+5716,Kochi,Kerala,India,Wholesale,Active,2022-03-01,2022,0,953213.91
+5717,Jaipur,Rajasthan,India,Corporate,Active,2025-03-16,2025,0,487932.61
+5718,Jaipur,Rajasthan,India,Wholesale,Active,2026-09-16,2026,0,845458.35
+5719,Kochi,Kerala,India,Retail,Active,2024-07-01,2024,0,815682.55
+5720,Jaipur,Rajasthan,India,Corporate,Active,2020-08-14,2020,0,650389.25
+5721,Hyderabad,Telangana,India,Retail,Active,2021-12-12,2021,0,806918.73
+5722,Bengaluru,Karnataka,India,Corporate,Active,2025-08-28,2025,0,296238.66
+5723,Hyderabad,Telangana,India,Retail,Active,2019-10-04,2019,0,592393.37
+5724,Jaipur,Rajasthan,India,Individual,Active,2025-03-11,2025,0,121630.79
+5725,Mumbai,Maharashtra,India,Corporate,Active,2024-10-16,2024,0,227955.70
+5726,Chennai,Tamil Nadu,India,Wholesale,Active,2018-09-03,2018,0,829206.73
+5727,Coimbatore,Tamil Nadu,India,Retail,Active,2021-08-10,2021,0,584862.79
+5728,Hyderabad,Telangana,India,Retail,Active,2022-02-18,2022,0,680922.05
+5729,Ahmedabad,Gujarat,India,Wholesale,Active,2019-02-21,2019,0,435016.71
+5730,Bengaluru,Karnataka,India,Individual,Active,2019-02-18,2019,0,281588.47
+5731,Ahmedabad,Gujarat,India,Corporate,Active,2023-02-03,2023,0,830739.69
+5732,Kochi,Kerala,India,Retail,Active,2018-06-20,2018,0,655145.82
+5733,Bengaluru,Karnataka,India,Wholesale,Active,2022-04-18,2022,0,889449.49
+5734,Hyderabad,Telangana,India,Wholesale,Active,2024-04-16,2024,0,77368.02
+5735,Kochi,Kerala,India,Corporate,Active,2020-08-16,2020,0,818670.66
+5736,Mumbai,Maharashtra,India,Retail,Active,2018-06-12,2018,0,626954.48
+5737,Jaipur,Rajasthan,India,Retail,Inactive,2022-11-25,2022,0,164993.41
+5738,Kochi,Kerala,India,Wholesale,Active,2025-12-16,2025,0,864099.21
+5739,Coimbatore,Tamil Nadu,India,Retail,Active,2026-07-15,2026,0,275683.16
+5740,Pune,Maharashtra,India,Corporate,Active,2019-01-10,2019,0,606888.10
+5741,Pune,Maharashtra,India,Wholesale,Active,2023-03-27,2023,0,498925.03
+5742,Kolkata,West Bengal,India,Individual,Active,2018-03-01,2018,0,711756.14
+5743,Vellore,Tamil Nadu,India,Corporate,Inactive,2019-03-20,2019,0,469981.11
+5744,Coimbatore,Tamil Nadu,India,Retail,Active,2024-06-15,2024,0,241467.08
+5745,Chennai,Tamil Nadu,India,Individual,Active,2019-10-07,2019,0,670179.03
+5746,Vellore,Tamil Nadu,India,Corporate,Active,2023-09-10,2023,0,955532.08
+5747,Bengaluru,Karnataka,India,Retail,Active,2025-01-23,2025,0,293351.18
+5748,Delhi,Delhi,India,Corporate,Active,2023-07-01,2023,0,945126.95
+5749,Kochi,Kerala,India,Retail,Active,2025-04-15,2025,0,816002.75
+5750,Vellore,Tamil Nadu,India,Retail,Active,2018-02-22,2018,0,177572.61
+5751,Kolkata,West Bengal,India,Retail,Active,2020-03-24,2020,0,100411.88
+5752,Mumbai,Maharashtra,India,Corporate,Active,2022-12-19,2022,0,917661.08
+5753,Vellore,Tamil Nadu,India,Wholesale,Active,2022-04-11,2022,0,832954.16
+5754,Kolkata,West Bengal,India,Wholesale,Active,2018-01-10,2018,0,752700.99
+5755,Kochi,Kerala,India,Corporate,Active,2019-10-11,2019,0,494871.06
+5756,Bengaluru,Karnataka,India,Individual,Active,2022-08-16,2022,0,851162.71
+5757,Kolkata,West Bengal,India,Individual,Active,2023-07-05,2023,0,841457.87
+5758,Hyderabad,Telangana,India,Wholesale,Active,2024-05-25,2024,0,671351.70
+5759,Pune,Maharashtra,India,Wholesale,Active,2019-12-25,2019,0,882814.72
+5760,Coimbatore,Tamil Nadu,India,Individual,Active,2025-08-04,2025,0,398115.40
+5761,Kolkata,West Bengal,India,Retail,Active,2018-02-19,2018,0,65987.63
+5762,Delhi,Delhi,India,Wholesale,Active,2026-07-28,2026,0,740768.79
+5763,Hyderabad,Telangana,India,Corporate,Active,2022-12-05,2022,0,755001.92
+5764,Jaipur,Rajasthan,India,Individual,Active,2018-09-18,2018,0,88177.61
+5765,Bengaluru,Karnataka,India,Wholesale,Inactive,2025-11-17,2025,0,880821.94
+5766,Delhi,Delhi,India,Individual,Active,2018-05-05,2018,0,312442.69
+5767,Chennai,Tamil Nadu,India,Individual,Active,2025-07-22,2025,0,67989.02
+5768,Hyderabad,Telangana,India,Corporate,Active,2021-07-12,2021,0,606069.20
+5769,Delhi,Delhi,India,Wholesale,Active,2024-07-24,2024,0,143461.45
+5770,Vellore,Tamil Nadu,India,Individual,Active,2023-01-01,2023,0,695616.50
+5771,Mumbai,Maharashtra,India,Retail,Active,2019-12-24,2019,0,914774.80
+5772,Coimbatore,Tamil Nadu,India,Individual,Active,2026-05-12,2026,0,541237.28
+5773,Delhi,Delhi,India,Individual,Active,2025-01-14,2025,0,614009.41
+5774,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-04-10,2026,0,35406.34
+5775,Coimbatore,Tamil Nadu,India,Wholesale,Active,2019-06-06,2019,0,631605.62
+5776,Bengaluru,Karnataka,India,Individual,Active,2024-08-09,2024,0,191313.55
+5777,Mumbai,Maharashtra,India,Individual,Active,2022-05-23,2022,0,113339.04
+5778,Coimbatore,Tamil Nadu,India,Corporate,Active,2023-07-26,2023,0,429567.97
+5779,Kolkata,West Bengal,India,Individual,Active,2026-01-05,2026,0,797323.90
+5780,Jaipur,Rajasthan,India,Individual,Active,2020-12-02,2020,0,245822.75
+5781,Mumbai,Maharashtra,India,Retail,Active,2023-10-04,2023,0,901535.48
+5782,Pune,Maharashtra,India,Retail,Active,2024-03-19,2024,0,925599.67
+5783,Pune,Maharashtra,India,Retail,Active,2018-03-25,2018,0,525596.50
+5784,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-10-05,2018,0,375597.15
+5785,Chennai,Tamil Nadu,India,Retail,Active,2024-10-09,2024,0,823896.06
+5786,Jaipur,Rajasthan,India,Wholesale,Active,2026-08-04,2026,0,894733.28
+5787,Chennai,Tamil Nadu,India,Wholesale,Inactive,2018-07-13,2018,0,992494.04
+5788,Bengaluru,Karnataka,India,Individual,Active,2021-01-25,2021,0,244516.48
+5789,Jaipur,Rajasthan,India,Retail,Active,2024-01-23,2024,0,890394.53
+5790,Ahmedabad,Gujarat,India,Wholesale,Active,2021-08-12,2021,0,480791.54
+5791,Chennai,Tamil Nadu,India,Retail,Active,2023-12-18,2023,0,39387.30
+5792,Kolkata,West Bengal,India,Wholesale,Active,2018-03-28,2018,0,135742.65
+5793,Jaipur,Rajasthan,India,Wholesale,Active,2018-06-21,2018,0,917668.05
+5794,Delhi,Delhi,India,Corporate,Active,2021-09-17,2021,0,497597.05
+5795,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-03-17,2026,0,360862.50
+5796,Chennai,Tamil Nadu,India,Wholesale,Active,2023-12-05,2023,0,846156.48
+5797,Vellore,Tamil Nadu,India,Individual,Active,2021-06-06,2021,0,805950.88
+5798,Delhi,Delhi,India,Individual,Active,2023-01-24,2023,0,880309.57
+5799,Vellore,Tamil Nadu,India,Corporate,Active,2026-01-12,2026,0,46514.11
+5800,Chennai,Tamil Nadu,India,Wholesale,Active,2025-05-21,2025,0,91051.85
+5801,Ahmedabad,Gujarat,India,Corporate,Active,2021-04-26,2021,0,789979.04
+5802,Ahmedabad,Gujarat,India,Corporate,Inactive,2022-08-08,2022,0,65991.20
+5803,Jaipur,Rajasthan,India,Retail,Active,2023-03-28,2023,0,979291.16
+5804,Bengaluru,Karnataka,India,Individual,Active,2024-01-15,2024,0,223495.99
+5805,Hyderabad,Telangana,India,Individual,Active,2019-03-21,2019,0,578304.91
+5806,Pune,Maharashtra,India,Wholesale,Active,2022-04-14,2022,0,686039.39
+5807,Jaipur,Rajasthan,India,Retail,Active,2022-12-11,2022,0,563125.25
+5808,Chennai,Tamil Nadu,India,Corporate,Active,2026-10-11,2026,0,795029.29
+5809,Vellore,Tamil Nadu,India,Retail,Active,2026-08-20,2026,0,786529.31
+5810,Jaipur,Rajasthan,India,Corporate,Active,2018-03-07,2018,0,259659.20
+5811,Kolkata,West Bengal,India,Retail,Active,2026-11-25,2026,1,28965.65
+5812,Chennai,Tamil Nadu,India,Wholesale,Active,2020-08-01,2020,0,264029.91
+5813,Pune,Maharashtra,India,Retail,Active,2024-07-17,2024,0,661009.24
+5814,Kochi,Kerala,India,Retail,Active,2020-08-11,2020,0,953554.60
+5815,Kolkata,West Bengal,India,Individual,Active,2018-06-07,2018,0,847056.84
+5816,Coimbatore,Tamil Nadu,India,Individual,Active,2021-04-28,2021,0,116033.44
+5817,Ahmedabad,Gujarat,India,Retail,Active,2026-03-10,2026,0,377888.71
+5818,Pune,Maharashtra,India,Retail,Active,2020-02-01,2020,0,843508.01
+5819,Kolkata,West Bengal,India,Retail,Active,2020-09-21,2020,0,35991.47
+5820,Pune,Maharashtra,India,Individual,Active,2026-11-17,2026,1,328788.48
+5821,Mumbai,Maharashtra,India,Individual,Active,2020-09-22,2020,0,436732.51
+5822,Jaipur,Rajasthan,India,Retail,Active,2025-10-05,2025,0,993568.81
+5823,Bengaluru,Karnataka,India,Wholesale,Active,2019-01-18,2019,0,569795.55
+5824,Kolkata,West Bengal,India,Individual,Active,2023-12-09,2023,0,945519.87
+5825,Hyderabad,Telangana,India,Wholesale,Active,2026-04-07,2026,0,550706.49
+5826,Delhi,Delhi,India,Individual,Active,2020-07-02,2020,0,678217.15
+5827,Chennai,Tamil Nadu,India,Wholesale,Active,2024-12-14,2024,0,923852.50
+5828,Ahmedabad,Gujarat,India,Individual,Active,2025-11-22,2025,0,542924.21
+5829,Chennai,Tamil Nadu,India,Corporate,Active,2021-08-17,2021,0,452844.79
+5830,Kochi,Kerala,India,Individual,Inactive,2026-09-16,2026,0,350292.92
+5831,Delhi,Delhi,India,Individual,Active,2026-11-04,2026,1,301612.69
+5832,Vellore,Tamil Nadu,India,Retail,Active,2025-11-11,2025,0,604345.42
+5833,Kochi,Kerala,India,Corporate,Active,2022-04-07,2022,0,463343.44
+5834,Chennai,Tamil Nadu,India,Retail,Active,2023-11-28,2023,0,156490.88
+5835,Chennai,Tamil Nadu,India,Individual,Active,2025-09-09,2025,0,769874.21
+5836,Delhi,Delhi,India,Retail,Active,2022-07-13,2022,0,523223.02
+5837,Pune,Maharashtra,India,Wholesale,Active,2023-11-05,2023,0,170946.77
+5838,Pune,Maharashtra,India,Individual,Active,2024-08-06,2024,0,994126.43
+5839,Kochi,Kerala,India,Individual,Inactive,2024-08-20,2024,0,121420.81
+5840,Hyderabad,Telangana,India,Corporate,Active,2019-04-17,2019,0,568170.82
+5841,Kolkata,West Bengal,India,Retail,Active,2021-04-20,2021,0,159381.02
+5842,Hyderabad,Telangana,India,Retail,Inactive,2024-11-17,2024,0,896103.92
+5843,Chennai,Tamil Nadu,India,Individual,Active,2021-06-13,2021,0,570571.32
+5844,Delhi,Delhi,India,Corporate,Active,2019-12-10,2019,0,494014.02
+5845,Chennai,Tamil Nadu,India,Retail,Active,2024-01-02,2024,0,427275.92
+5846,Pune,Maharashtra,India,Individual,Active,2018-10-26,2018,0,577402.36
+5847,Chennai,Tamil Nadu,India,Wholesale,Inactive,2018-10-04,2018,0,326182.99
+5848,Kochi,Kerala,India,Wholesale,Active,2021-01-02,2021,0,857856.26
+5849,Kochi,Kerala,India,Wholesale,Active,2025-12-10,2025,0,201375.49
+5850,Mumbai,Maharashtra,India,Retail,Active,2026-10-17,2026,1,779386.03
+5851,Vellore,Tamil Nadu,India,Individual,Active,2024-07-12,2024,0,69702.78
+5852,Jaipur,Rajasthan,India,Individual,Active,2026-11-22,2026,1,818420.40
+5853,Jaipur,Rajasthan,India,Individual,Active,2022-01-21,2022,0,421967.04
+5854,Delhi,Delhi,India,Wholesale,Active,2024-05-08,2024,0,768716.44
+5855,Coimbatore,Tamil Nadu,India,Wholesale,Active,2024-11-22,2024,0,973826.19
+5856,Delhi,Delhi,India,Wholesale,Active,2022-02-03,2022,0,708591.19
+5857,Bengaluru,Karnataka,India,Retail,Active,2026-09-24,2026,0,924962.57
+5858,Kochi,Kerala,India,Wholesale,Active,2020-01-09,2020,0,184559.46
+5859,Kolkata,West Bengal,India,Wholesale,Active,2020-04-02,2020,0,735321.00
+5860,Jaipur,Rajasthan,India,Wholesale,Active,2021-11-05,2021,0,312539.51
+5861,Bengaluru,Karnataka,India,Retail,Inactive,2021-12-05,2021,0,537167.59
+5862,Delhi,Delhi,India,Corporate,Active,2022-12-02,2022,0,280282.39
+5863,Pune,Maharashtra,India,Wholesale,Active,2022-10-16,2022,0,125205.13
+5864,Pune,Maharashtra,India,Retail,Active,2025-11-26,2025,0,570060.46
+5865,Coimbatore,Tamil Nadu,India,Retail,Active,2026-03-19,2026,0,645153.39
+5866,Coimbatore,Tamil Nadu,India,Retail,Active,2026-03-14,2026,0,970370.36
+5867,Coimbatore,Tamil Nadu,India,Wholesale,Active,2022-09-19,2022,0,482833.14
+5868,Vellore,Tamil Nadu,India,Wholesale,Active,2023-09-24,2023,0,894931.91
+5869,Vellore,Tamil Nadu,India,Individual,Active,2020-04-10,2020,0,723803.68
+5870,Chennai,Tamil Nadu,India,Corporate,Active,2026-01-14,2026,0,601148.17
+5871,Hyderabad,Telangana,India,Wholesale,Active,2021-06-15,2021,0,628893.06
+5872,Bengaluru,Karnataka,India,Individual,Active,2019-03-17,2019,0,799294.41
+5873,Hyderabad,Telangana,India,Wholesale,Active,2020-02-22,2020,0,281011.44
+5874,Kolkata,West Bengal,India,Retail,Active,2026-10-07,2026,0,81783.64
+5875,Delhi,Delhi,India,Retail,Active,2018-10-12,2018,0,677012.76
+5876,Pune,Maharashtra,India,Wholesale,Active,2020-05-23,2020,0,466678.89
+5877,Delhi,Delhi,India,Corporate,Active,2026-01-09,2026,0,454905.88
+5878,Delhi,Delhi,India,Retail,Active,2025-11-11,2025,0,839907.69
+5879,Ahmedabad,Gujarat,India,Individual,Active,2019-09-10,2019,0,869706.56
+5880,Kolkata,West Bengal,India,Corporate,Active,2021-09-12,2021,0,414776.21
+5881,Ahmedabad,Gujarat,India,Wholesale,Active,2018-02-14,2018,0,186798.26
+5882,Delhi,Delhi,India,Wholesale,Active,2026-12-16,2026,1,741210.06
+5883,Bengaluru,Karnataka,India,Corporate,Active,2019-11-15,2019,0,650117.63
+5884,Mumbai,Maharashtra,India,Retail,Active,2024-02-20,2024,0,394973.38
+5885,Coimbatore,Tamil Nadu,India,Retail,Active,2019-01-26,2019,0,540135.31
+5886,Ahmedabad,Gujarat,India,Individual,Active,2023-09-22,2023,0,367259.00
+5887,Mumbai,Maharashtra,India,Individual,Active,2021-09-21,2021,0,623714.82
+5888,Bengaluru,Karnataka,India,Retail,Active,2025-07-20,2025,0,642854.55
+5889,Jaipur,Rajasthan,India,Retail,Active,2020-12-28,2020,0,780340.20
+5890,Kolkata,West Bengal,India,Wholesale,Active,2025-06-07,2025,0,184430.74
+5891,Bengaluru,Karnataka,India,Retail,Active,2026-08-05,2026,0,612527.08
+5892,Hyderabad,Telangana,India,Individual,Active,2022-05-21,2022,0,603872.29
+5893,Jaipur,Rajasthan,India,Wholesale,Active,2022-06-22,2022,0,677403.47
+5894,Chennai,Tamil Nadu,India,Corporate,Active,2020-08-15,2020,0,674119.68
+5895,Mumbai,Maharashtra,India,Individual,Active,2018-11-15,2018,0,898306.71
+5896,Vellore,Tamil Nadu,India,Retail,Active,2019-01-07,2019,0,152315.64
+5897,Mumbai,Maharashtra,India,Individual,Active,2019-05-09,2019,0,628759.58
+5898,Kochi,Kerala,India,Wholesale,Active,2025-11-13,2025,0,78227.41
+5899,Hyderabad,Telangana,India,Wholesale,Active,2018-02-01,2018,0,358610.62
+5900,Hyderabad,Telangana,India,Retail,Active,2025-06-14,2025,0,885344.92
+5901,Ahmedabad,Gujarat,India,Individual,Active,2025-08-10,2025,0,447390.12
+5902,Chennai,Tamil Nadu,India,Wholesale,Active,2020-04-08,2020,0,893920.40
+5903,Kochi,Kerala,India,Retail,Active,2020-02-10,2020,0,841910.81
+5904,Mumbai,Maharashtra,India,Wholesale,Active,2021-08-08,2021,0,185792.58
+5905,Delhi,Delhi,India,Corporate,Active,2026-02-21,2026,0,85850.10
+5906,Jaipur,Rajasthan,India,Individual,Active,2024-02-12,2024,0,446034.95
+5907,Ahmedabad,Gujarat,India,Individual,Active,2018-04-14,2018,0,287464.38
+5908,Jaipur,Rajasthan,India,Wholesale,Active,2025-08-20,2025,0,427098.34
+5909,Ahmedabad,Gujarat,India,Retail,Active,2024-11-02,2024,0,831712.33
+5910,Coimbatore,Tamil Nadu,India,Wholesale,Active,2026-04-01,2026,0,719345.89
+5911,Ahmedabad,Gujarat,India,Corporate,Active,2026-09-17,2026,0,468887.58
+5912,Kolkata,West Bengal,India,Wholesale,Active,2024-09-22,2024,0,922581.81
+5913,Kochi,Kerala,India,Retail,Active,2021-01-28,2021,0,88182.51
+5914,Delhi,Delhi,India,Corporate,Active,2023-10-12,2023,0,855725.17
+5915,Bengaluru,Karnataka,India,Wholesale,Active,2024-08-28,2024,0,397311.54
+5916,Kolkata,West Bengal,India,Corporate,Active,2019-05-01,2019,0,948762.57
+5917,Pune,Maharashtra,India,Individual,Active,2022-10-21,2022,0,434636.87
+5918,Ahmedabad,Gujarat,India,Individual,Active,2022-11-21,2022,0,389357.69
+5919,Jaipur,Rajasthan,India,Individual,Active,2021-08-18,2021,0,380463.76
+5920,Vellore,Tamil Nadu,India,Wholesale,Active,2021-07-26,2021,0,905136.64
+5921,Hyderabad,Telangana,India,Individual,Active,2024-12-10,2024,0,775737.68
+5922,Kolkata,West Bengal,India,Wholesale,Active,2019-06-04,2019,0,910090.43
+5923,Ahmedabad,Gujarat,India,Corporate,Active,2019-12-21,2019,0,448164.61
+5924,Ahmedabad,Gujarat,India,Individual,Active,2018-01-20,2018,0,649479.78
+5925,Kolkata,West Bengal,India,Retail,Active,2019-05-10,2019,0,874309.69
+5926,Vellore,Tamil Nadu,India,Corporate,Active,2025-08-22,2025,0,971090.54
+5927,Delhi,Delhi,India,Wholesale,Active,2018-09-01,2018,0,565511.94
+5928,Jaipur,Rajasthan,India,Wholesale,Active,2018-05-20,2018,0,709123.23
+5929,Chennai,Tamil Nadu,India,Individual,Active,2018-04-02,2018,0,752754.09
+5930,Pune,Maharashtra,India,Retail,Active,2019-08-12,2019,0,198621.47
+5931,Hyderabad,Telangana,India,Individual,Active,2022-11-15,2022,0,619770.92
+5932,Mumbai,Maharashtra,India,Individual,Active,2026-04-06,2026,0,105681.40
+5933,Pune,Maharashtra,India,Retail,Active,2021-04-09,2021,0,921360.62
+5934,Delhi,Delhi,India,Corporate,Active,2018-09-11,2018,0,437078.22
+5935,Ahmedabad,Gujarat,India,Wholesale,Active,2023-12-12,2023,0,274666.28
+5936,Vellore,Tamil Nadu,India,Wholesale,Active,2021-09-21,2021,0,656754.98
+5937,Pune,Maharashtra,India,Wholesale,Active,2022-02-22,2022,0,983104.12
+5938,Bengaluru,Karnataka,India,Corporate,Active,2020-04-16,2020,0,619548.76
+5939,Delhi,Delhi,India,Corporate,Active,2023-03-27,2023,0,168527.08
+5940,Kochi,Kerala,India,Retail,Active,2020-02-24,2020,0,796811.26
+5941,Mumbai,Maharashtra,India,Corporate,Active,2024-03-18,2024,0,389441.20
+5942,Kochi,Kerala,India,Wholesale,Active,2022-12-11,2022,0,787377.48
+5943,Hyderabad,Telangana,India,Retail,Active,2018-08-28,2018,0,207502.39
+5944,Kolkata,West Bengal,India,Retail,Active,2025-12-06,2025,0,47715.61
+5945,Coimbatore,Tamil Nadu,India,Individual,Active,2023-09-15,2023,0,383010.50
+5946,Jaipur,Rajasthan,India,Retail,Active,2020-07-05,2020,0,388943.69
+5947,Vellore,Tamil Nadu,India,Individual,Active,2023-04-28,2023,0,988500.03
+5948,Hyderabad,Telangana,India,Retail,Active,2019-05-15,2019,0,854904.35
+5949,Kochi,Kerala,India,Retail,Active,2024-04-24,2024,0,987909.76
+5950,Delhi,Delhi,India,Corporate,Active,2018-09-01,2018,0,551133.78
+5951,Kochi,Kerala,India,Retail,Active,2019-03-23,2019,0,806025.70
+5952,Kochi,Kerala,India,Wholesale,Active,2023-04-25,2023,0,348870.85
+5953,Mumbai,Maharashtra,India,Corporate,Active,2024-03-06,2024,0,790302.92
+5954,Hyderabad,Telangana,India,Corporate,Active,2022-03-19,2022,0,529861.61
+5955,Kolkata,West Bengal,India,Corporate,Active,2024-01-24,2024,0,615082.35
+5956,Vellore,Tamil Nadu,India,Corporate,Active,2018-07-22,2018,0,625944.03
+5957,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-12-13,2026,1,497625.05
+5958,Delhi,Delhi,India,Individual,Active,2019-01-08,2019,0,376286.77
+5959,Jaipur,Rajasthan,India,Wholesale,Active,2024-03-11,2024,0,96485.23
+5960,Coimbatore,Tamil Nadu,India,Individual,Inactive,2026-09-18,2026,0,685426.93
+5961,Kolkata,West Bengal,India,Individual,Active,2026-07-25,2026,0,887285.91
+5962,Vellore,Tamil Nadu,India,Retail,Active,2022-10-24,2022,0,50025.43
+5963,Pune,Maharashtra,India,Wholesale,Active,2026-01-17,2026,0,279544.23
+5964,Bengaluru,Karnataka,India,Retail,Active,2025-03-25,2025,0,862411.07
+5965,Delhi,Delhi,India,Individual,Active,2025-07-07,2025,0,722225.70
+5966,Kolkata,West Bengal,India,Corporate,Active,2018-05-08,2018,0,70490.71
+5967,Delhi,Delhi,India,Wholesale,Active,2025-06-25,2025,0,197162.11
+5968,Kolkata,West Bengal,India,Retail,Active,2018-02-26,2018,0,186978.37
+5969,Kochi,Kerala,India,Retail,Active,2021-02-04,2021,0,326440.23
+5970,Chennai,Tamil Nadu,India,Retail,Active,2020-11-07,2020,0,539628.81
+5971,Chennai,Tamil Nadu,India,Wholesale,Active,2022-03-23,2022,0,537735.74
+5972,Vellore,Tamil Nadu,India,Corporate,Active,2026-06-20,2026,0,48698.41
+5973,Pune,Maharashtra,India,Retail,Active,2023-03-28,2023,0,112195.06
+5974,Vellore,Tamil Nadu,India,Individual,Active,2018-10-12,2018,0,974233.46
+5975,Delhi,Delhi,India,Corporate,Active,2020-06-03,2020,0,177198.54
+5976,Chennai,Tamil Nadu,India,Individual,Active,2019-04-22,2019,0,854307.41
+5977,Kolkata,West Bengal,India,Wholesale,Active,2019-10-10,2019,0,403462.93
+5978,Kochi,Kerala,India,Retail,Active,2021-07-02,2021,0,177801.48
+5979,Hyderabad,Telangana,India,Retail,Active,2023-01-23,2023,0,742425.58
+5980,Kochi,Kerala,India,Individual,Active,2023-04-08,2023,0,955850.26
+5981,Pune,Maharashtra,India,Wholesale,Active,2020-06-03,2020,0,393419.42
+5982,Bengaluru,Karnataka,India,Corporate,Active,2018-06-22,2018,0,240805.44
+5983,Ahmedabad,Gujarat,India,Corporate,Active,2024-08-07,2024,0,311081.03
+5984,Hyderabad,Telangana,India,Retail,Active,2019-11-27,2019,0,429501.36
+5985,Ahmedabad,Gujarat,India,Wholesale,Active,2018-04-26,2018,0,493502.30
+5986,Ahmedabad,Gujarat,India,Individual,Active,2019-10-11,2019,0,51972.89
+5987,Vellore,Tamil Nadu,India,Individual,Active,2024-03-22,2024,0,115209.74
+5988,Kolkata,West Bengal,India,Individual,Active,2021-11-04,2021,0,965961.11
+5989,Bengaluru,Karnataka,India,Wholesale,Active,2022-11-12,2022,0,403797.35
+5990,Jaipur,Rajasthan,India,Individual,Active,2020-01-04,2020,0,161933.51
+5991,Vellore,Tamil Nadu,India,Individual,Active,2024-06-04,2024,0,420818.54
+5992,Ahmedabad,Gujarat,India,Wholesale,Inactive,2019-08-25,2019,0,141984.71
+5993,Ahmedabad,Gujarat,India,Wholesale,Active,2020-07-27,2020,0,807353.14
+5994,Vellore,Tamil Nadu,India,Wholesale,Active,2024-11-06,2024,0,991813.95
+5995,Jaipur,Rajasthan,India,Retail,Active,2024-06-14,2024,0,789969.33
+5996,Coimbatore,Tamil Nadu,India,Individual,Active,2018-05-28,2018,0,832694.74
+5997,Jaipur,Rajasthan,India,Wholesale,Active,2023-04-10,2023,0,111177.66
+5998,Coimbatore,Tamil Nadu,India,Wholesale,Active,2025-02-22,2025,0,237435.79
+5999,Mumbai,Maharashtra,India,Corporate,Active,2023-06-01,2023,0,637426.20
+6000,Pune,Maharashtra,India,Wholesale,Active,2023-05-16,2023,0,156850.40
+6001,Coimbatore,Tamil Nadu,India,Individual,Inactive,2022-04-14,2022,0,576355.49
+6002,Hyderabad,Telangana,India,Retail,Active,2023-01-21,2023,0,673388.77
+6003,Coimbatore,Tamil Nadu,India,Retail,Active,2021-07-01,2021,0,82767.36
+6004,Coimbatore,Tamil Nadu,India,Corporate,Active,2020-06-06,2020,0,669223.43
+6005,Hyderabad,Telangana,India,Individual,Active,2019-08-14,2019,0,909793.80
+6006,Vellore,Tamil Nadu,India,Corporate,Active,2025-06-09,2025,0,978028.50
+6007,Chennai,Tamil Nadu,India,Individual,Active,2023-09-09,2023,0,459471.07
+6008,Bengaluru,Karnataka,India,Corporate,Active,2024-10-21,2024,0,806319.07
+6009,Jaipur,Rajasthan,India,Retail,Active,2023-07-04,2023,0,302769.38
+6010,Pune,Maharashtra,India,Wholesale,Active,2025-07-09,2025,0,397854.14
+6011,Chennai,Tamil Nadu,India,Wholesale,Inactive,2026-05-12,2026,0,266618.00
+6012,Ahmedabad,Gujarat,India,Corporate,Active,2020-06-15,2020,0,526775.43
+6013,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-06-21,2026,0,540494.86
+6014,Mumbai,Maharashtra,India,Retail,Active,2023-03-01,2023,0,353913.85
+6015,Kolkata,West Bengal,India,Wholesale,Active,2019-10-26,2019,0,206034.45
+6016,Ahmedabad,Gujarat,India,Corporate,Active,2018-06-07,2018,0,892320.64
+6017,Kolkata,West Bengal,India,Individual,Active,2021-01-08,2021,0,126988.37
+6018,Delhi,Delhi,India,Individual,Active,2025-07-19,2025,0,741093.27
+6019,Delhi,Delhi,India,Retail,Active,2019-10-15,2019,0,310906.45
+6020,Hyderabad,Telangana,India,Individual,Active,2023-12-09,2023,0,892386.72
+6021,Delhi,Delhi,India,Individual,Active,2024-08-07,2024,0,777414.46
+6022,Mumbai,Maharashtra,India,Retail,Active,2023-07-16,2023,0,634308.44
+6023,Coimbatore,Tamil Nadu,India,Wholesale,Active,2024-04-06,2024,0,949075.87
+6024,Chennai,Tamil Nadu,India,Individual,Active,2021-11-28,2021,0,343303.17
+6025,Mumbai,Maharashtra,India,Individual,Active,2019-05-03,2019,0,895463.49
+6026,Jaipur,Rajasthan,India,Individual,Active,2021-03-19,2021,0,649916.99
+6027,Chennai,Tamil Nadu,India,Retail,Active,2023-12-21,2023,0,797628.83
+6028,Hyderabad,Telangana,India,Corporate,Active,2020-04-14,2020,0,475934.06
+6029,Vellore,Tamil Nadu,India,Individual,Active,2021-02-17,2021,0,208731.16
+6030,Delhi,Delhi,India,Individual,Active,2019-07-24,2019,0,88745.05
+6031,Hyderabad,Telangana,India,Wholesale,Active,2025-07-06,2025,0,474731.70
+6032,Bengaluru,Karnataka,India,Retail,Active,2023-05-04,2023,0,874050.91
+6033,Bengaluru,Karnataka,India,Wholesale,Active,2019-11-04,2019,0,602642.13
+6034,Bengaluru,Karnataka,India,Wholesale,Active,2025-11-24,2025,0,243003.23
+6035,Vellore,Tamil Nadu,India,Individual,Active,2022-09-22,2022,0,419485.87
+6036,Chennai,Tamil Nadu,India,Individual,Active,2026-09-02,2026,0,757279.14
+6037,Hyderabad,Telangana,India,Corporate,Active,2022-07-26,2022,0,446424.54
+6038,Hyderabad,Telangana,India,Retail,Active,2024-01-26,2024,0,838636.29
+6039,Ahmedabad,Gujarat,India,Retail,Active,2021-12-03,2021,0,913126.39
+6040,Ahmedabad,Gujarat,India,Individual,Active,2021-09-24,2021,0,658685.45
+6041,Jaipur,Rajasthan,India,Individual,Active,2026-12-08,2026,1,416795.01
+6042,Hyderabad,Telangana,India,Retail,Active,2020-12-16,2020,0,566108.51
+6043,Bengaluru,Karnataka,India,Individual,Active,2025-11-05,2025,0,569309.12
+6044,Bengaluru,Karnataka,India,Individual,Active,2020-06-23,2020,0,934210.82
+6045,Pune,Maharashtra,India,Wholesale,Active,2025-02-14,2025,0,95853.42
+6046,Kolkata,West Bengal,India,Wholesale,Active,2025-07-01,2025,0,607901.67
+6047,Coimbatore,Tamil Nadu,India,Individual,Active,2024-12-22,2024,0,28705.65
+6048,Bengaluru,Karnataka,India,Corporate,Active,2019-07-16,2019,0,458123.81
+6049,Ahmedabad,Gujarat,India,Individual,Active,2026-06-21,2026,0,782666.65
+6050,Coimbatore,Tamil Nadu,India,Wholesale,Active,2025-11-17,2025,0,268679.39
+6051,Pune,Maharashtra,India,Retail,Active,2026-12-05,2026,1,188208.44
+6052,Kolkata,West Bengal,India,Corporate,Active,2024-02-28,2024,0,250418.96
+6053,Kochi,Kerala,India,Wholesale,Active,2024-08-18,2024,0,401073.09
+6054,Vellore,Tamil Nadu,India,Individual,Active,2022-12-03,2022,0,273940.19
+6055,Coimbatore,Tamil Nadu,India,Retail,Active,2018-09-07,2018,0,324881.34
+6056,Coimbatore,Tamil Nadu,India,Individual,Active,2021-08-18,2021,0,492656.09
+6057,Coimbatore,Tamil Nadu,India,Corporate,Active,2025-08-14,2025,0,620940.15
+6058,Mumbai,Maharashtra,India,Individual,Active,2019-12-08,2019,0,440977.46
+6059,Hyderabad,Telangana,India,Corporate,Active,2019-12-14,2019,0,959091.48
+6060,Kochi,Kerala,India,Individual,Active,2021-11-08,2021,0,908538.54
+6061,Mumbai,Maharashtra,India,Retail,Active,2021-06-16,2021,0,891966.00
+6062,Coimbatore,Tamil Nadu,India,Corporate,Active,2022-06-17,2022,0,453816.35
+6063,Ahmedabad,Gujarat,India,Wholesale,Active,2020-04-25,2020,0,152263.82
+6064,Chennai,Tamil Nadu,India,Individual,Inactive,2020-06-27,2020,0,176520.59
+6065,Kolkata,West Bengal,India,Individual,Active,2020-10-11,2020,0,915310.17
+6066,Kochi,Kerala,India,Corporate,Active,2018-04-15,2018,0,599372.50
+6067,Kolkata,West Bengal,India,Corporate,Active,2018-05-07,2018,0,451117.20
+6068,Kolkata,West Bengal,India,Individual,Active,2018-09-24,2018,0,39800.21
+6069,Vellore,Tamil Nadu,India,Corporate,Active,2025-01-28,2025,0,686456.73
+6070,Ahmedabad,Gujarat,India,Wholesale,Active,2022-01-06,2022,0,202070.56
+6071,Vellore,Tamil Nadu,India,Retail,Active,2024-06-15,2024,0,318748.61
+6072,Jaipur,Rajasthan,India,Individual,Active,2020-09-03,2020,0,789610.90
+6073,Mumbai,Maharashtra,India,Individual,Active,2023-08-07,2023,0,582938.21
+6074,Chennai,Tamil Nadu,India,Individual,Active,2024-07-27,2024,0,668491.57
+6075,Vellore,Tamil Nadu,India,Wholesale,Active,2025-07-13,2025,0,701278.68
+6076,Delhi,Delhi,India,Retail,Inactive,2019-09-03,2019,0,870138.64
+6077,Mumbai,Maharashtra,India,Individual,Active,2025-06-28,2025,0,399892.88
+6078,Coimbatore,Tamil Nadu,India,Corporate,Active,2024-01-12,2024,0,817549.30
+6079,Kochi,Kerala,India,Individual,Active,2024-10-13,2024,0,526046.16
+6080,Kolkata,West Bengal,India,Individual,Inactive,2026-01-10,2026,0,213138.98
+6081,Hyderabad,Telangana,India,Retail,Active,2026-08-09,2026,0,142916.28
+6082,Bengaluru,Karnataka,India,Corporate,Active,2025-10-02,2025,0,882194.51
+6083,Kochi,Kerala,India,Corporate,Active,2022-05-07,2022,0,292811.01
+6084,Mumbai,Maharashtra,India,Individual,Active,2023-08-20,2023,0,488575.92
+6085,Pune,Maharashtra,India,Corporate,Active,2026-08-05,2026,0,942621.49
+6086,Kolkata,West Bengal,India,Individual,Active,2021-08-23,2021,0,302697.83
+6087,Delhi,Delhi,India,Corporate,Active,2025-08-13,2025,0,749797.77
+6088,Coimbatore,Tamil Nadu,India,Individual,Active,2022-10-13,2022,0,599619.49
+6089,Mumbai,Maharashtra,India,Wholesale,Active,2025-10-04,2025,0,351120.78
+6090,Coimbatore,Tamil Nadu,India,Corporate,Active,2026-12-20,2026,1,392641.02
+6091,Pune,Maharashtra,India,Wholesale,Active,2022-02-08,2022,0,772369.09
+6092,Kolkata,West Bengal,India,Retail,Active,2024-10-28,2024,0,530261.68
+6093,Vellore,Tamil Nadu,India,Individual,Active,2022-02-18,2022,0,752238.18
+6094,Hyderabad,Telangana,India,Wholesale,Active,2018-11-10,2018,0,206601.23
+6095,Coimbatore,Tamil Nadu,India,Retail,Active,2023-05-09,2023,0,87150.18
+6096,Hyderabad,Telangana,India,Individual,Inactive,2025-11-06,2025,0,469964.55
+6097,Ahmedabad,Gujarat,India,Individual,Active,2021-10-04,2021,0,258252.88
+6098,Kolkata,West Bengal,India,Individual,Active,2018-04-11,2018,0,684065.43
+6099,Jaipur,Rajasthan,India,Retail,Active,2023-09-16,2023,0,374272.84
+6100,Ahmedabad,Gujarat,India,Retail,Inactive,2021-10-21,2021,0,841585.70
+6101,Delhi,Delhi,India,Retail,Active,2022-11-26,2022,0,783264.12
+6102,Pune,Maharashtra,India,Individual,Active,2020-07-14,2020,0,418660.48
+6103,Bengaluru,Karnataka,India,Individual,Active,2026-07-07,2026,0,939991.85
+6104,Pune,Maharashtra,India,Wholesale,Active,2020-05-22,2020,0,51545.24
+6105,Pune,Maharashtra,India,Wholesale,Active,2023-05-19,2023,0,244372.96
+6106,Bengaluru,Karnataka,India,Corporate,Active,2022-10-21,2022,0,131213.78
+6107,Coimbatore,Tamil Nadu,India,Corporate,Active,2018-09-21,2018,0,867435.93
+6108,Hyderabad,Telangana,India,Corporate,Active,2026-03-18,2026,0,827248.24
+6109,Pune,Maharashtra,India,Retail,Active,2023-01-10,2023,0,628516.59
+6110,Chennai,Tamil Nadu,India,Wholesale,Active,2019-10-06,2019,0,154707.04
+6111,Hyderabad,Telangana,India,Wholesale,Active,2019-06-21,2019,0,702811.10
+6112,Pune,Maharashtra,India,Retail,Active,2026-07-28,2026,0,818818.15
+6113,Ahmedabad,Gujarat,India,Wholesale,Active,2021-04-08,2021,0,906893.70
+6114,Kolkata,West Bengal,India,Retail,Active,2022-05-26,2022,0,106874.82
+6115,Kochi,Kerala,India,Retail,Active,2020-10-27,2020,0,299308.39
+6116,Vellore,Tamil Nadu,India,Corporate,Active,2026-05-03,2026,0,647479.57
+6117,Coimbatore,Tamil Nadu,India,Wholesale,Active,2021-05-21,2021,0,299406.69
+6118,Coimbatore,Tamil Nadu,India,Retail,Active,2018-04-25,2018,0,468587.18
+6119,Hyderabad,Telangana,India,Corporate,Active,2022-11-02,2022,0,712726.77
+6120,Ahmedabad,Gujarat,India,Wholesale,Active,2019-05-22,2019,0,879574.83
+6121,Coimbatore,Tamil Nadu,India,Retail,Active,2023-11-23,2023,0,810951.03
+6122,Delhi,Delhi,India,Retail,Active,2026-02-27,2026,0,800211.90
+6123,Bengaluru,Karnataka,India,Wholesale,Active,2022-01-15,2022,0,42994.77
+6124,Kolkata,West Bengal,India,Wholesale,Active,2020-11-09,2020,0,774621.36
+6125,Mumbai,Maharashtra,India,Retail,Active,2019-03-02,2019,0,130933.35
+6126,Kochi,Kerala,India,Wholesale,Active,2023-10-15,2023,0,257441.15
+6127,Vellore,Tamil Nadu,India,Wholesale,Active,2023-09-09,2023,0,289678.66
+6128,Coimbatore,Tamil Nadu,India,Individual,Inactive,2026-01-23,2026,0,84651.87
+6129,Kochi,Kerala,India,Retail,Active,2021-02-19,2021,0,261863.00
+6130,Mumbai,Maharashtra,India,Wholesale,Active,2021-10-01,2021,0,643168.28
+6131,Bengaluru,Karnataka,India,Individual,Active,2020-12-20,2020,0,896266.22
+6132,Kochi,Kerala,India,Wholesale,Active,2023-12-12,2023,0,616824.63
+6133,Mumbai,Maharashtra,India,Corporate,Active,2025-09-23,2025,0,612303.30
+6134,Bengaluru,Karnataka,India,Wholesale,Active,2019-01-19,2019,0,767812.81
+6135,Kolkata,West Bengal,India,Retail,Active,2020-09-28,2020,0,200607.27
+6136,Kolkata,West Bengal,India,Individual,Active,2021-10-15,2021,0,571833.14
+6137,Mumbai,Maharashtra,India,Wholesale,Active,2026-05-13,2026,0,357935.72
+6138,Jaipur,Rajasthan,India,Corporate,Active,2023-11-24,2023,0,914395.59
+6139,Kolkata,West Bengal,India,Wholesale,Active,2026-08-12,2026,0,77118.24
+6140,Chennai,Tamil Nadu,India,Wholesale,Active,2020-01-16,2020,0,415379.24
+6141,Chennai,Tamil Nadu,India,Retail,Active,2025-05-07,2025,0,830235.53
+6142,Hyderabad,Telangana,India,Corporate,Active,2025-08-07,2025,0,315425.34
+6143,Hyderabad,Telangana,India,Retail,Active,2018-11-16,2018,0,103688.89
+6144,Ahmedabad,Gujarat,India,Corporate,Active,2018-02-03,2018,0,763381.84
+6145,Coimbatore,Tamil Nadu,India,Corporate,Active,2019-12-13,2019,0,895876.75
+6146,Jaipur,Rajasthan,India,Individual,Active,2024-07-22,2024,0,991235.90
+6147,Ahmedabad,Gujarat,India,Wholesale,Active,2021-06-06,2021,0,156798.67
+6148,Chennai,Tamil Nadu,India,Individual,Active,2026-04-04,2026,0,98354.42
+6149,Jaipur,Rajasthan,India,Individual,Inactive,2026-04-06,2026,0,82929.56
+6150,Hyderabad,Telangana,India,Individual,Active,2019-12-13,2019,0,561093.89
+6151,Hyderabad,Telangana,India,Retail,Active,2020-09-28,2020,0,161787.63
+6152,Hyderabad,Telangana,India,Individual,Active,2024-12-09,2024,0,396260.26
+6153,Chennai,Tamil Nadu,India,Retail,Active,2024-08-21,2024,0,540154.38
+6154,Coimbatore,Tamil Nadu,India,Individual,Active,2019-05-04,2019,0,472653.38
+6155,Chennai,Tamil Nadu,India,Individual,Active,2026-11-09,2026,1,733254.63
+6156,Delhi,Delhi,India,Retail,Active,2018-12-12,2018,0,746693.87
+6157,Mumbai,Maharashtra,India,Corporate,Active,2025-06-15,2025,0,810417.21
+6158,Jaipur,Rajasthan,India,Retail,Inactive,2025-12-11,2025,0,933374.39
+6159,Chennai,Tamil Nadu,India,Retail,Active,2021-12-27,2021,0,331626.22
+6160,Chennai,Tamil Nadu,India,Wholesale,Active,2026-01-10,2026,0,880052.60
+6161,Ahmedabad,Gujarat,India,Individual,Inactive,2026-03-01,2026,0,175066.91
+6162,Delhi,Delhi,India,Retail,Active,2023-06-09,2023,0,809819.87
+6163,Vellore,Tamil Nadu,India,Individual,Active,2024-04-17,2024,0,484327.60
+6164,Jaipur,Rajasthan,India,Individual,Inactive,2021-01-07,2021,0,487832.58
+6165,Pune,Maharashtra,India,Individual,Active,2021-11-08,2021,0,788200.35
+6166,Hyderabad,Telangana,India,Retail,Active,2026-11-21,2026,1,883529.25
+6167,Coimbatore,Tamil Nadu,India,Corporate,Inactive,2023-09-01,2023,0,83575.14
+6168,Jaipur,Rajasthan,India,Retail,Active,2025-08-05,2025,0,129342.18
+6169,Vellore,Tamil Nadu,India,Retail,Active,2018-10-17,2018,0,974821.75
+6170,Coimbatore,Tamil Nadu,India,Retail,Active,2019-06-05,2019,0,136682.29
+6171,Chennai,Tamil Nadu,India,Retail,Active,2024-09-14,2024,0,992296.10
+6172,Vellore,Tamil Nadu,India,Wholesale,Active,2022-08-08,2022,0,442038.07
+6173,Bengaluru,Karnataka,India,Retail,Active,2025-05-06,2025,0,458151.44
+6174,Ahmedabad,Gujarat,India,Individual,Active,2025-12-16,2025,0,403328.51
+6175,Chennai,Tamil Nadu,India,Individual,Active,2021-12-06,2021,0,122352.56
+6176,Chennai,Tamil Nadu,India,Individual,Inactive,2023-12-21,2023,0,367368.29
+6177,Vellore,Tamil Nadu,India,Individual,Active,2024-12-22,2024,0,659237.59
+6178,Delhi,Delhi,India,Individual,Inactive,2020-06-23,2020,0,377363.05
+6179,Ahmedabad,Gujarat,India,Wholesale,Active,2023-11-22,2023,0,114335.44
+6180,Jaipur,Rajasthan,India,Wholesale,Active,2018-07-06,2018,0,726648.54
+6181,Pune,Maharashtra,India,Individual,Active,2018-11-27,2018,0,367575.16
+6182,Kolkata,West Bengal,India,Retail,Active,2021-05-07,2021,0,268436.65
+6183,Chennai,Tamil Nadu,India,Retail,Active,2026-08-15,2026,0,166348.90
+6184,Hyderabad,Telangana,India,Individual,Active,2019-12-14,2019,0,805719.24
+6185,Hyderabad,Telangana,India,Wholesale,Active,2021-01-20,2021,0,152220.89
+6186,Coimbatore,Tamil Nadu,India,Individual,Inactive,2024-09-08,2024,0,613934.24
+6187,Coimbatore,Tamil Nadu,India,Individual,Active,2023-02-14,2023,0,567575.73
+6188,Kolkata,West Bengal,India,Corporate,Active,2020-07-05,2020,0,242663.83
+6189,Coimbatore,Tamil Nadu,India,Retail,Active,2023-09-04,2023,0,408515.38
+6190,Hyderabad,Telangana,India,Wholesale,Inactive,2018-05-26,2018,0,279704.19
+6191,Pune,Maharashtra,India,Retail,Active,2023-12-06,2023,0,528142.86
+6192,Vellore,Tamil Nadu,India,Individual,Active,2024-10-06,2024,0,474840.59
+6193,Kochi,Kerala,India,Retail,Active,2020-11-18,2020,0,53436.06
+6194,Mumbai,Maharashtra,India,Wholesale,Inactive,2018-11-01,2018,0,716495.39
+6195,Delhi,Delhi,India,Wholesale,Active,2024-07-10,2024,0,137155.51
+6196,Bengaluru,Karnataka,India,Corporate,Active,2019-03-15,2019,0,216594.95
+6197,Kolkata,West Bengal,India,Corporate,Inactive,2020-11-28,2020,0,304764.20
+6198,Kolkata,West Bengal,India,Wholesale,Active,2026-02-13,2026,0,811752.57
+6199,Delhi,Delhi,India,Individual,Active,2024-12-27,2024,0,812226.00
+6200,Jaipur,Rajasthan,India,Retail,Active,2019-01-21,2019,0,867759.17
+6201,Jaipur,Rajasthan,India,Corporate,Active,2019-11-06,2019,0,942138.12
+6202,Hyderabad,Telangana,India,Retail,Active,2022-09-23,2022,0,487955.23
+6203,Delhi,Delhi,India,Wholesale,Active,2025-12-04,2025,0,214769.56
+6204,Chennai,Tamil Nadu,India,Wholesale,Active,2019-11-15,2019,0,38658.90
+6205,Jaipur,Rajasthan,India,Corporate,Active,2021-01-26,2021,0,187409.98
+6206,Pune,Maharashtra,India,Wholesale,Active,2022-02-20,2022,0,57113.12
+6207,Bengaluru,Karnataka,India,Retail,Active,2025-07-09,2025,0,648956.59
+6208,Coimbatore,Tamil Nadu,India,Retail,Active,2026-01-06,2026,0,337240.55
+6209,Pune,Maharashtra,India,Individual,Active,2018-01-18,2018,0,677399.21
+6210,Kolkata,West Bengal,India,Individual,Active,2026-09-01,2026,0,348875.29
+6211,Kolkata,West Bengal,India,Corporate,Active,2020-09-13,2020,0,791327.21
+6212,Jaipur,Rajasthan,India,Individual,Active,2020-01-25,2020,0,84878.78
+6213,Vellore,Tamil Nadu,India,Retail,Active,2024-10-24,2024,0,394000.18
+6214,Coimbatore,Tamil Nadu,India,Individual,Inactive,2019-06-09,2019,0,976150.56
+6215,Chennai,Tamil Nadu,India,Corporate,Active,2025-01-27,2025,0,629159.26
+6216,Kochi,Kerala,India,Wholesale,Active,2022-03-22,2022,0,549489.23
+6217,Hyderabad,Telangana,India,Retail,Active,2020-12-13,2020,0,653743.68
+6218,Mumbai,Maharashtra,India,Corporate,Active,2023-10-03,2023,0,941642.28
+6219,Kolkata,West Bengal,India,Corporate,Active,2026-06-15,2026,0,280980.97
+6220,Jaipur,Rajasthan,India,Individual,Inactive,2026-10-04,2026,0,366391.13
+6221,Kolkata,West Bengal,India,Retail,Active,2025-06-07,2025,0,109135.39
+6222,Ahmedabad,Gujarat,India,Retail,Active,2018-11-28,2018,0,481315.80
+6223,Jaipur,Rajasthan,India,Individual,Active,2020-11-02,2020,0,292967.56
+6224,Kolkata,West Bengal,India,Corporate,Active,2019-02-18,2019,0,525490.01
+6225,Kolkata,West Bengal,India,Wholesale,Active,2022-09-24,2022,0,66853.49
+6226,Coimbatore,Tamil Nadu,India,Individual,Active,2024-03-18,2024,0,980549.59
+6227,Coimbatore,Tamil Nadu,India,Individual,Active,2018-01-18,2018,0,103325.23
+6228,Hyderabad,Telangana,India,Corporate,Active,2021-11-22,2021,0,666155.92
+6229,Mumbai,Maharashtra,India,Individual,Active,2023-12-25,2023,0,709647.50
+6230,Pune,Maharashtra,India,Corporate,Active,2018-01-04,2018,0,785887.34
+6231,Coimbatore,Tamil Nadu,India,Wholesale,Active,2022-12-06,2022,0,790104.01
+6232,Chennai,Tamil Nadu,India,Retail,Active,2020-06-04,2020,0,906543.77
+6233,Hyderabad,Telangana,India,Retail,Active,2024-01-20,2024,0,900101.17
+6234,Kolkata,West Bengal,India,Individual,Active,2025-08-10,2025,0,945327.24
+6235,Mumbai,Maharashtra,India,Individual,Active,2025-03-22,2025,0,862188.15
+6236,Chennai,Tamil Nadu,India,Individual,Active,2024-04-09,2024,0,517267.76
+6237,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-11-05,2018,0,786460.89
+6238,Mumbai,Maharashtra,India,Corporate,Active,2025-04-07,2025,0,932492.55
+6239,Pune,Maharashtra,India,Wholesale,Active,2023-08-12,2023,0,521200.05
+6240,Pune,Maharashtra,India,Retail,Active,2026-06-01,2026,0,537014.69
+6241,Hyderabad,Telangana,India,Individual,Active,2026-08-04,2026,0,196358.39
+6242,Pune,Maharashtra,India,Retail,Active,2022-06-28,2022,0,631161.50
+6243,Ahmedabad,Gujarat,India,Retail,Active,2022-11-21,2022,0,30901.67
+6244,Kochi,Kerala,India,Corporate,Active,2022-06-02,2022,0,495322.92
+6245,Mumbai,Maharashtra,India,Individual,Active,2019-02-17,2019,0,217877.95
+6246,Mumbai,Maharashtra,India,Individual,Active,2023-06-19,2023,0,673542.15
+6247,Jaipur,Rajasthan,India,Retail,Active,2020-05-03,2020,0,725830.63
+6248,Chennai,Tamil Nadu,India,Retail,Active,2019-12-23,2019,0,312149.27
+6249,Pune,Maharashtra,India,Wholesale,Active,2018-05-18,2018,0,613524.41
+6250,Hyderabad,Telangana,India,Wholesale,Active,2021-11-14,2021,0,998845.92
+6251,Jaipur,Rajasthan,India,Corporate,Active,2022-08-13,2022,0,722445.98
+6252,Pune,Maharashtra,India,Wholesale,Active,2019-12-17,2019,0,968391.96
+6253,Jaipur,Rajasthan,India,Retail,Active,2018-09-10,2018,0,643617.46
+6254,Vellore,Tamil Nadu,India,Wholesale,Active,2025-10-24,2025,0,213872.76
+6255,Pune,Maharashtra,India,Corporate,Inactive,2018-06-11,2018,0,909014.47
+6256,Kolkata,West Bengal,India,Retail,Active,2022-06-20,2022,0,437872.64
+6257,Ahmedabad,Gujarat,India,Corporate,Active,2019-11-06,2019,0,58874.43
+6258,Delhi,Delhi,India,Wholesale,Active,2021-02-26,2021,0,131385.31
+6259,Kochi,Kerala,India,Wholesale,Active,2022-06-19,2022,0,700710.53
+6260,Kochi,Kerala,India,Individual,Inactive,2020-05-12,2020,0,771710.08
+6261,Kochi,Kerala,India,Wholesale,Active,2025-05-25,2025,0,607005.98
+6262,Pune,Maharashtra,India,Individual,Active,2021-03-16,2021,0,478055.12
+6263,Chennai,Tamil Nadu,India,Individual,Active,2020-09-24,2020,0,786645.90
+6264,Pune,Maharashtra,India,Retail,Active,2021-05-09,2021,0,27008.31
+6265,Kochi,Kerala,India,Individual,Active,2024-04-08,2024,0,717591.40
+6266,Ahmedabad,Gujarat,India,Corporate,Active,2026-11-16,2026,1,117271.93
+6267,Vellore,Tamil Nadu,India,Individual,Active,2022-11-21,2022,0,487976.44
+6268,Jaipur,Rajasthan,India,Wholesale,Active,2024-09-12,2024,0,547584.66
+6269,Chennai,Tamil Nadu,India,Retail,Active,2020-12-08,2020,0,174921.01
+6270,Chennai,Tamil Nadu,India,Retail,Inactive,2023-12-12,2023,0,897498.02
+6271,Bengaluru,Karnataka,India,Corporate,Active,2018-01-09,2018,0,486439.06
+6272,Coimbatore,Tamil Nadu,India,Wholesale,Active,2021-05-02,2021,0,433359.20
+6273,Jaipur,Rajasthan,India,Corporate,Active,2021-04-11,2021,0,521390.92
+6274,Vellore,Tamil Nadu,India,Retail,Active,2026-03-18,2026,0,314660.90
+6275,Ahmedabad,Gujarat,India,Corporate,Active,2026-01-02,2026,0,829974.56
+6276,Kolkata,West Bengal,India,Retail,Active,2018-08-20,2018,0,25944.94
+6277,Chennai,Tamil Nadu,India,Retail,Active,2022-05-15,2022,0,812122.24
+6278,Pune,Maharashtra,India,Individual,Active,2024-06-26,2024,0,654387.62
+6279,Pune,Maharashtra,India,Corporate,Active,2025-12-23,2025,0,307236.38
+6280,Bengaluru,Karnataka,India,Individual,Active,2018-01-13,2018,0,870718.44
+6281,Ahmedabad,Gujarat,India,Corporate,Active,2025-02-24,2025,0,356384.19
+6282,Jaipur,Rajasthan,India,Corporate,Active,2019-05-23,2019,0,558897.36
+6283,Coimbatore,Tamil Nadu,India,Individual,Active,2021-03-18,2021,0,722877.93
+6284,Hyderabad,Telangana,India,Corporate,Active,2023-05-05,2023,0,191539.24
+6285,Coimbatore,Tamil Nadu,India,Individual,Active,2021-12-05,2021,0,210914.39
+6286,Ahmedabad,Gujarat,India,Corporate,Active,2020-09-22,2020,0,349588.04
+6287,Delhi,Delhi,India,Corporate,Inactive,2019-12-08,2019,0,614061.93
+6288,Vellore,Tamil Nadu,India,Wholesale,Active,2025-07-06,2025,0,422701.28
+6289,Pune,Maharashtra,India,Retail,Inactive,2022-01-25,2022,0,471912.71
+6290,Bengaluru,Karnataka,India,Individual,Active,2024-02-09,2024,0,650890.21
+6291,Chennai,Tamil Nadu,India,Retail,Active,2024-04-08,2024,0,949704.00
+6292,Kochi,Kerala,India,Retail,Active,2023-07-16,2023,0,752239.67
+6293,Bengaluru,Karnataka,India,Retail,Active,2024-03-19,2024,0,715001.15
+6294,Bengaluru,Karnataka,India,Corporate,Active,2026-12-24,2026,1,87427.19
+6295,Ahmedabad,Gujarat,India,Corporate,Active,2020-03-06,2020,0,216873.50
+6296,Vellore,Tamil Nadu,India,Wholesale,Active,2021-09-11,2021,0,611352.86
+6297,Coimbatore,Tamil Nadu,India,Individual,Active,2025-11-01,2025,0,880510.87
+6298,Hyderabad,Telangana,India,Corporate,Inactive,2022-02-06,2022,0,205886.81
+6299,Hyderabad,Telangana,India,Corporate,Active,2023-07-15,2023,0,585899.99
+6300,Kochi,Kerala,India,Corporate,Inactive,2023-01-09,2023,0,216700.48
+6301,Hyderabad,Telangana,India,Corporate,Active,2019-06-07,2019,0,227042.31
+6302,Kolkata,West Bengal,India,Corporate,Active,2023-10-03,2023,0,768383.41
+6303,Kochi,Kerala,India,Wholesale,Active,2022-06-18,2022,0,82716.01
+6304,Coimbatore,Tamil Nadu,India,Corporate,Active,2023-08-05,2023,0,38658.55
+6305,Kolkata,West Bengal,India,Wholesale,Active,2024-02-18,2024,0,515381.44
+6306,Jaipur,Rajasthan,India,Individual,Active,2025-05-15,2025,0,287155.27
+6307,Mumbai,Maharashtra,India,Corporate,Active,2024-06-02,2024,0,672957.52
+6308,Jaipur,Rajasthan,India,Wholesale,Active,2018-12-06,2018,0,807777.57
+6309,Kochi,Kerala,India,Wholesale,Active,2022-11-04,2022,0,371209.44
+6310,Jaipur,Rajasthan,India,Retail,Active,2022-02-05,2022,0,898937.08
+6311,Jaipur,Rajasthan,India,Wholesale,Active,2022-01-24,2022,0,496775.96
+6312,Pune,Maharashtra,India,Corporate,Active,2022-03-27,2022,0,978952.57
+6313,Pune,Maharashtra,India,Individual,Active,2023-05-28,2023,0,312558.52
+6314,Chennai,Tamil Nadu,India,Wholesale,Active,2021-08-03,2021,0,210312.60
+6315,Ahmedabad,Gujarat,India,Individual,Active,2019-06-22,2019,0,628618.67
+6316,Mumbai,Maharashtra,India,Corporate,Active,2021-12-03,2021,0,744186.90
+6317,Hyderabad,Telangana,India,Retail,Active,2025-05-15,2025,0,452359.17
+6318,Pune,Maharashtra,India,Corporate,Inactive,2022-05-06,2022,0,61088.45
+6319,Kochi,Kerala,India,Individual,Active,2018-08-17,2018,0,739833.45
+6320,Hyderabad,Telangana,India,Wholesale,Active,2022-09-25,2022,0,943883.54
+6321,Kochi,Kerala,India,Wholesale,Active,2026-08-10,2026,0,274772.60
+6322,Chennai,Tamil Nadu,India,Wholesale,Active,2018-08-06,2018,0,919577.55
+6323,Chennai,Tamil Nadu,India,Retail,Active,2022-10-20,2022,0,306934.13
+6324,Vellore,Tamil Nadu,India,Wholesale,Active,2020-02-02,2020,0,692931.50
+6325,Chennai,Tamil Nadu,India,Wholesale,Active,2023-06-26,2023,0,734741.52
+6326,Kolkata,West Bengal,India,Retail,Active,2023-01-13,2023,0,458750.40
+6327,Jaipur,Rajasthan,India,Wholesale,Active,2019-05-04,2019,0,938802.60
+6328,Chennai,Tamil Nadu,India,Individual,Active,2023-02-09,2023,0,693166.96
+6329,Bengaluru,Karnataka,India,Individual,Active,2026-07-04,2026,0,102290.87
+6330,Coimbatore,Tamil Nadu,India,Corporate,Active,2025-02-09,2025,0,281663.54
+6331,Vellore,Tamil Nadu,India,Wholesale,Active,2024-06-01,2024,0,364068.91
+6332,Kochi,Kerala,India,Corporate,Active,2018-08-07,2018,0,31723.86
+6333,Kochi,Kerala,India,Corporate,Active,2018-09-21,2018,0,318125.10
+6334,Kolkata,West Bengal,India,Corporate,Inactive,2024-12-26,2024,0,334660.97
+6335,Bengaluru,Karnataka,India,Corporate,Active,2024-01-04,2024,0,787586.12
+6336,Ahmedabad,Gujarat,India,Individual,Active,2019-12-27,2019,0,185622.35
+6337,Ahmedabad,Gujarat,India,Corporate,Active,2025-12-04,2025,0,528439.34
+6338,Hyderabad,Telangana,India,Corporate,Active,2019-06-23,2019,0,805508.92
+6339,Bengaluru,Karnataka,India,Retail,Active,2022-12-11,2022,0,279083.90
+6340,Bengaluru,Karnataka,India,Retail,Active,2026-12-14,2026,1,896879.54
+6341,Vellore,Tamil Nadu,India,Corporate,Active,2018-06-03,2018,0,706367.91
+6342,Hyderabad,Telangana,India,Retail,Active,2021-01-24,2021,0,627092.32
+6343,Pune,Maharashtra,India,Individual,Active,2025-08-17,2025,0,522913.55
+6344,Hyderabad,Telangana,India,Corporate,Active,2018-09-20,2018,0,211220.50
+6345,Mumbai,Maharashtra,India,Corporate,Active,2025-10-06,2025,0,796666.80
+6346,Kochi,Kerala,India,Corporate,Inactive,2024-11-06,2024,0,599889.71
+6347,Kochi,Kerala,India,Retail,Active,2019-11-05,2019,0,952327.56
+6348,Vellore,Tamil Nadu,India,Corporate,Active,2019-01-18,2019,0,634165.21
+6349,Coimbatore,Tamil Nadu,India,Retail,Active,2025-07-16,2025,0,247813.32
+6350,Bengaluru,Karnataka,India,Retail,Active,2023-01-13,2023,0,442503.29
+6351,Mumbai,Maharashtra,India,Individual,Active,2023-01-17,2023,0,686807.28
+6352,Bengaluru,Karnataka,India,Individual,Active,2018-07-21,2018,0,699545.12
+6353,Kolkata,West Bengal,India,Individual,Active,2018-06-12,2018,0,595412.71
+6354,Vellore,Tamil Nadu,India,Individual,Active,2020-05-07,2020,0,387506.90
+6355,Ahmedabad,Gujarat,India,Individual,Active,2018-08-13,2018,0,748425.98
+6356,Ahmedabad,Gujarat,India,Individual,Active,2026-04-14,2026,0,256084.96
+6357,Vellore,Tamil Nadu,India,Retail,Active,2025-08-09,2025,0,449567.15
+6358,Chennai,Tamil Nadu,India,Corporate,Active,2018-05-07,2018,0,744365.27
+6359,Delhi,Delhi,India,Wholesale,Active,2023-11-22,2023,0,76126.28
+6360,Kolkata,West Bengal,India,Retail,Active,2024-01-07,2024,0,508309.60
+6361,Delhi,Delhi,India,Wholesale,Active,2023-07-16,2023,0,943936.68
+6362,Bengaluru,Karnataka,India,Corporate,Active,2022-11-23,2022,0,509057.16
+6363,Coimbatore,Tamil Nadu,India,Retail,Active,2018-08-18,2018,0,551279.02
+6364,Vellore,Tamil Nadu,India,Corporate,Active,2018-04-21,2018,0,850898.69
+6365,Vellore,Tamil Nadu,India,Retail,Active,2024-01-20,2024,0,363808.86
+6366,Kolkata,West Bengal,India,Individual,Active,2023-02-13,2023,0,511215.61
+6367,Hyderabad,Telangana,India,Wholesale,Active,2022-10-02,2022,0,751234.82
+6368,Pune,Maharashtra,India,Corporate,Active,2019-07-21,2019,0,985560.97
+6369,Delhi,Delhi,India,Individual,Active,2020-07-04,2020,0,190138.91
+6370,Kochi,Kerala,India,Wholesale,Active,2020-09-21,2020,0,595106.88
+6371,Kochi,Kerala,India,Retail,Active,2026-10-11,2026,0,905645.24
+6372,Ahmedabad,Gujarat,India,Wholesale,Active,2021-04-22,2021,0,210438.16
+6373,Vellore,Tamil Nadu,India,Retail,Active,2026-01-06,2026,0,425354.05
+6374,Hyderabad,Telangana,India,Corporate,Active,2022-05-08,2022,0,393299.06
+6375,Chennai,Tamil Nadu,India,Retail,Active,2018-09-11,2018,0,612778.96
+6376,Bengaluru,Karnataka,India,Individual,Active,2019-09-23,2019,0,37702.87
+6377,Ahmedabad,Gujarat,India,Corporate,Active,2020-11-16,2020,0,313017.74
+6378,Jaipur,Rajasthan,India,Retail,Active,2019-06-03,2019,0,504640.79
+6379,Kolkata,West Bengal,India,Retail,Active,2024-01-03,2024,0,876861.56
+6380,Ahmedabad,Gujarat,India,Wholesale,Active,2025-09-22,2025,0,851343.18
+6381,Coimbatore,Tamil Nadu,India,Individual,Active,2021-09-27,2021,0,637254.72
+6382,Hyderabad,Telangana,India,Retail,Active,2023-01-23,2023,0,213797.59
+6383,Bengaluru,Karnataka,India,Individual,Active,2022-07-13,2022,0,998979.58
+6384,Kolkata,West Bengal,India,Wholesale,Active,2024-01-05,2024,0,988508.73
+6385,Kolkata,West Bengal,India,Individual,Active,2021-02-12,2021,0,479638.22
+6386,Vellore,Tamil Nadu,India,Retail,Active,2018-05-23,2018,0,945217.66
+6387,Chennai,Tamil Nadu,India,Wholesale,Active,2026-12-25,2026,1,814136.82
+6388,Ahmedabad,Gujarat,India,Individual,Active,2026-03-20,2026,0,520253.42
+6389,Delhi,Delhi,India,Wholesale,Active,2026-09-04,2026,0,166087.91
+6390,Delhi,Delhi,India,Corporate,Active,2022-04-17,2022,0,604962.14
+6391,Chennai,Tamil Nadu,India,Wholesale,Active,2018-08-17,2018,0,350697.63
+6392,Mumbai,Maharashtra,India,Individual,Active,2021-12-11,2021,0,661002.55
+6393,Delhi,Delhi,India,Wholesale,Active,2021-04-13,2021,0,484968.71
+6394,Mumbai,Maharashtra,India,Wholesale,Active,2019-07-24,2019,0,450817.68
+6395,Jaipur,Rajasthan,India,Corporate,Active,2022-09-25,2022,0,431161.09
+6396,Vellore,Tamil Nadu,India,Retail,Active,2025-09-06,2025,0,487220.65
+6397,Pune,Maharashtra,India,Retail,Active,2019-05-28,2019,0,677956.43
+6398,Ahmedabad,Gujarat,India,Corporate,Active,2024-05-01,2024,0,344218.72
+6399,Bengaluru,Karnataka,India,Corporate,Inactive,2023-10-21,2023,0,635224.42
+6400,Delhi,Delhi,India,Corporate,Inactive,2025-08-13,2025,0,243801.14
+6401,Delhi,Delhi,India,Wholesale,Active,2019-05-12,2019,0,667224.35
+6402,Coimbatore,Tamil Nadu,India,Wholesale,Active,2026-11-26,2026,1,802694.40
+6403,Pune,Maharashtra,India,Wholesale,Active,2023-03-19,2023,0,403780.95
+6404,Hyderabad,Telangana,India,Wholesale,Inactive,2023-11-27,2023,0,594542.52
+6405,Ahmedabad,Gujarat,India,Wholesale,Active,2021-10-15,2021,0,255940.98
+6406,Jaipur,Rajasthan,India,Retail,Active,2020-03-22,2020,0,57785.76
+6407,Hyderabad,Telangana,India,Individual,Active,2025-07-12,2025,0,91360.65
+6408,Jaipur,Rajasthan,India,Retail,Active,2025-07-25,2025,0,85875.87
+6409,Kolkata,West Bengal,India,Individual,Active,2026-06-24,2026,0,855006.70
+6410,Kochi,Kerala,India,Corporate,Active,2026-04-09,2026,0,827395.16
+6411,Jaipur,Rajasthan,India,Wholesale,Active,2025-12-08,2025,0,876028.34
+6412,Hyderabad,Telangana,India,Individual,Active,2018-03-20,2018,0,319004.71
+6413,Kolkata,West Bengal,India,Individual,Active,2024-12-24,2024,0,550781.21
+6414,Bengaluru,Karnataka,India,Retail,Active,2022-11-06,2022,0,810085.50
+6415,Mumbai,Maharashtra,India,Individual,Active,2025-09-15,2025,0,357842.87
+6416,Pune,Maharashtra,India,Retail,Active,2020-02-24,2020,0,848625.51
+6417,Kolkata,West Bengal,India,Corporate,Active,2025-04-03,2025,0,908158.86
+6418,Vellore,Tamil Nadu,India,Wholesale,Active,2024-07-14,2024,0,753063.95
+6419,Ahmedabad,Gujarat,India,Retail,Active,2026-09-24,2026,0,192985.41
+6420,Kolkata,West Bengal,India,Corporate,Active,2020-03-10,2020,0,147809.77
+6421,Jaipur,Rajasthan,India,Retail,Active,2026-07-15,2026,0,846050.42
+6422,Hyderabad,Telangana,India,Corporate,Active,2026-11-19,2026,1,350632.92
+6423,Kochi,Kerala,India,Individual,Active,2020-04-11,2020,0,981559.03
+6424,Ahmedabad,Gujarat,India,Retail,Active,2021-05-25,2021,0,258197.47
+6425,Coimbatore,Tamil Nadu,India,Wholesale,Active,2022-08-27,2022,0,529946.72
+6426,Coimbatore,Tamil Nadu,India,Retail,Active,2019-09-04,2019,0,114776.94
+6427,Chennai,Tamil Nadu,India,Retail,Active,2025-01-14,2025,0,975764.74
+6428,Vellore,Tamil Nadu,India,Corporate,Active,2021-02-26,2021,0,564698.25
+6429,Hyderabad,Telangana,India,Corporate,Active,2020-06-11,2020,0,261996.78
+6430,Kochi,Kerala,India,Wholesale,Active,2020-12-03,2020,0,949244.67
+6431,Delhi,Delhi,India,Wholesale,Active,2023-10-03,2023,0,852848.02
+6432,Delhi,Delhi,India,Wholesale,Active,2025-01-08,2025,0,442880.46
+6433,Coimbatore,Tamil Nadu,India,Wholesale,Active,2023-09-07,2023,0,806571.86
+6434,Hyderabad,Telangana,India,Retail,Active,2023-07-26,2023,0,625675.94
+6435,Bengaluru,Karnataka,India,Wholesale,Active,2024-09-14,2024,0,983396.02
+6436,Hyderabad,Telangana,India,Corporate,Active,2026-02-01,2026,0,789385.24
+6437,Bengaluru,Karnataka,India,Corporate,Active,2020-11-01,2020,0,870859.70
+6438,Coimbatore,Tamil Nadu,India,Retail,Active,2020-02-03,2020,0,281078.17
+6439,Jaipur,Rajasthan,India,Corporate,Active,2023-01-14,2023,0,83259.60
+6440,Bengaluru,Karnataka,India,Individual,Active,2026-08-05,2026,0,235142.26
+6441,Ahmedabad,Gujarat,India,Wholesale,Active,2026-04-19,2026,0,891551.65
+6442,Jaipur,Rajasthan,India,Individual,Inactive,2023-10-12,2023,0,448712.11
+6443,Chennai,Tamil Nadu,India,Individual,Inactive,2024-09-02,2024,0,30978.82
+6444,Jaipur,Rajasthan,India,Corporate,Active,2022-07-17,2022,0,140542.80
+6445,Hyderabad,Telangana,India,Wholesale,Active,2021-04-14,2021,0,216129.03
+6446,Vellore,Tamil Nadu,India,Corporate,Active,2019-06-09,2019,0,588477.21
+6447,Delhi,Delhi,India,Individual,Active,2019-10-13,2019,0,254069.73
+6448,Delhi,Delhi,India,Wholesale,Active,2024-06-23,2024,0,978813.44
+6449,Jaipur,Rajasthan,India,Individual,Active,2021-07-01,2021,0,435031.91
+6450,Vellore,Tamil Nadu,India,Retail,Active,2019-06-27,2019,0,309689.66
+6451,Mumbai,Maharashtra,India,Corporate,Active,2021-11-09,2021,0,82350.87
+6452,Pune,Maharashtra,India,Individual,Active,2018-02-12,2018,0,374841.57
+6453,Mumbai,Maharashtra,India,Individual,Active,2024-12-06,2024,0,867549.37
+6454,Ahmedabad,Gujarat,India,Wholesale,Inactive,2025-01-09,2025,0,339635.93
+6455,Vellore,Tamil Nadu,India,Wholesale,Active,2024-10-24,2024,0,55799.81
+6456,Jaipur,Rajasthan,India,Corporate,Active,2025-11-26,2025,0,385365.02
+6457,Jaipur,Rajasthan,India,Retail,Active,2018-04-17,2018,0,818965.19
+6458,Delhi,Delhi,India,Wholesale,Active,2018-10-28,2018,0,684540.02
+6459,Pune,Maharashtra,India,Wholesale,Active,2026-12-02,2026,1,165793.78
+6460,Kolkata,West Bengal,India,Wholesale,Active,2026-10-05,2026,0,496966.86
+6461,Ahmedabad,Gujarat,India,Retail,Active,2026-01-07,2026,0,484705.20
+6462,Coimbatore,Tamil Nadu,India,Wholesale,Active,2018-06-18,2018,0,531377.82
+6463,Chennai,Tamil Nadu,India,Corporate,Active,2025-05-17,2025,0,274936.31
+6464,Ahmedabad,Gujarat,India,Wholesale,Active,2023-12-21,2023,0,80861.55
+6465,Vellore,Tamil Nadu,India,Individual,Inactive,2021-12-28,2021,0,27296.29
+6466,Kolkata,West Bengal,India,Corporate,Active,2023-05-24,2023,0,673805.30
+6467,Vellore,Tamil Nadu,India,Wholesale,Active,2018-12-19,2018,0,343657.72
+6468,Ahmedabad,Gujarat,India,Wholesale,Inactive,2024-03-11,2024,0,287206.84
+6469,Jaipur,Rajasthan,India,Corporate,Active,2026-08-02,2026,0,669806.25
+6470,Coimbatore,Tamil Nadu,India,Individual,Active,2022-02-16,2022,0,887700.92
+6471,Bengaluru,Karnataka,India,Wholesale,Active,2020-05-25,2020,0,929876.60
+6472,Jaipur,Rajasthan,India,Retail,Active,2024-02-05,2024,0,996329.35
+6473,Kolkata,West Bengal,India,Individual,Active,2019-12-28,2019,0,185579.55
+6474,Kochi,Kerala,India,Retail,Active,2018-02-14,2018,0,353828.19
+6475,Pune,Maharashtra,India,Corporate,Active,2025-04-06,2025,0,403524.87
+6476,Hyderabad,Telangana,India,Individual,Active,2021-05-10,2021,0,756217.76
+6477,Ahmedabad,Gujarat,India,Individual,Active,2018-06-07,2018,0,359170.57
+6478,Chennai,Tamil Nadu,India,Corporate,Active,2022-03-17,2022,0,412321.54
+6479,Delhi,Delhi,India,Corporate,Inactive,2025-03-03,2025,0,480192.87
+6480,Vellore,Tamil Nadu,India,Retail,Active,2018-06-19,2018,0,907543.63
+6481,Kochi,Kerala,India,Wholesale,Active,2019-06-11,2019,0,603131.72
+6482,Mumbai,Maharashtra,India,Wholesale,Active,2020-10-14,2020,0,162046.90
+6483,Bengaluru,Karnataka,India,Retail,Active,2020-09-10,2020,0,928028.81
+6484,Ahmedabad,Gujarat,India,Corporate,Active,2026-01-22,2026,0,626787.87
+6485,Delhi,Delhi,India,Wholesale,Active,2020-07-11,2020,0,166969.17
+6486,Mumbai,Maharashtra,India,Wholesale,Active,2025-09-25,2025,0,378825.11
+6487,Pune,Maharashtra,India,Individual,Active,2020-12-12,2020,0,886617.98
+6488,Vellore,Tamil Nadu,India,Individual,Active,2021-01-01,2021,0,299648.99
+6489,Hyderabad,Telangana,India,Retail,Active,2020-02-10,2020,0,514618.61
+6490,Chennai,Tamil Nadu,India,Corporate,Inactive,2023-06-22,2023,0,894275.26
+6491,Chennai,Tamil Nadu,India,Retail,Active,2020-07-02,2020,0,632376.31
+6492,Ahmedabad,Gujarat,India,Retail,Active,2026-08-23,2026,0,656766.74
+6493,Vellore,Tamil Nadu,India,Wholesale,Active,2021-06-01,2021,0,627674.25
+6494,Coimbatore,Tamil Nadu,India,Retail,Inactive,2025-12-13,2025,0,518378.84
+6495,Delhi,Delhi,India,Individual,Active,2019-02-20,2019,0,666708.46
+6496,Jaipur,Rajasthan,India,Retail,Inactive,2020-03-02,2020,0,819195.66
+6497,Kochi,Kerala,India,Corporate,Active,2022-03-05,2022,0,254582.89
+6498,Coimbatore,Tamil Nadu,India,Individual,Inactive,2021-09-03,2021,0,421124.60
+6499,Vellore,Tamil Nadu,India,Wholesale,Active,2024-07-24,2024,0,913435.71
+6500,Delhi,Delhi,India,Wholesale,Active,2018-08-04,2018,0,900080.57
