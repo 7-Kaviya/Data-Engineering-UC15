@@ -1,11 +1,5 @@
 # Data Quality Report
 
-**Project:** UC15 - Enterprise Resource Planning Data Platform (ERPDP)
-**Sprint:** 2 (Data Profiling and Data Warehouse)
-**Repository:** Data-Engineering-UC15
-
----
-
 ## 1. Summary
 
 This report lists the data quality problems we found in the ERP datasets while doing profiling, cleaning, validation and Star Schema design for Sprint 2. All the numbers below were checked directly on the files in the repository (row counts, column names, ID overlaps) using Python and pandas. The scripts we used are in the `python/` folder.
@@ -105,7 +99,9 @@ In the combined file, which does have a `reference_id` column in its finance par
 
 In `manufacturing_data_cleaned.csv`, 129 of the 1,000 jobs have no `actual_start` and no `actual_end`, while the scheduled times are present for all of them. The validation script reported 258 missing values, which is 129 rows with 2 columns each.
 
-About 13% of the jobs therefore cannot be used to compare actual and scheduled time. We did not delete or fill these rows. In FactManufacturing the column `actual_start_date_key` is allowed to be NULL for them.
+When we looked at these rows more closely during profiling, all 129 have `job_status` Failed, and every Failed job is one of them. No Completed or Delayed job is missing its actual times. So these blanks are not data-entry gaps: a job that failed has no actual run time to record. The validation check still shows FAIL because it counts every empty cell, but the data is consistent.
+
+For analysis this means that actual time against scheduled time can only be measured for the 871 Completed and Delayed jobs. We did not delete or fill the Failed rows. In FactManufacturing the column `actual_start_date_key` is allowed to be NULL for them.
 
 ### Finding 7 - Employee has no ID column
 
@@ -143,6 +139,14 @@ Because of this, `days_overdue_delay` and `delayflag` are not reliable for these
 
 ---
 
+### Finding 11 - Cancelled purchase orders carry a quarter of the procurement cost
+
+In `procurement_all_cleaned.csv` the order status is spread almost evenly: Delivered 334, Ordered 333, Cancelled 330 and Partially Delivered 303 orders. Cancelled orders still have a full `total_cost`, and together they account for 246.9 million of the 982.4 million total, which is 25.1%.
+
+So any spend figure that adds up `total_cost` without looking at `po_status` includes money for orders that were cancelled. This is the case for the procurement queries in `sql/04_enterprise_reporting_queries.sql` (spend by supplier, by month and by item). We kept the cancelled orders in the warehouse because they are real records, but reports about spend should leave them out or show them separately (`WHERE po_status <> 'Cancelled'`).
+
+---
+
 ## 4. Effect on the Star Schema
 
 Findings 1, 2 and 8 mean that we could not create dimensions shared between modules. The Star Schema therefore has 15 tables: 10 modules which are standalone, plus DimDate which is shared by the fact tables and DimMonth which is used for the monthly demand in Inventory. The tables are created by `sql/01_create_star_schema.sql` and loaded by `python/03_load_star_schema.py`. After loading, the row counts in PostgreSQL match the cleaned files.
@@ -155,7 +159,7 @@ Findings 1, 2 and 8 mean that we could not create dimensions shared between modu
 
 | Dataset | Check | Errors | Status |
 |---|---|---|---|
-| Manufacturing | Missing values | 258 | FAIL (Finding 6) |
+| Manufacturing | Missing values | 258 | FAIL (explained by the Failed jobs, Finding 6) |
 
 **Individual datasets - Group 2** (`ERP_Data_Validation_Group2.py`): 49 checks on Sales, Customer, Asset, Account and Procurement. These include duplicate rows and keys, missing values, negative amounts, total = quantity x price, date parsing and date order. 45 passed and 4 failed.
 
@@ -195,11 +199,12 @@ The output files in `silver/validation/` belong to the scripts as follows:
 1. Do not try to force a link between the different customer, item and supplier IDs. There is nothing in the data that can confirm such a link, so any mapping would be a guess.
 2. Treat the Accounts Receivable aging results as indicative only, until the reason for the inconsistent `doc_date`, `net_due_date` and `clearing_date` values (Finding 9) is clarified.
 3. Keep `erp_cleaned_data.csv` out of the warehouse. If the team later decides to use it, the Star Schema must be changed, since its keys do not belong to the official datasets.
-4. The `sql/` folder still has 11 older files with a `.sql` extension that actually contain CSV data and not SQL. They should be removed or renamed.
+4. The 11 older files in `sql/` that had a `.sql` extension but contained CSV data were removed from the repository. They are still in the git history, and the same data is in `bronze/staging/`.
 5. For Sprint 3 (source-to-target mapping and lineage) the findings in Section 3 can be reused directly.
+6. Procurement spend reports should exclude Cancelled orders, or show them separately (Finding 11).
 
 ---
 
 ## 7. Conclusion
 
-The 10 datasets are clean enough to be loaded into PostgreSQL and all of them are validated, but they cannot be integrated as one ERP system: the keys do not match and the periods do not overlap. We handled this by building standalone modules and documenting each limitation, and not by inventing links or values. The remaining open points are the Accounts Receivable dates and the 129 manufacturing jobs without actual times, both of which would need to be clarified with the data provider.
+The 10 datasets are clean enough to be loaded into PostgreSQL and all of them are validated, but they cannot be integrated as one ERP system: the keys do not match and the periods do not overlap. We handled this by building standalone modules and documenting each limitation, and not by inventing links or values. The main open point is the Accounts Receivable dates (Finding 9), which would need to be clarified with the data provider. The 129 manufacturing jobs without actual times turned out to be the Failed jobs, and cancelled purchase orders have to be filtered in spend reports (Finding 11).
