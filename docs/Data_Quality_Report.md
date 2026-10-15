@@ -4,7 +4,7 @@
 
 This report lists the data quality problems we found in the ERP datasets while doing profiling, cleaning, validation and Star Schema design for Sprint 2. All the numbers below were checked directly on the files in the repository (row counts, column names, ID overlaps) using Python and pandas. The scripts we used are in the `python/` folder.
 
-The main thing we found is that the 10 source datasets do not behave like data from one ERP system. The customer, item and supplier IDs do not match across modules, and the dates of the modules do not line up with each other. Because of this we could not build shared dimensions like one DimCustomer or one DimProduct, so the warehouse is made of 10 standalone modules which share only the date dimension. Validation also showed some real errors in the data, mainly in the Accounts Receivable dates (Finding 9).
+The main thing we found is that the 10 source datasets do not behave like data from one ERP system. The customer, item and supplier IDs do not match across modules, and the dates of the modules do not line up with each other. Because of this we could not build shared dimensions like one DimCustomer or one DimProduct, so the warehouse is made of 10 standalone modules which share only the date dimension. Validation also showed some real errors in the data, mainly in the Accounts Receivable dates (Finding 9) and in the Finance measures, which do not add up (Finding 12).
 
 ---
 
@@ -132,6 +132,8 @@ We first thought this could be a day/month mix-up while reading the dates. To ch
 
 Because of this, `days_overdue_delay` and `delayflag` are not reliable for these rows, and the overdue/aging queries in `sql/04_enterprise_reporting_queries.sql` should be read with this in mind. We kept the rows in the warehouse as they are, because correcting the dates would mean making up values. The problem is documented here instead.
 
+We also compared the delay columns with the dates. `days_overdue_delay` equals `clearing_date` minus `net_due_date` in only 28,929 of the 45,839 documents (63%), and `delayflag` agrees with `days_overdue_delay` being above 0 in 40,042 documents (87%). So the delay figures cannot be rebuilt from the dates either.
+
 ### Finding 10 - Smaller issues in Customer and Sales
 
 - 47 customers have a `registration_date` later than the day we ran the check. The dates in `customer_master_cleaned.csv` go from 2018-01-01 to 2026-12-26. This number depends on the date of the run and will become smaller with time.
@@ -144,6 +146,22 @@ Because of this, `days_overdue_delay` and `delayflag` are not reliable for these
 In `procurement_all_cleaned.csv` the order status is spread almost evenly: Delivered 334, Ordered 333, Cancelled 330 and Partially Delivered 303 orders. Cancelled orders still have a full `total_cost`, and together they account for 246.9 million of the 982.4 million total, which is 25.1%.
 
 So any spend figure that adds up `total_cost` without looking at `po_status` includes money for orders that were cancelled. This is the case for the procurement queries in `sql/04_enterprise_reporting_queries.sql` (spend by supplier, by month and by item). We kept the cancelled orders in the warehouse because they are real records, but reports about spend should leave them out or show them separately (`WHERE po_status <> 'Cancelled'`).
+
+---
+
+### Finding 12 - The finance measures do not add up
+
+The Finance dataset has columns for revenue, expenditure, net income, gross profit and profit margin. We tested the usual accounting relationships on its 1,000 transactions:
+
+| Check | Rows where it holds |
+|---|---|
+| `net_income` = `revenue` - `expenditure` | 0 of 1,000 |
+| `gross_profit` = `revenue` - `expenditure` | 0 of 1,000 |
+| `profit_margin` = `net_income` / `revenue` | 2 of 1,000 |
+
+So these columns behave like separate values and not like calculations from each other. We cannot tell which of them is the correct one, so we kept all of them as given. A report should not recompute one of these measures from the others, and a profit figure should be labelled as "as given in the source".
+
+The same kind of check passes in the other datasets: in Sales and in Procurement the total equals quantity times price in every row, and in Employee the salary equals expenditure plus savings in every row. The problem is therefore specific to Finance.
 
 ---
 
@@ -202,9 +220,10 @@ The output files in `silver/validation/` belong to the scripts as follows:
 4. The 11 older files in `sql/` that had a `.sql` extension but contained CSV data were removed from the repository. They are still in the git history, and the same data is in `bronze/staging/`.
 5. For Sprint 3 (source-to-target mapping and lineage) the findings in Section 3 can be reused directly.
 6. Procurement spend reports should exclude Cancelled orders, or show them separately (Finding 11).
+7. Do not recompute one finance measure from another (net income, gross profit, profit margin), because they do not follow the usual formulas (Finding 12).
 
 ---
 
 ## 7. Conclusion
 
-The 10 datasets are clean enough to be loaded into PostgreSQL and all of them are validated, but they cannot be integrated as one ERP system: the keys do not match and the periods do not overlap. We handled this by building standalone modules and documenting each limitation, and not by inventing links or values. The main open point is the Accounts Receivable dates (Finding 9), which would need to be clarified with the data provider. The 129 manufacturing jobs without actual times turned out to be the Failed jobs, and cancelled purchase orders have to be filtered in spend reports (Finding 11).
+The 10 datasets are clean enough to be loaded into PostgreSQL and all of them are validated, but they cannot be integrated as one ERP system: the keys do not match and the periods do not overlap. We handled this by building standalone modules and documenting each limitation, and not by inventing links or values. The main open point is the Accounts Receivable dates (Finding 9), which would need to be clarified with the data provider. The 129 manufacturing jobs without actual times turned out to be the Failed jobs, and cancelled purchase orders have to be filtered in spend reports (Finding 11). The Finance measures also do not follow the usual accounting relationships (Finding 12).

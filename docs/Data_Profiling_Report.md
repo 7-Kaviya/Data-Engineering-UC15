@@ -122,7 +122,7 @@ Only 35 rows. There is no employee ID column, only first name and last name.
 
 6,408 rows in the raw file but only 3,204 different items. Every item appears exactly twice, and the two copies are identical, so the file contains each record two times. The cleaning script removes the extra copy (6,408 rows become 3,204).
 
-- Five categories (Pharma, Automotive, Electronics, Groceries and Apparel) and four zones (A to D), each with a similar share of rows.
+- Five categories (Pharma, Automotive, Electronics, Groceries and Apparel) and four zones (A to D), each with a similar share of rows. The cleaning script renames "Groceries" to "Grocery" so that it matches the Inventory spelling.
 - Stock level goes from 20 to 499 (mean 263).
 - The last restock dates are all in 2024.
 
@@ -132,7 +132,7 @@ Only 35 rows. There is no employee ID column, only first name and last name.
 
 - **Keys:** the main key is unique in every dataset that has one (Sales, Customer, Asset, Procurement, Finance, Inventory, Manufacturing, Account by its document number, and Warehouse after cleaning). Employee has no key at all. The customer number in Account repeats, as it should: 69 customers have 45,839 documents.
 - **ID formats:** customers are `CUST001` in Sales, `5001` in Customer Master and a ten-digit number in Account. Items are `ITM_001` in Inventory, `ITM10000` in Warehouse and `P109` in Procurement. They do not match, which is the reason for the standalone design of the warehouse (Findings 1 and 2 of the Data Quality Report).
-- **Category names:** Sales uses Clothing, Electronics and Beauty. Inventory uses Grocery, Apparel, Electronics, Home & Kitchen and Toys. Warehouse uses Pharma, Automotive, Electronics, Groceries and Apparel. Only Electronics appears in all three, and "Grocery" and "Groceries" are written differently.
+- **Category names:** Sales uses Clothing, Electronics and Beauty. Inventory uses Grocery, Apparel, Electronics, Home & Kitchen and Toys. Warehouse uses Pharma, Automotive, Electronics, Groceries and Apparel. Only Electronics appears in all three. In the raw files "Grocery" and "Groceries" are spelled differently, and the cleaning script fixes that by renaming the Warehouse value to "Grocery". After cleaning, Inventory and Warehouse share three categories (Grocery, Apparel and Electronics), while Pharma and Automotive exist only in Warehouse and Home & Kitchen and Toys only in Inventory.
 - **Dates:** the modules are in different periods (Account 2011 to 2016, Sales and Procurement 2023 to 2024, Warehouse 2024, Finance 2025 to 2027). Date formats also differ, for example DD-MM-YYYY in Sales.
 - **Synthetic look:** several patterns suggest that the data was generated and not taken from one company: only five prices in Sales, one purchase per customer, an equal split of procurement statuses, and 68% of the assets being obsolete. This is the reason we avoid drawing business conclusions from the figures and use them only to test the pipeline.
 
