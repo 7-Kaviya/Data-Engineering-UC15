@@ -368,6 +368,8 @@ These are the useful things the warehouse lets us say, each one visible on a pag
 
 **Power BI Desktop (Windows).**
 
+A step-by-step version, with checks and fixes for common problems, is in `dashboards/Power_BI_Build_Guide.md`. A script that adds all 36 measures at once is in `dashboards/measures_dax_query.txt`, and a colour theme is in `dashboards/UC15_theme.json`.
+
 1. Copy the repository folder to the Windows computer (or clone it from GitHub). The CSV files are in `dashboards/data/`.
 2. *Get data > Text/CSV*, load all 12 files (the 11 views and `layer_reconciliation.csv`). Check that dates have the type Date and the flags are whole numbers.
 3. Create the measures from Section 5.

@@ -1,0 +1,13 @@
+{
+  "name": "UC15 ERP",
+  "dataColors": ["#24424D", "#0F766E", "#D9A404", "#7FBDB5", "#B87333", "#8E99A4", "#5B6770", "#C9D0D6"],
+  "background": "#FFFFFF",
+  "foreground": "#24424D",
+  "tableAccent": "#24424D",
+  "good": "#0F766E",
+  "neutral": "#D9A404",
+  "bad": "#B42318",
+  "maximum": "#0F766E",
+  "center": "#D9A404",
+  "minimum": "#B87333"
+}
