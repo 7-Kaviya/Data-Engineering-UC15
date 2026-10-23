@@ -1,11 +1,5 @@
 # Data Lineage
 
-**Project:** UC15 - Enterprise Resource Planning Data Platform (ERPDP)  
-**Sprint:** 3 (Governance, lineage and analytics)  
-**Repository:** Data-Engineering-UC15
-
----
-
 ## 1. Purpose
 
 This document shows where every table in the warehouse comes from and what happens to the data on the way: from the raw file, through cleaning and validation, to the Pentaho load and the reports that read it. It answers two questions: *where did this number come from?* and *what is affected if this source changes?*
@@ -27,7 +21,7 @@ Reading the picture from left to right:
 | 3. Validation | Rule checks on the cleaned files, with a summary file for each group. | Python (`ERP_Data_Validation_Separate.py`, `ERP_Data_Validation_Group2.py`) | `silver/validation/` |
 | 4. Reference data | The calendar and the month list are generated, not taken from a source system. | Python (`generate_reference_data.py`) | `silver/cleansing/reference_data/` |
 | 5. Load | Each cleaned file is loaded into its warehouse table. | Pentaho (15 transformations, run by the job `ETL_Load_Warehouse.kjb`) | `pentaho/transformations/`, `pentaho/jobs/` |
-| 6. Use | Reporting queries, the reconciliation check, the metadata views and (in Sprint 3) the Power BI dashboards. | SQL, Power BI | `sql/`, `dashboards/` |
+| 6. Use | Reporting queries, the reconciliation check, the metadata views and the Tableau dashboards. | SQL, Tableau | `sql/`, `dashboards/` |
 
 The Bronze branch at the top of the picture is the Sprint 1 copy of the raw data. It is kept for traceability, but the cleaning scripts do not read it (see Section 8).
 
@@ -178,5 +172,5 @@ These are facts found while tracing the lineage. None of them breaks the warehou
 ## 10. Limits of this document
 
 - It covers the 15 warehouse tables. The REST API demo (`realtime_rest_demo`) and the audit table `etl_run_log` have their own small lineage and are not part of the picture.
-- The Power BI dashboards are not built yet. When they are, the dashboard pages and the tables they read should be added to Section 6.
+- The Tableau dashboards read the exported dashboard views (`dashboards/data/`), which come from the warehouse tables. The sheets and the views they use are listed in `dashboards/Tableau_Dashboard_Notes.md`.
 - Row counts and query counts were measured on the loaded warehouse and on the files as they are in the repository.

@@ -26,7 +26,7 @@ The platform is designed to integrate enterprise data from multiple ERP modules,
 - PostgreSQL
 - Python / Pandas
 - Git & GitHub
-- Power BI
+- Tableau (dashboards)
 - Markdown / MS Word
 
 ## Sprint Roadmap
@@ -82,7 +82,7 @@ Activities:
 - Enterprise-wide reconciliation and Validation Report
 - Data quality checks
 - Real-time ingestion from a REST API
-- Dashboard views, data exports and dashboard design
+- Dashboard views, data exports, dashboard design and Tableau dashboards
 
 ## Repository Structure
 
@@ -98,7 +98,7 @@ Activities:
 | `metadata/` | Source-to-target mapping, metadata repository, business glossary |
 | `lineage/` | Data lineage document and diagram |
 | `docs/` | Project documents, Data Profiling Report, Data Quality Report, Validation Report |
-| `dashboards/` | Dashboard design, export script and the exported data |
+| `dashboards/` | Tableau dashboards, dashboard design, export script and the exported data |
 | `realtime_rest_demo/` | Real-time ingestion from a REST API |
 | `tests/` | Empty: the checks are in `sql/10_data_quality_checks.sql` and `python/ERP_Layer_Reconciliation.py` |
 

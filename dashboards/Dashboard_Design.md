@@ -1,20 +1,14 @@
 # Dashboard Design
 
-**Project:** UC15 - Enterprise Resource Planning Data Platform (ERPDP)  
-**Sprint:** 3 (Governance, lineage and analytics)  
-**Repository:** Data-Engineering-UC15
-
----
-
 ## 1. Purpose
 
 A management dashboard for ABC Global Enterprises that shows the state of each ERP area on one page and, on a last page, how far the numbers can be trusted. It reads only from the warehouse (`uc15_dw`), so every figure can be traced back through `lineage/Data_Lineage.md`.
 
-**Status:** the data layer is built and tested: the SQL views, the CSV files and the check values below. The Power BI file itself has not been built yet (Power BI Desktop runs only on Windows), so Section 9 says how to build it. Nothing in this document was tested inside Power BI.
+**Status:** the data layer is built and tested: the SQL views, the CSV files and the check values below. The Tableau workbook `dashboards/Dashboards.twbx` implements part of this design (see `dashboards/Tableau_Dashboard_Notes.md`). The Power BI route in Section 9 and in `dashboards/Power_BI_Build_Guide.md` is kept as an alternative: it has not been built, and nothing in this document was tested inside Power BI or Tableau.
 
 ---
 
-## 2. How the data reaches Power BI
+## 2. How the data reaches the dashboard tools
 
 `sql/11_dashboard_views.sql` creates 11 flat views, one per dashboard area. Each view joins a fact table to its dimensions, so a page needs one table and no relationships. The views contain no customer or employee names, e-mail addresses or phone numbers.
 
@@ -32,7 +26,7 @@ A management dashboard for ABC Global Enterprises that shows the state of each E
 | `vw_dash_finance` | 1,000 | 8 Finance |
 | `vw_dash_data_checks` | 32 | 9 Data trust |
 
-Two ways to load the data in Power BI Desktop: **Get data > Text/CSV** on the files in `dashboards/data/` (simplest, no database connection needed), or **Get data > PostgreSQL database** on the views. The page 9 table `layer_reconciliation.csv` is also in the data folder.
+Tableau reads the same CSV files (*Connect > Text file*). Two ways to load the data in Power BI Desktop: **Get data > Text/CSV** on the files in `dashboards/data/` (simplest, no database connection needed), or **Get data > PostgreSQL database** on the views. The page 9 table `layer_reconciliation.csv` is also in the data folder.
 
 To refresh after the warehouse is reloaded: run `sh dashboards/export_dashboard_data.sh` from the repository folder, then choose Refresh in Power BI.
 
@@ -361,6 +355,9 @@ These are the useful things the warehouse lets us say, each one visible on a pag
 | `dashboards/export_dashboard_data.sh` | Exports the views to CSV |
 | `dashboards/data/*.csv` | The exported data (about 7.6 MB) |
 | `dashboards/Dashboard_Design.md` | This document |
+| `dashboards/Dashboards.twbx` | The Tableau dashboards (2 dashboards, 10 sheets) |
+| `dashboards/Tableau_Dashboard_Notes.md` | What the Tableau sheets show and what is still to improve |
+| `dashboards/Power_BI_Build_Guide.md`, `measures_dax_query.txt`, `UC15_theme.json` | The Power BI alternative (not built) |
 
 ---
 

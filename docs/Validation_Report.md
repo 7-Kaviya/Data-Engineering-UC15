@@ -148,4 +148,4 @@ If the source data changes on purpose, update the control totals in `sql/05_reco
 
 The warehouse holds exactly what the source files contain, apart from the duplicate rows removed on purpose, and the known problems of the source data are stable and documented. These checks show that the pipeline preserves the data. They do not show that the source data is correct: for example, they cannot tell which of the finance measures is right.
 
-The checks cover the 15 warehouse tables. The REST API demo and the audit table are separate, and the Power BI dashboards are not built yet; when they are, the figures on each dashboard page should be tied back to the warehouse tables checked here.
+The checks cover the 15 warehouse tables. The REST API demo and the audit table are separate, and the Tableau dashboards are not covered by these checks. They read exported copies of the dashboard views, whose totals equal the warehouse control totals, and the figures of three sheets were compared with the warehouse by hand (see `dashboards/Tableau_Dashboard_Notes.md`).

@@ -37,7 +37,7 @@ This project builds an Enterprise Resource Planning Data Platform (ERPDP) for AB
 | Data quality checks | 32 checks on the finished warehouse: 21 PASS, 11 KNOWN ISSUE (documented problems in the source data), 0 UNEXPECTED |
 | Data quality findings | 12 findings documented in the Data Quality Report |
 | Governance | Source-to-target mapping of all 141 columns, metadata repository, business glossary of 79 terms, data lineage document and diagram |
-| Analytics | 23 reporting queries; a nine-page dashboard design with a tested data layer (the Power BI file itself is still to be built) |
+| Analytics | 23 reporting queries; two Tableau dashboards with 10 sheets; a nine-page dashboard design with a tested data layer |
 | Real-time ingestion | Live prices read from a public REST API every 5 seconds: 346 readings in about 16 minutes, with no errors |
 
 **The most important finding.** The ten datasets do not connect to each other. Customer, item and supplier IDs differ between modules, and each module covers different years. The warehouse is therefore a set of independent star schemas that share only a calendar table, and the data cannot answer questions that cross modules, for example profit per customer. We documented this instead of inventing links between the datasets.
@@ -97,7 +97,7 @@ Data moves in one direction, from raw files to reports, through the layers of a 
 | Bronze | Sprint 1 copy of the raw data in staging tables, kept for traceability | `bronze/`, staging database | Pentaho ingestion |
 | Silver | Cleaned and validated files, and generated reference data (calendar, months) | `silver/` | Python and pandas |
 | Gold | The star-schema warehouse used for reporting | PostgreSQL database `uc15_dw` | Pentaho jobs and transformations |
-| Use | Reporting queries, reconciliation, metadata views, dashboards | `sql/`, `dashboards/` | SQL, Power BI |
+| Use | Reporting queries, reconciliation, metadata views, dashboards | `sql/`, `dashboards/` | SQL, Tableau |
 
 ![Figure 1. The layers of the platform](Architecture_Layers.png)
 
@@ -200,6 +200,10 @@ A Python script compares the raw file, the cleaned file and the warehouse for ev
 ### Dashboard design
 
 `sql/11_dashboard_views.sql` creates 11 flat views, one per dashboard area, without names, e-mail addresses or phone numbers. They are exported to CSV files and checked: every view has the same number of rows as its table, and every total equals the warehouse control total. `dashboards/Dashboard_Design.md` defines nine pages, the measures for each, and the numbers every page should show.
+
+### Tableau dashboards
+
+`dashboards/Dashboards.twbx` is a Tableau workbook built on the exported dashboard data. It has 10 sheets on 2 dashboards: sales by category, warehouse demand, receivable delays, procurement cost, finance revenue, machine availability, inventory demand by month, salary by age group, credit limit by city, and asset condition. The Business Requirement Document named Power BI as the reporting tool, and the dashboards were built in Tableau instead. The same views and design also support a Power BI build (`dashboards/Power_BI_Build_Guide.md`). The category totals, the monthly demand and the city credit limits that we compared with the warehouse match. `dashboards/Tableau_Dashboard_Notes.md` lists what each sheet shows and the improvements that are still open.
 
 ### Reproducibility
 
@@ -311,7 +315,7 @@ The Data Quality Report documents 12 findings. The table shows how each one affe
 
 ## 9.1 Limitations
 
-- **The Power BI file is not built yet.** The data layer, the views, the exported data and the nine-page design are done and tested. Power BI Desktop runs only on Windows, and the file will be built there.
+- **The Tableau dashboards are simpler than the design.** They have 10 sheets on 2 dashboards, without caveat text boxes or a data-trust page. Two sheets still need a correction: the procurement cost includes cancelled orders (Finding 11), and the asset condition score is added up instead of averaged. The delay days and the finance revenue are shown without their warnings (Findings 9 and 12).
 - **Modules cannot be combined.** Customer, item and supplier IDs and the years differ, so cross-module analysis such as profit per customer is not possible with this data.
 - **Some measures are not reliable.** The receivables delay columns and the finance measures do not follow the usual formulas (Findings 9 and 12), and some finance dates are in the future.
 - **Bronze and Silver are not linked in the code.** The cleaning scripts read the raw files directly, not the Bronze copy. The Sprint 1 source inventory also differs from the files for Employee (1,500 rows listed, 35 in the file), Procurement (the SQL file is listed, the CSV file is used) and Account (45,856 rows listed, 45,839 in the file).
@@ -320,7 +324,7 @@ The Data Quality Report documents 12 findings. The table shows how each one affe
 
 ## 9.2 Future work
 
-- Build the Power BI dashboard from the CSV files and compare every card with the check values in the design document.
+- Improve the Tableau dashboards with the fixes in `dashboards/Tableau_Dashboard_Notes.md`: leave out cancelled orders, average the condition score, and add the caveat texts and a data-trust sheet.
 - Agree one official procurement dataset, correct the source inventory and rebuild Bronze from the files that Silver actually uses.
 - Add master data that links customers, items and suppliers across modules, so cross-module analysis becomes possible.
 - Move to incremental loads, and run the end-to-end job on a schedule with alerts on failure.
@@ -328,7 +332,7 @@ The Data Quality Report documents 12 findings. The table shows how each one affe
 
 ## 10. Conclusion
 
-The project delivers what the Business Requirement Document asked for. Data from ten ERP datasets is collected, cleaned, validated and loaded into a PostgreSQL star-schema warehouse by one repeatable job, with an audit log, a mapping to the sources, metadata, a glossary, lineage documentation and a set of checks that prove the load is complete. The most valuable result is not only the warehouse but the evidence around it: every number can be traced to a source file, and every known problem of the source data is documented and monitored. The main limit is the data itself, which is synthetic and disconnected between modules. The remaining work is the Power BI build and the follow-up items in Section 9.
+The project delivers what the Business Requirement Document asked for. Data from ten ERP datasets is collected, cleaned, validated and loaded into a PostgreSQL star-schema warehouse by one repeatable job, with an audit log, a mapping to the sources, metadata, a glossary, lineage documentation and a set of checks that prove the load is complete. The most valuable result is not only the warehouse but the evidence around it: every number can be traced to a source file, and every known problem of the source data is documented and monitored. The main limit is the data itself, which is synthetic and disconnected between modules. The remaining work is to bring the Tableau dashboards closer to the dashboard design, and the follow-up items in Section 9.
 
 ## Appendix: deliverables by sprint
 
@@ -347,5 +351,5 @@ The project delivers what the Business Requirement Document asked for. Data from
 | 3 | Source-to-target mapping, metadata, glossary | `metadata/`, `sql/09_metadata_comments.sql` |
 | 3 | Data lineage document and diagram | `lineage/` |
 | 3 | Validation Report, layer reconciliation and checks | `docs/Validation_Report.md`, `python/ERP_Layer_Reconciliation.py`, `sql/10_data_quality_checks.sql` |
-| 3 | Dashboard views, exported data and design | `sql/11_dashboard_views.sql`, `dashboards/` |
+| 3 | Dashboard views, exported data, design and Tableau dashboards | `sql/11_dashboard_views.sql`, `dashboards/` |
 | 3 | README with how to run | `README.md` |
